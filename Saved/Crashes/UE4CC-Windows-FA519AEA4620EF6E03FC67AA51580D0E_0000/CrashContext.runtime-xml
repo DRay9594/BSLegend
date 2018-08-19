@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-FA519AEA4620EF6E03FC67AA51580D0E_0000</CrashGUID>
+		<ProcessId>1196</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>708</SecondsSinceStart>
+		<GameName>UE4-projet48H</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.2-3514769+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;D:\BSLegend\projet48H.uproject&quot;</CommandLine>
+		<LanguageLCID>1036</LanguageLCID>
+		<AppDefaultLocale>fr-FR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3514769</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>rayan</UserName>
+		<BaseDir>D:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Program Files (x86)/UE_4.16/</RootDir>
+		<MachineId>FD071AE64931638E58FC42839DDF0325</MachineId>
+		<LoginId>fd071ae64931638e58fc42839ddf0325</LoginId>
+		<EpicAccountId>09328e596c484260845be9d78c4e54c5</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;ContentBrowserTab1&quot; Label=&quot;Content Browser&quot; Content=SBox</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674] &nl;Illegal call to DoesPackageExist: &apos;../../../../../BSLegend/projet48H.uproject&apos; is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8496914432</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>2869514240</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730591965184</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1287450624</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1358979072</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1534603264</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1656520704</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636701881020970000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
