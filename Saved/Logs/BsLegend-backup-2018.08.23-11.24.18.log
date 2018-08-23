@@ -1,0 +1,1360 @@
+﻿Log file open, 08/19/18 15:40:26
+LogInit:Display: Running engine for game: BsLegend
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1925391834) SRandInit(1925391834).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107766
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.19-14.40.26:700][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-14.40.26:700][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.19-14.40.26:742][  0]LogInit: Computer: MSI
+[2018.08.19-14.40.26:742][  0]LogInit: User: rayan
+[2018.08.19-14.40.26:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.19-14.40.26:742][  0]LogInit: High frequency timer resolution =2.249997 MHz
+[2018.08.19-14.40.26:742][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.19-14.40.26:742][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.19-14.40.26:742][  0]LogMemory: Process Physical Memory: 273.52 MB used, 273.52 MB peak
+[2018.08.19-14.40.26:742][  0]LogMemory: Process Virtual Memory: 266.86 MB used, 266.86 MB peak
+[2018.08.19-14.40.26:742][  0]LogMemory: Physical Memory: 3821.95 MB used,  4281.34 MB free, 8103.29 MB total
+[2018.08.19-14.40.26:742][  0]LogMemory: Virtual Memory: 4779.51 MB used,  4281.34 MB free, 134217728.00 MB total
+[2018.08.19-14.40.26:814][  0]LogInit: Using OS detected language (fr-FR).
+[2018.08.19-14.40.26:814][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.08.19-14.40.26:819][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.08.19-14.40.26:820][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.08.19-14.40.28:054][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.19-14.40.28:107][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.08.19-14.40.28:107][  0]LogD3D11RHI:       2019/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.19-14.40.28:117][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.08.19-14.40.28:117][  0]LogD3D11RHI:       128/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.19-14.40.28:119][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.19-14.40.28:119][  0]LogD3D11RHI:       0/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.19-14.40.28:119][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.19-14.40.28:136][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.19-14.40.28:136][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.08.19-14.40.28:136][  0]LogWindows: EnumDisplayDevices:
+[2018.08.19-14.40.28:136][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.08.19-14.40.28:136][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.19-14.40.28:137][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.19-14.40.28:137][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.19-14.40.28:137][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.08.19-14.40.28:137][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.19-14.40.28:137][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.19-14.40.28:137][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.08.19-14.40.28:169][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.19-14.40.28:181][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.19-14.40.28:182][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (../../../../../BSLegend/Intermediate/Shaders/WorkingDirectory/14144/).
+[2018.08.19-14.40.28:182][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rayan/AppData/Local/Temp/UnrealShaderWorkingDir/637FF07441EE3AA01A3B329A512A702A/'.
+[2018.08.19-14.40.28:182][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.08.19-14.40.29:318][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.19-14.40.29:374][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.08.19-14.40.29:430][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.19-14.40.29:490][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.08.19-14.40.29:550][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.08.19-14.40.29:606][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.19-14.40.29:666][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.19-14.40.29:723][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.19-14.40.29:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.08.19-14.40.29:834][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-14.40.29:890][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.19-14.40.29:949][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.19-14.40.30:008][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.19-14.40.30:064][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.19-14.40.30:120][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.19-14.40.30:230][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.19-14.40.30:230][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.19-14.40.30:275][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.08.19-14.40.30:376][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.08.19-14.40.30:407][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-14.40.30:463][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.19-14.40.30:521][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.19-14.40.30:579][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.19-14.40.30:636][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.08.19-14.40.30:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.08.19-14.40.31:264][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.08.19-14.40.31:382][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.19-14.40.31:382][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.08.19-14.40.31:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../BSLegend/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.19-14.40.31:382][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.19-14.40.31:383][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../BSLegend/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.19-14.40.31:383][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.19-14.40.31:402][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.19-14.40.31:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rayan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.19-14.40.31:427][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.19-14.40.31:427][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.19-14.40.31:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-14.40.31:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-14.40.31:824][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-14.40.31:943][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.08.19-14.40.32:127][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.19-14.40.32:177][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.19-14.40.32:235][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.19-14.40.32:235][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.08.19-14.40.32:235][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.08.19-14.40.32:964][  0]LogNetVersion: BsLegend , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2486784164)
+[2018.08.19-14.40.33:034][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2018.08.19-14.40.33:328][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.271535 seconds
+[2018.08.19-14.40.33:334][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.08.19-14.40.33:334][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.08.19-14.40.33:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.19-14.40.33:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.19-14.40.36:552][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.19-14.40.36:599][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.19-14.40.37:204][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.19-14.40.37:677][  0]SourceControl: Info Source control is disabled
+[2018.08.19-14.40.40:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.19-14.40.40:740][  0]LogEngine: Initializing Engine...
+[2018.08.19-14.40.40:740][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-14.40.41:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.19-14.40.41:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.19-14.40.41:233][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.19-14.40.41:249][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-14.40.41:368][  0]LogInit: FAudioDevice initialized.
+[2018.08.19-14.40.41:431][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.19-14.40.41:451][  0]LogInit: Texture streaming: Enabled
+[2018.08.19-14.40.41:554][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.19-14.40.41:864][  0]LogInit: Transaction tracking system initialized
+[2018.08.19-14.40.42:215][  0]BlueprintLog: New page: Editor Load
+[2018.08.19-14.40.43:304][  0]LocalizationService: Info Localization service is disabled
+[2018.08.19-14.40.44:068][  0]LogConsoleResponse:Display: 
+[2018.08.19-14.40.44:380][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.19-14.40.44:380][  0]LogCook:Display: Mobile HDR setting 1
+[2018.08.19-14.40.45:502][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/' took 0.04s
+[2018.08.19-14.40.45:823][  0]Cmd: MAP LOAD FILE="../../../../../BSLegend/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-14.40.45:884][  0]LightingResults: New page: Lighting Build
+[2018.08.19-14.40.45:930][  0]MapCheck: New page: Map Check
+[2018.08.19-14.40.45:930][  0]LightingResults: New page: Lighting Build
+[2018.08.19-14.40.46:757][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.19-14.40.46:964][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-14.40.47:709][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-14.40.47:780][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.978ms to complete.
+[2018.08.19-14.40.47:780][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.957
+[2018.08.19-14.40.52:314][  0]LogCollectionManager: Loaded 0 collections in 0.001537 seconds
+[2018.08.19-14.40.52:647][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Saved/Collections/' took 0.01s
+[2018.08.19-14.40.52:647][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/Developers/rayan/Collections/' took 0.01s
+[2018.08.19-14.40.52:647][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/Collections/' took 0.01s
+[2018.08.19-14.40.52:647][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2018.08.19-14.40.52:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2329 classes and 491 folders.
+[2018.08.19-14.40.52:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.08.19-14.40.55:060][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.08.19-14.40.55:193][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.08.19-14.40.57:294][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.08.19-14.40.57:513][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.19-14.40.57:516][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.19-14.40.57:642][  0]LogSlate: Took 0.016770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.19-14.40.58:576][  0]LogRenderer: Reallocating scene render targets to support 748x532 NumSamples 1 (Frame:1).
+[2018.08.19-14.40.59:997][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.08.19-14.41.00:081][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.08.19-14.41.00:082][  0]LogLoad: (Engine Initialization) Total time: 37.62 seconds
+[2018.08.19-14.41.00:082][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2018.08.19-14.41.00:082][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.08.19-14.41.00:082][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.08.19-14.41.00:100][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.08.19-14.41.00:102][  0]LogOcInput: OculusInput pre-init called
+[2018.08.19-14.41.00:102][  0]LogHMD: Starting GearVRController plugin
+[2018.08.19-14.41.00:203][  0]SourceControl: Info On branch master
+[2018.08.19-14.41.00:203][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.08.19-14.41.00:203][  0]SourceControl: Info Changes not staged for commit:
+[2018.08.19-14.41.00:203][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.08.19-14.41.00:203][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7D93E68542FCB951BDE60AB996945739/CrashReportClient.ini
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8F6CECF04C24EF50053ED6A5859476D7/CrashReportClient.ini
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.08.19-14.41.00:203][  0]SourceControl: Info Untracked files:
+[2018.08.19-14.41.00:203][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-57C68EFB4F78CD89286D119725343893/
+[2018.08.19-14.41.00:203][  0]SourceControl: Info 	Saved/Logs/BsLegend.log
+[2018.08.19-14.41.00:203][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.08.19-14.41.00:222][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.08.19-14.41.00:425][  0]LogSlate: Took 0.023967 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.19-14.41.00:544][  1]LogAssetRegistry: Asset discovery search completed in 27.5330 seconds
+[2018.08.19-14.41.00:547][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.19-14.41.00:547][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2018.08.19-14.41.01:257][ 10]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.19-14.41.11:351][579]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.19-14.41.12:388][579]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.19-14.41.15:601][579]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-14.41.15:945][579]Cmd: MAP LOAD FILE="../../../../../BSLegend/Content/ILE1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-14.41.15:945][579]LightingResults: New page: Lighting Build
+[2018.08.19-14.41.15:946][579]LoadErrors: New page: Loading map: ILE1.umap
+[2018.08.19-14.41.15:956][579]MapCheck: New page: Map Check
+[2018.08.19-14.41.15:956][579]LightingResults: New page: Lighting Build
+[2018.08.19-14.41.16:218][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-14.41.16:260][579]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-14.41.16:350][579]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.797ms to complete.
+[2018.08.19-14.41.16:351][579]LogFileHelpers: Loading map 'ILE1' took 0.406
+[2018.08.19-14.41.23:851][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon2)
+[2018.08.19-14.41.26:148][117]Cmd: EDIT COPY
+[2018.08.19-14.41.27:119][155]Cmd: EDIT PASTE
+[2018.08.19-14.41.31:519][391]LogRenderer: Reallocating scene render targets to support 752x532 NumSamples 1 (Frame:822).
+[2018.08.19-14.41.31:566][392]LogRenderer: Reallocating scene render targets to support 764x532 NumSamples 1 (Frame:824).
+[2018.08.19-14.41.31:615][393]LogRenderer: Reallocating scene render targets to support 776x532 NumSamples 1 (Frame:826).
+[2018.08.19-14.41.31:666][394]LogRenderer: Reallocating scene render targets to support 788x532 NumSamples 1 (Frame:828).
+[2018.08.19-14.41.31:715][395]LogRenderer: Reallocating scene render targets to support 796x532 NumSamples 1 (Frame:830).
+[2018.08.19-14.41.31:811][397]LogRenderer: Reallocating scene render targets to support 804x532 NumSamples 1 (Frame:834).
+[2018.08.19-14.41.31:859][398]LogRenderer: Reallocating scene render targets to support 816x532 NumSamples 1 (Frame:836).
+[2018.08.19-14.41.31:910][399]LogRenderer: Reallocating scene render targets to support 828x532 NumSamples 1 (Frame:838).
+[2018.08.19-14.41.31:961][400]LogRenderer: Reallocating scene render targets to support 840x532 NumSamples 1 (Frame:840).
+[2018.08.19-14.41.34:112][527]LogRenderer: Reallocating scene render targets to support 844x532 NumSamples 1 (Frame:956).
+[2018.08.19-14.41.34:158][528]LogRenderer: Reallocating scene render targets to support 856x532 NumSamples 1 (Frame:958).
+[2018.08.19-14.41.34:208][529]LogRenderer: Reallocating scene render targets to support 884x532 NumSamples 1 (Frame:960).
+[2018.08.19-14.41.34:256][530]LogRenderer: Reallocating scene render targets to support 916x532 NumSamples 1 (Frame:962).
+[2018.08.19-14.41.34:305][531]LogRenderer: Reallocating scene render targets to support 932x532 NumSamples 1 (Frame:964).
+[2018.08.19-14.41.34:401][532]LogRenderer: Reallocating scene render targets to support 948x532 NumSamples 1 (Frame:966).
+[2018.08.19-14.41.34:452][533]LogRenderer: Reallocating scene render targets to support 952x532 NumSamples 1 (Frame:968).
+[2018.08.19-14.41.34:503][534]LogRenderer: Reallocating scene render targets to support 960x532 NumSamples 1 (Frame:970).
+[2018.08.19-14.41.34:551][535]LogRenderer: Reallocating scene render targets to support 964x532 NumSamples 1 (Frame:972).
+[2018.08.19-14.41.34:598][536]LogRenderer: Reallocating scene render targets to support 972x532 NumSamples 1 (Frame:974).
+[2018.08.19-14.41.34:650][537]LogRenderer: Reallocating scene render targets to support 984x532 NumSamples 1 (Frame:976).
+[2018.08.19-14.41.34:743][539]LogRenderer: Reallocating scene render targets to support 988x532 NumSamples 1 (Frame:980).
+[2018.08.19-14.41.34:833][541]LogRenderer: Reallocating scene render targets to support 992x532 NumSamples 1 (Frame:984).
+[2018.08.19-14.41.36:870][657]LogRenderer: Reallocating scene render targets to support 992x540 NumSamples 1 (Frame:1087).
+[2018.08.19-14.41.36:965][659]LogRenderer: Reallocating scene render targets to support 992x544 NumSamples 1 (Frame:1091).
+[2018.08.19-14.41.37:012][660]LogRenderer: Reallocating scene render targets to support 992x548 NumSamples 1 (Frame:1093).
+[2018.08.19-14.41.37:127][661]LogRenderer: Reallocating scene render targets to support 992x556 NumSamples 1 (Frame:1095).
+[2018.08.19-14.41.37:177][662]LogRenderer: Reallocating scene render targets to support 992x564 NumSamples 1 (Frame:1097).
+[2018.08.19-14.41.37:222][663]LogRenderer: Reallocating scene render targets to support 992x568 NumSamples 1 (Frame:1099).
+[2018.08.19-14.41.38:949][763]LogRenderer: Reallocating scene render targets to support 996x568 NumSamples 1 (Frame:1178).
+[2018.08.19-14.42.02:754][172]LogRenderer: Reallocating scene render targets to support 996x636 NumSamples 1 (Frame:2275).
+[2018.08.19-14.42.17:363][ 41]Cmd: TRANSACTION UNDO
+[2018.08.19-14.42.17:363][ 41]LogEditorTransaction: Undo Move Actors
+[2018.08.19-14.42.44:232][642]Cmd: EDIT COPY
+[2018.08.19-14.42.46:118][755]Cmd: EDIT PASTE
+[2018.08.19-14.42.51:025][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon3)
+[2018.08.19-14.42.51:962][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon4)
+[2018.08.19-14.42.55:650][315]Cmd: EDIT COPY
+[2018.08.19-14.42.55:867][328]Cmd: EDIT PASTE
+[2018.08.19-14.43.08:423][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon4)
+[2018.08.19-14.43.16:253][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon2)
+[2018.08.19-14.43.19:243][715]Cmd: EDIT COPY
+[2018.08.19-14.43.19:510][731]Cmd: EDIT PASTE
+[2018.08.19-14.43.27:255][192]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (entremur2)
+[2018.08.19-14.43.59:765][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur1)
+[2018.08.19-14.44.01:350][207]Cmd: DELETE
+[2018.08.19-14.44.01:350][207]Cmd: ACTOR DELETE
+[2018.08.19-14.44.01:361][207]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-14.44.01:391][207]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.08.19-14.44.03:917][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur2)
+[2018.08.19-14.44.11:542][812]Cmd: EDIT COPY
+[2018.08.19-14.44.11:875][832]Cmd: EDIT PASTE
+[2018.08.19-14.44.28:304][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x7)
+[2018.08.19-14.44.34:704][196]Cmd: EDIT COPY
+[2018.08.19-14.44.34:953][211]Cmd: EDIT PASTE
+[2018.08.19-14.44.43:592][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x10)
+[2018.08.19-14.45.03:126][851]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.19-14.45.08:302][161]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.19-14.45.09:936][257]Cmd: EDIT COPY
+[2018.08.19-14.45.10:404][285]Cmd: EDIT PASTE
+[2018.08.19-14.45.39:903][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x7)
+[2018.08.19-14.45.42:178][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x4)
+[2018.08.19-14.45.43:015][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x8)
+[2018.08.19-14.45.43:733][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x5)
+[2018.08.19-14.45.59:609][ 98]LogRenderer: Reallocating scene render targets to support 996x748 NumSamples 1 (Frame:89).
+[2018.08.19-14.48.19:570][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/Sole4x4" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/Sole4x4.uasset" SILENT=true
+[2018.08.19-14.48.19:732][317]LogSavePackage: Save=110.18ms
+[2018.08.19-14.48.19:732][317]LogSavePackage: Moving '../../../../../BSLegend/Saved/Sole4x4F449AEB147E7269E2D34BC935504E8B7.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/Sole4x4.uasset'
+[2018.08.19-14.48.19:754][317]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/Sole4x4.uasset
+[2018.08.19-14.48.24:772][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Escallier)
+[2018.08.19-14.49.00:977][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/Escallier" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/Escallier.uasset" SILENT=true
+[2018.08.19-14.49.01:008][759]LogSavePackage: Save=16.50ms
+[2018.08.19-14.49.01:008][759]LogSavePackage: Moving '../../../../../BSLegend/Saved/Escallier157FE2DD4ADB48927F92BD835C0A4D6F.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/Escallier.uasset'
+[2018.08.19-14.49.01:012][759]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/Escallier.uasset
+[2018.08.19-14.49.11:284][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.19-14.49.13:197][482]Cmd: EDIT COPY
+[2018.08.19-14.49.13:614][507]Cmd: EDIT PASTE
+[2018.08.19-14.49.21:680][988]Cmd: EDIT COPY
+[2018.08.19-14.49.21:914][  2]Cmd: EDIT PASTE
+[2018.08.19-14.50.16:531][243]MapCheck: New page: Map Check
+[2018.08.19-14.50.16:815][243]LightingResults: New page: Lighting Build - Aug 19, 2018, 4:50:16 PM
+[2018.08.19-14.50.17:128][243]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.08.19-14.50.17:416][243]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.08.19-14.50.17:448][243]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.08.19-14.50.19:024][243]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.08.19-14.50.19:025][243]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14144
+[2018.08.19-14.50.22:256][243]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.08.19-14.50.23:277][243]LogEditorBuildUtils: Build time 0:06
+[2018.08.19-14.50.28:101][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon1)
+[2018.08.19-14.50.29:269][594]Cmd: EDIT COPY
+[2018.08.19-14.50.29:521][609]Cmd: EDIT PASTE
+[2018.08.19-14.50.32:527][786]Cmd: EDIT COPY
+[2018.08.19-14.50.32:744][799]Cmd: EDIT PASTE
+[2018.08.19-14.50.39:995][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.19-14.50.47:813][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x10)
+[2018.08.19-14.50.51:435][901]Cmd: EDIT COPY
+[2018.08.19-14.50.51:774][921]Cmd: EDIT PASTE
+[2018.08.19-14.50.59:212][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x11)
+[2018.08.19-14.51.00:230][423]Cmd: EDIT COPY
+[2018.08.19-14.51.00:481][438]Cmd: EDIT PASTE
+[2018.08.19-14.51.10:119][  4]Cmd: EDIT COPY
+[2018.08.19-14.51.10:385][ 20]Cmd: EDIT PASTE
+[2018.08.19-14.51.17:201][425]Cmd: EDIT COPY
+[2018.08.19-14.51.17:467][441]Cmd: EDIT PASTE
+[2018.08.19-14.51.23:233][784]Cmd: EDIT COPY
+[2018.08.19-14.51.23:433][796]Cmd: EDIT PASTE
+[2018.08.19-14.51.27:516][ 38]Cmd: EDIT COPY
+[2018.08.19-14.51.27:732][ 51]Cmd: EDIT PASTE
+[2018.08.19-14.51.32:499][334]Cmd: EDIT COPY
+[2018.08.19-14.51.32:717][347]Cmd: EDIT PASTE
+[2018.08.19-14.51.39:398][738]Cmd: EDIT COPY
+[2018.08.19-14.51.39:598][750]Cmd: EDIT PASTE
+[2018.08.19-14.51.49:212][318]Cmd: EDIT COPY
+[2018.08.19-14.51.49:395][329]Cmd: EDIT PASTE
+[2018.08.19-14.51.53:432][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x18)
+[2018.08.19-14.51.56:862][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon6)
+[2018.08.19-14.51.58:778][882]Cmd: EDIT COPY
+[2018.08.19-14.51.59:111][902]Cmd: EDIT PASTE
+[2018.08.19-14.52.07:305][387]Cmd: EDIT COPY
+[2018.08.19-14.52.07:505][399]Cmd: EDIT PASTE
+[2018.08.19-14.52.13:340][745]Cmd: EDIT COPY
+[2018.08.19-14.52.13:525][756]Cmd: EDIT PASTE
+[2018.08.19-14.52.18:841][ 72]Cmd: EDIT COPY
+[2018.08.19-14.52.19:073][ 86]Cmd: EDIT PASTE
+[2018.08.19-14.52.24:964][436]Cmd: EDIT COPY
+[2018.08.19-14.52.25:181][449]Cmd: EDIT PASTE
+[2018.08.19-14.52.40:040][324]Cmd: EDIT COPY
+[2018.08.19-14.52.40:348][342]Cmd: EDIT PASTE
+[2018.08.19-14.52.57:886][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.19-14.52.59:519][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon8)
+[2018.08.19-14.53.01:413][591]Cmd: EDIT COPY
+[2018.08.19-14.53.01:663][606]Cmd: EDIT PASTE
+[2018.08.19-14.53.10:403][123]Cmd: EDIT COPY
+[2018.08.19-14.53.10:603][135]Cmd: EDIT PASTE
+[2018.08.19-14.53.14:888][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon17)
+[2018.08.19-14.53.15:632][431]Cmd: EDIT COPY
+[2018.08.19-14.53.15:832][443]Cmd: EDIT PASTE
+[2018.08.19-14.53.25:061][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon10)
+[2018.08.19-14.53.26:490][ 71]Cmd: EDIT COPY
+[2018.08.19-14.53.26:707][ 84]Cmd: EDIT PASTE
+[2018.08.19-14.53.39:680][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon19)
+[2018.08.19-14.53.40:540][903]Cmd: EDIT COPY
+[2018.08.19-14.53.40:772][917]Cmd: EDIT PASTE
+[2018.08.19-14.53.48:472][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon9)
+[2018.08.19-14.53.50:390][484]Cmd: EDIT COPY
+[2018.08.19-14.53.50:673][501]Cmd: EDIT PASTE
+[2018.08.19-14.54.05:452][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon22)
+[2018.08.19-14.54.06:526][440]Cmd: EDIT COPY
+[2018.08.19-14.54.06:709][451]Cmd: EDIT PASTE
+[2018.08.19-14.54.17:896][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.19-14.54.20:695][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon22)
+[2018.08.19-14.54.25:175][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon23)
+[2018.08.19-14.54.42:515][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.19-14.54.48:294][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.19-14.54.50:318][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon21)
+[2018.08.19-14.54.51:200][ 84]Cmd: EDIT COPY
+[2018.08.19-14.54.51:467][100]Cmd: EDIT PASTE
+[2018.08.19-14.54.58:535][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.19-14.54.59:417][570]Cmd: EDIT COPY
+[2018.08.19-14.54.59:983][604]Cmd: EDIT PASTE
+[2018.08.19-14.55.03:722][824]Cmd: EDIT COPY
+[2018.08.19-14.55.03:923][836]Cmd: EDIT PASTE
+[2018.08.19-14.55.08:857][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon5)
+[2018.08.19-14.55.11:531][285]Cmd: EDIT COPY
+[2018.08.19-14.55.11:947][310]Cmd: EDIT PASTE
+[2018.08.19-14.55.24:244][ 40]Cmd: EDIT COPY
+[2018.08.19-14.55.24:595][ 61]Cmd: EDIT PASTE
+[2018.08.19-14.55.30:096][387]Cmd: EDIT COPY
+[2018.08.19-14.55.30:329][401]Cmd: EDIT PASTE
+[2018.08.19-14.55.46:877][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon13)
+[2018.08.19-14.55.56:511][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon19)
+[2018.08.19-14.55.59:387][119]Cmd: EDIT COPY
+[2018.08.19-14.55.59:703][138]Cmd: EDIT PASTE
+[2018.08.19-14.56.08:308][649]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.19-14.56.11:185][821]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.19-14.56.23:241][528]Cmd: EDIT COPY
+[2018.08.19-14.56.23:442][540]Cmd: EDIT PASTE
+[2018.08.19-14.56.42:098][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon9)
+[2018.08.19-14.56.47:425][950]LogActorFactory: Actor Factory created entremur1
+[2018.08.19-14.56.48:082][989]LogActorFactory: Actor Factory created entremur1
+[2018.08.19-14.57.01:747][802]Cmd: EDIT COPY
+[2018.08.19-14.57.01:997][817]Cmd: EDIT PASTE
+[2018.08.19-14.57.08:345][195]Cmd: EDIT COPY
+[2018.08.19-14.57.08:596][210]Cmd: EDIT PASTE
+[2018.08.19-14.57.20:407][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur4)
+[2018.08.19-14.57.27:969][353]LogActorFactory: Actor Factory created Sole1x1
+[2018.08.19-14.57.28:693][396]LogActorFactory: Actor Factory created Sole1x1
+[2018.08.19-14.58.02:218][394]Cmd: EDIT COPY
+[2018.08.19-14.58.02:469][409]Cmd: EDIT PASTE
+[2018.08.19-14.58.10:137][864]Cmd: EDIT COPY
+[2018.08.19-14.58.10:338][876]Cmd: EDIT PASTE
+[2018.08.19-14.58.27:654][904]LogActorFactory: Actor Factory created Sole2x2
+[2018.08.19-14.58.29:795][ 32]LogActorFactory: Actor Factory created Sole2x2
+[2018.08.19-14.58.47:921][113]Cmd: DELETE
+[2018.08.19-14.58.47:921][113]Cmd: ACTOR DELETE
+[2018.08.19-14.58.47:923][113]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-14.58.47:938][113]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.08.19-14.58.54:897][525]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.19-14.58.55:955][588]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.19-14.59.03:908][ 56]Cmd: EDIT COPY
+[2018.08.19-14.59.04:175][ 72]Cmd: EDIT PASTE
+[2018.08.19-14.59.11:549][508]Cmd: EDIT COPY
+[2018.08.19-14.59.11:807][523]Cmd: EDIT PASTE
+[2018.08.19-14.59.21:680][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole1x3)
+[2018.08.19-14.59.31:105][667]Cmd: EDIT COPY
+[2018.08.19-14.59.31:321][680]Cmd: EDIT PASTE
+[2018.08.19-14.59.41:072][260]Cmd: EDIT COPY
+[2018.08.19-14.59.41:305][274]Cmd: EDIT PASTE
+[2018.08.19-14.59.55:001][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole1x1)
+[2018.08.19-14.59.55:824][137]Cmd: EDIT COPY
+[2018.08.19-14.59.56:025][149]Cmd: EDIT PASTE
+[2018.08.19-15.00.00:260][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole1x4)
+[2018.08.19-15.00.01:251][456]Cmd: EDIT COPY
+[2018.08.19-15.00.01:485][470]Cmd: EDIT PASTE
+[2018.08.19-15.00.06:382][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole1x3)
+[2018.08.19-15.00.07:890][848]Cmd: EDIT COPY
+[2018.08.19-15.00.08:123][862]Cmd: EDIT PASTE
+[2018.08.19-15.00.19:100][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur1)
+[2018.08.19-15.00.21:103][629]Cmd: EDIT COPY
+[2018.08.19-15.00.21:304][641]Cmd: EDIT PASTE
+[2018.08.19-15.00.31:459][245]Cmd: EDIT COPY
+[2018.08.19-15.00.31:832][267]Cmd: EDIT PASTE
+[2018.08.19-15.00.47:540][201]Cmd: EDIT COPY
+[2018.08.19-15.00.47:822][218]Cmd: EDIT PASTE
+[2018.08.19-15.01.13:608][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur5)
+[2018.08.19-15.01.15:258][844]Cmd: EDIT COPY
+[2018.08.19-15.01.15:575][863]Cmd: EDIT PASTE
+[2018.08.19-15.01.24:220][375]Cmd: EDIT COPY
+[2018.08.19-15.01.24:469][390]Cmd: EDIT PASTE
+[2018.08.19-15.01.35:801][ 61]Cmd: EDIT COPY
+[2018.08.19-15.01.36:067][ 77]Cmd: EDIT PASTE
+[2018.08.19-15.01.42:983][487]Cmd: EDIT COPY
+[2018.08.19-15.01.43:185][499]Cmd: EDIT PASTE
+[2018.08.19-15.01.52:235][ 28]LogActorFactory: Actor Factory created lightdg
+[2018.08.19-15.01.53:644][112]LogActorFactory: Actor Factory created lightdg
+[2018.08.19-15.01.54:888][184]Cmd: EDIT COPY
+[2018.08.19-15.01.55:121][198]Cmd: EDIT PASTE
+[2018.08.19-15.02.14:233][334]Cmd: EDIT COPY
+[2018.08.19-15.02.15:100][386]Cmd: EDIT PASTE
+[2018.08.19-15.02.30:306][281]Cmd: EDIT COPY
+[2018.08.19-15.02.30:556][296]Cmd: EDIT PASTE
+[2018.08.19-15.02.36:888][672]Cmd: EDIT COPY
+[2018.08.19-15.02.37:171][689]Cmd: EDIT PASTE
+[2018.08.19-15.02.41:090][921]Cmd: EDIT COPY
+[2018.08.19-15.02.41:324][935]Cmd: EDIT PASTE
+[2018.08.19-15.03.16:162][  4]LogActorFactory: Actor Factory created porte1dg
+[2018.08.19-15.03.16:918][ 49]LogActorFactory: Actor Factory created porte1dg
+[2018.08.19-15.03.31:001][887]Cmd: EDIT COPY
+[2018.08.19-15.03.31:300][905]Cmd: EDIT PASTE
+[2018.08.19-15.03.50:837][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.19-15.03.51:252][ 41]LogSavePackage: Save=356.49ms
+[2018.08.19-15.03.51:252][ 41]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1610B1B274D88A6E47DC630AD9C224DE0.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.19-15.03.51:285][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.19-15.03.51:437][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Content/ILE1_BuiltData.uasset" SILENT=true
+[2018.08.19-15.03.52:747][ 41]LogSavePackage: Save=999.30ms
+[2018.08.19-15.03.52:747][ 41]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltData46BDC4B04AFE4B2F3BDD7AA7B876F418.tmp' to '../../../../../BSLegend/Content/ILE1_BuiltData.uasset'
+[2018.08.19-15.03.52:765][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1_BuiltData.uasset
+[2018.08.19-15.04.02:009][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur7)
+[2018.08.19-15.04.37:426][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x6)
+[2018.08.19-15.04.50:067][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x4)
+[2018.08.19-15.04.52:936][591]Cmd: EDIT COPY
+[2018.08.19-15.04.53:220][608]Cmd: EDIT PASTE
+[2018.08.19-15.05.01:060][ 75]Cmd: EDIT COPY
+[2018.08.19-15.05.01:376][ 94]Cmd: EDIT PASTE
+[2018.08.19-15.05.05:811][357]Cmd: EDIT COPY
+[2018.08.19-15.05.06:146][377]Cmd: EDIT PASTE
+[2018.08.19-15.05.11:670][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x6)
+[2018.08.19-15.05.13:365][804]Cmd: EDIT COPY
+[2018.08.19-15.05.13:682][823]Cmd: EDIT PASTE
+[2018.08.19-15.05.17:651][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x8)
+[2018.08.19-15.05.18:795][124]Cmd: EDIT COPY
+[2018.08.19-15.05.19:112][143]Cmd: EDIT PASTE
+[2018.08.19-15.05.25:120][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x7)
+[2018.08.19-15.05.25:947][545]Cmd: EDIT COPY
+[2018.08.19-15.05.26:189][559]Cmd: EDIT PASTE
+[2018.08.19-15.05.35:958][134]Cmd: EDIT COPY
+[2018.08.19-15.05.36:225][150]Cmd: EDIT PASTE
+[2018.08.19-15.05.42:257][508]Cmd: EDIT COPY
+[2018.08.19-15.05.42:474][521]Cmd: EDIT PASTE
+[2018.08.19-15.05.49:177][919]Cmd: EDIT COPY
+[2018.08.19-15.05.49:482][937]Cmd: EDIT PASTE
+[2018.08.19-15.05.57:859][435]Cmd: EDIT COPY
+[2018.08.19-15.05.58:093][449]Cmd: EDIT PASTE
+[2018.08.19-15.06.01:197][632]Cmd: EDIT COPY
+[2018.08.19-15.06.01:480][649]Cmd: EDIT PASTE
+[2018.08.19-15.06.11:475][239]Cmd: EDIT COPY
+[2018.08.19-15.06.11:821][259]Cmd: EDIT PASTE
+[2018.08.19-15.06.15:376][469]Cmd: EDIT COPY
+[2018.08.19-15.06.15:648][485]Cmd: EDIT PASTE
+[2018.08.19-15.06.22:388][882]Cmd: EDIT COPY
+[2018.08.19-15.06.22:864][910]Cmd: EDIT PASTE
+[2018.08.19-15.06.28:312][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x16)
+[2018.08.19-15.06.29:090][275]Cmd: EDIT COPY
+[2018.08.19-15.06.29:323][289]Cmd: EDIT PASTE
+[2018.08.19-15.06.34:990][621]Cmd: EDIT COPY
+[2018.08.19-15.06.35:283][638]Cmd: EDIT PASTE
+[2018.08.19-15.06.40:737][961]Cmd: EDIT COPY
+[2018.08.19-15.06.40:987][976]Cmd: EDIT PASTE
+[2018.08.19-15.06.58:120][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x9)
+[2018.08.19-15.07.07:052][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x11)
+[2018.08.19-15.07.11:297][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x10)
+[2018.08.19-15.07.13:741][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x11)
+[2018.08.19-15.07.17:553][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x12)
+[2018.08.19-15.07.19:645][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x13)
+[2018.08.19-15.07.21:676][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x14)
+[2018.08.19-15.08.10:440][188]LogSlate: Took 0.017701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.19-15.08.21:713][843]Cmd: EDIT COPY
+[2018.08.19-15.08.22:097][866]Cmd: EDIT PASTE
+[2018.08.19-15.08.53:681][745]Cmd: EDIT COPY
+[2018.08.19-15.08.54:565][798]Cmd: EDIT PASTE
+[2018.08.19-15.09.26:619][691]Cmd: EDIT COPY
+[2018.08.19-15.09.26:953][711]Cmd: EDIT PASTE
+[2018.08.19-15.09.30:861][942]Cmd: EDIT COPY
+[2018.08.19-15.09.31:077][955]Cmd: EDIT PASTE
+[2018.08.19-15.09.46:876][896]Cmd: EDIT COPY
+[2018.08.19-15.09.47:371][925]Cmd: EDIT PASTE
+[2018.08.19-15.10.17:061][683]MapCheck: New page: Map Check
+[2018.08.19-15.10.17:191][683]Cmd: MAP REBUILD ALLVISIBLE
+[2018.08.19-15.10.17:205][683]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.08.19-15.10.17:556][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.08.19-15.10.17:683][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_002, compiling. 
+[2018.08.19-15.10.17:693][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_003, compiling. 
+[2018.08.19-15.10.17:701][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Herbe, compiling. 
+[2018.08.19-15.10.17:711][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_004, compiling. 
+[2018.08.19-15.10.17:717][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.08.19-15.10.17:726][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_ile2, compiling. 
+[2018.08.19-15.10.17:735][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_ile1, compiling. 
+[2018.08.19-15.10.17:743][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_001, compiling. 
+[2018.08.19-15.10.17:751][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_001, compiling. 
+[2018.08.19-15.10.17:759][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_003, compiling. 
+[2018.08.19-15.10.17:767][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_004, compiling. 
+[2018.08.19-15.10.17:776][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_006, compiling. 
+[2018.08.19-15.10.17:784][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_007, compiling. 
+[2018.08.19-15.10.17:792][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_002, compiling. 
+[2018.08.19-15.10.17:800][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bois, compiling. 
+[2018.08.19-15.10.17:808][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Corde, compiling. 
+[2018.08.19-15.10.17:816][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy combi, compiling. 
+[2018.08.19-15.10.17:825][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal1, compiling. 
+[2018.08.19-15.10.17:832][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material, compiling. 
+[2018.08.19-15.10.17:840][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_005, compiling. 
+[2018.08.19-15.10.17:848][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fourpierre1, compiling. 
+[2018.08.19-15.10.17:856][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy foupierre2, compiling. 
+[2018.08.19-15.10.17:865][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SacTissu, compiling. 
+[2018.08.19-15.10.17:873][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SacOR, compiling. 
+[2018.08.19-15.10.17:882][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lava, compiling. 
+[2018.08.19-15.10.17:891][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bois_porte_armes, compiling. 
+[2018.08.19-15.10.17:899][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy standeM1, compiling. 
+[2018.08.19-15.10.17:907][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy standeM2, compiling. 
+[2018.08.19-15.10.17:915][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PanneauBois, compiling. 
+[2018.08.19-15.10.17:924][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basics, compiling. 
+[2018.08.19-15.10.17:932][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Emi, compiling. 
+[2018.08.19-15.10.17:941][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M-Metalisé, compiling. 
+[2018.08.19-15.10.17:949][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_001, compiling. 
+[2018.08.19-15.10.17:957][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_004, compiling. 
+[2018.08.19-15.10.17:965][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material, compiling. 
+[2018.08.19-15.10.17:973][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bois_tabouret, compiling. 
+[2018.08.19-15.10.17:981][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_006, compiling. 
+[2018.08.19-15.10.17:991][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_007, compiling. 
+[2018.08.19-15.10.17:999][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_005, compiling. 
+[2018.08.19-15.10.18:007][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_002, compiling. 
+[2018.08.19-15.10.18:015][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basics, compiling. 
+[2018.08.19-15.10.18:023][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_mursol, compiling. 
+[2018.08.19-15.10.18:031][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metalisé, compiling. 
+[2018.08.19-15.10.18:040][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy metal_epe, compiling. 
+[2018.08.19-15.10.18:048][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bois_epe, compiling. 
+[2018.08.19-15.10.18:057][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lame_epe, compiling. 
+[2018.08.19-15.10.18:065][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metalisé, compiling. 
+[2018.08.19-15.10.22:214][683]TextureStreamingBuild:Display: Compiling optional shaders took 4.668 seconds.
+[2018.08.19-15.10.22:276][683]LogLevel:Display: Export Material TexCoord Scales took 0.061 seconds.
+[2018.08.19-15.10.22:325][683]TextureStreamingBuild:Display: Build Texture Streaming took 0.044 seconds.
+[2018.08.19-15.10.22:348][683]LightingResults: New page: Lighting Build - Aug 19, 2018, 5:10:22 PM
+[2018.08.19-15.10.22:360][683]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.08.19-15.10.22:362][683]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.08.19-15.10.22:362][683]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.08.19-15.10.22:363][683]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.08.19-15.10.22:363][683]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14144
+[2018.08.19-15.10.26:959][683]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.08.19-15.10.26:987][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.08.19-15.10.26:987][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.08.19-15.10.26:987][683]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.08.19-15.10.26:987][683]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.08.19-15.10.26:987][683]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.08.19-15.10.27:404][683]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.08.19-15.10.27:404][683]MapCheck: New page: ILE1 - Aug 19, 2018, 5:10:27 PM
+[2018.08.19-15.10.27:425][683]MapCheck:Warning: Performance Warning skinnyman_22 SkeletalMeshActor '/Game/Character/skinnyman.skinnyman' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.08.19-15.10.27:425][683]MapCheck:Warning: Performance Warning warrior1_5 SkeletalMeshActor '/Game/Character/warrior1.warrior1' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne1_5 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne1_5 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne2 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne2 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne3_9 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:610][683]MapCheck:Warning: Warning montagne3_9 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.10.27:611][683]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.08.19-15.10.27:721][683]MapCheck: Info Map check complete: 1 Error(s), 8 Warning(s), took 316.088ms to complete.
+[2018.08.19-15.10.27:745][683]LogEditorBuildUtils: Build time 0:10
+[2018.08.19-15.10.28:088][684]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basics, compiling. 
+[2018.08.19-15.10.28:127][684]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basics, compiling. 
+[2018.08.19-15.10.28:159][685]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_mursol, compiling. 
+[2018.08.19-15.10.28:169][685]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_mursol, compiling. 
+[2018.08.19-15.10.28:199][686]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metalisé, compiling. 
+[2018.08.19-15.10.28:215][686]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metalisé, compiling. 
+[2018.08.19-15.12.01:021][924]Job is a success!
+[2018.08.19-15.12.02:251][925]LogMaterial:Warning: Material /Game/Character/object/ModularDungeon/M_Metalisé.M_Metalisé needed to have new flag set bUsedWithStaticLighting !
+[2018.08.19-15.12.02:262][925]LogMaterial: Missing cached shader map for material M_Metalisé, compiling. 
+[2018.08.19-15.12.02:396][925]LightingResults:Error: Error PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.08.19-15.12.02:396][925]LightingResults:Error: Error PointLight11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.08.19-15.12.02:396][925]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2018.08.19-15.12.08:313][925]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2018.08.19-15.12.08:514][925]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 128X64)
+[2018.08.19-15.12.08:843][925]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2018.08.19-15.12.08:843][925]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2018.08.19-15.12.08:926][925]Lightmass on MSI: 1:37 min total, 937 ms importing, 255 ms setup, 7.63 sec photons, 1:28 min processing, 0 ms extra exporting [1568/1568 mappings]. Threads: 5:55 min total, 3:58 min processing.
+[2018.08.19-15.12.09:030][925]LogStaticLightingSystem: Illumination: 1:46 min (5.91 sec encoding lightmaps, 527 ms encoding shadowmaps)
+[2018.08.19-15.12.09:030][925]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.6 MB streaming, 0.0 MB non-streaming), 12 textures
+[2018.08.19-15.12.09:030][925]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.08.19-15.12.10:019][925]DumpUnbuiltLightIteractions
+[2018.08.19-15.12.10:019][925]Lights with unbuilt interactions: 0
+[2018.08.19-15.12.10:019][925]
+[2018.08.19-15.12.10:019][925]Primitives with unbuilt interactions: 0
+[2018.08.19-15.12.10:030][926]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.08.19-15.12.10:030][926]MapCheck: New page: ILE1 - Aug 19, 2018, 5:12:10 PM
+[2018.08.19-15.12.10:035][926]MapCheck:Warning: Performance Warning skinnyman_22 SkeletalMeshActor '/Game/Character/skinnyman.skinnyman' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.08.19-15.12.10:035][926]MapCheck:Warning: Performance Warning warrior1_5 SkeletalMeshActor '/Game/Character/warrior1.warrior1' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.08.19-15.12.10:035][926]MapCheck:Warning: Warning montagne1_5 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:035][926]MapCheck:Warning: Warning montagne1_5 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:036][926]MapCheck:Warning: Warning montagne2 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:036][926]MapCheck:Warning: Warning montagne2 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:036][926]MapCheck:Warning: Warning montagne3_9 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:036][926]MapCheck:Warning: Warning montagne3_9 Static mesh actor has NULL StaticMesh property 
+[2018.08.19-15.12.10:149][926]MapCheck: Info Map check complete: 0 Error(s), 8 Warning(s), took 118.849ms to complete.
+[2018.08.19-15.12.42:501][833]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.08.19-15.12.53:479][484]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.12.53:700][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.12.53:753][484]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:12:53 PM)
+[2018.08.19-15.12.53:774][484]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.12.53:819][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045165s)
+[2018.08.19-15.12.53:820][484]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.12.53:820][484]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2018.08.19-15.12.53:836][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.073813s)
+[2018.08.19-15.12.53:901][484]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.12.53:956][484]LogInit: FAudioDevice initialized.
+[2018.08.19-15.12.54:867][484]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.12.54:970][484]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.12.54
+[2018.08.19-15.12.55:064][484]LogWorld: Bringing up level for play took: 0.103697
+[2018.08.19-15.12.55:377][484]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.08.19-15.12.55:808][484]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 1.719
+[2018.08.19-15.13.33:386][682]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.08.19-15.14.02:007][270]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2018.08.19-15.14.04:293][270]LogSlate: Took 0.020233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.19-15.15.24:743][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.19-15.15.25:253][839]LogSavePackage: Save=493.22ms
+[2018.08.19-15.15.25:253][839]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_Auto1082C6F7E44AF76C9236283826082C27D.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap'
+[2018.08.19-15.15.25:306][839]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap
+[2018.08.19-15.15.25:313][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ILE1' took 0.694
+[2018.08.19-15.15.25:313][839]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.694
+[2018.08.19-15.15.25:333][839]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ILE1_BuiltData] ([1] browsable assets)...
+[2018.08.19-15.15.25:333][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/ILE1_BuiltData]
+[2018.08.19-15.15.25:333][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Saved/Autosaves/Game/ILE1_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.08.19-15.15.25:438][839]LogSavePackage: Save=76.07ms
+[2018.08.19-15.15.25:438][839]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltData_Auto1C8F3E77C461A648A7568C8B1CD9EF90E.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/ILE1_BuiltData_Auto1.uasset'
+[2018.08.19-15.15.25:458][839]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/ILE1_BuiltData_Auto1.uasset
+[2018.08.19-15.15.25:459][839]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/object/ModularDungeon/M_Metalisé] ([1] browsable assets)...
+[2018.08.19-15.15.25:473][839]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Character/object/ModularDungeon/M_Metalisé.M_Metalisé]
+[2018.08.19-15.15.25:473][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/object/ModularDungeon/M_Metalisé]
+[2018.08.19-15.15.25:527][839]LogSavePackage: Save=40.06ms
+[2018.08.19-15.15.25:527][839]LogSavePackage: Moving '../../../../../BSLegend/Saved/M_Metalisé_Auto12D7EAFB541B84B56A21B61AEBEFCF379.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/Character/object/ModularDungeon/M_Metalisé_Auto1.uasset'
+[2018.08.19-15.15.25:529][839]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/Character/object/ModularDungeon/M_Metalisé_Auto1.uasset
+[2018.08.19-15.15.25:529][839]LogFileHelpers: Auto-saving content packages took 0.202
+[2018.08.19-15.16.24:708][356]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.08.19-15.20.37:210][143]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.08.19-15.20.41:253][343]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.20.41:318][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.20.41:319][343]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:20:41 PM)
+[2018.08.19-15.20.41:319][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.20.41:353][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033560s)
+[2018.08.19-15.20.41:354][343]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.20.41:354][343]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2018.08.19-15.20.41:354][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.035422s)
+[2018.08.19-15.20.41:375][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.20.41:420][343]LogInit: FAudioDevice initialized.
+[2018.08.19-15.20.41:452][343]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.20.41:461][343]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.20.41
+[2018.08.19-15.20.41:462][343]LogWorld: Bringing up level for play took: 0.008182
+[2018.08.19-15.20.41:465][343]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.624
+[2018.08.19-15.22.12:196][770]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.08.19-15.22.18:114][ 86]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.22.18:140][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.22.18:140][ 86]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:22:18 PM)
+[2018.08.19-15.22.18:140][ 86]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.22.18:154][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013993s)
+[2018.08.19-15.22.18:155][ 86]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.22.18:155][ 86]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2018.08.19-15.22.18:155][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.015430s)
+[2018.08.19-15.22.18:177][ 86]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.22.18:220][ 86]LogInit: FAudioDevice initialized.
+[2018.08.19-15.22.18:252][ 86]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.22.18:263][ 86]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.22.18
+[2018.08.19-15.22.18:263][ 86]LogWorld: Bringing up level for play took: 0.009181
+[2018.08.19-15.22.18:267][ 86]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.178
+[2018.08.19-15.23.13:582][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/Murporte1dg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset" SILENT=true
+[2018.08.19-15.23.13:665][361]LogSavePackage: Save=67.36ms
+[2018.08.19-15.23.13:665][361]LogSavePackage: Moving '../../../../../BSLegend/Saved/Murporte1dgF4D6A1F445AC1AE72512DBA12D5DD051.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset'
+[2018.08.19-15.23.13:676][361]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset
+[2018.08.19-15.23.18:120][626]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.23.18:145][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.23.18:145][626]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:23:18 PM)
+[2018.08.19-15.23.18:145][626]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.23.18:160][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014185s)
+[2018.08.19-15.23.18:162][626]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.23.18:162][626]LogPlayLevel: PIE: World Init took: (0.002362s)
+[2018.08.19-15.23.18:162][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.017026s)
+[2018.08.19-15.23.18:182][626]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.23.18:225][626]LogInit: FAudioDevice initialized.
+[2018.08.19-15.23.18:261][626]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.23.18:270][626]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.23.18
+[2018.08.19-15.23.18:271][626]LogWorld: Bringing up level for play took: 0.008283
+[2018.08.19-15.23.18:273][626]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.185
+[2018.08.19-15.23.43:771][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Murporte1dg)
+[2018.08.19-15.26.14:498][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/Murporte1dg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset" SILENT=true
+[2018.08.19-15.26.14:538][950]LogSavePackage: Save=30.86ms
+[2018.08.19-15.26.14:538][950]LogSavePackage: Moving '../../../../../BSLegend/Saved/Murporte1dgE22CA5C940CF15E9B618B2AA5CDAC0EA.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset'
+[2018.08.19-15.26.14:542][950]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/Murporte1dg.uasset
+[2018.08.19-15.26.18:304][173]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.26.18:331][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.26.18:331][173]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:26:18 PM)
+[2018.08.19-15.26.18:331][173]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.26.18:348][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016446s)
+[2018.08.19-15.26.18:349][173]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.26.18:349][173]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2018.08.19-15.26.18:349][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.018329s)
+[2018.08.19-15.26.18:376][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.26.18:426][173]LogInit: FAudioDevice initialized.
+[2018.08.19-15.26.18:456][173]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.26.18:468][173]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.26.18
+[2018.08.19-15.26.18:469][173]LogWorld: Bringing up level for play took: 0.010630
+[2018.08.19-15.26.18:472][173]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.382
+[2018.08.19-15.27.14:334][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg4)
+[2018.08.19-15.27.49:713][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/lightdg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset" SILENT=true
+[2018.08.19-15.27.49:747][586]LogSavePackage: Save=18.85ms
+[2018.08.19-15.27.49:747][586]LogSavePackage: Moving '../../../../../BSLegend/Saved/lightdg03F7AEA44F9D4D63F36C52AD0886F035.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset'
+[2018.08.19-15.27.49:751][586]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset
+[2018.08.19-15.28.02:636][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/lightdg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset" SILENT=true
+[2018.08.19-15.28.02:663][349]LogSavePackage: Save=18.49ms
+[2018.08.19-15.28.02:663][349]LogSavePackage: Moving '../../../../../BSLegend/Saved/lightdgE6797C5D47C602A92E639EAA3F436E66.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset'
+[2018.08.19-15.28.02:667][349]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset
+[2018.08.19-15.28.18:670][307]Cmd: TRANSACTION UNDO
+[2018.08.19-15.28.18:670][307]LogEditorTransaction: Undo Scale Actors
+[2018.08.19-15.28.26:000][706]LogActorFactory: Actor Factory created lightdg
+[2018.08.19-15.28.26:369][727]LogActorFactory: Actor Factory created lightdg
+[2018.08.19-15.28.27:850][815]LogActorFactory: Actor Factory created lightdg
+[2018.08.19-15.28.41:444][619]Cmd: DELETE
+[2018.08.19-15.28.41:444][619]Cmd: ACTOR DELETE
+[2018.08.19-15.28.41:445][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-15.28.41:467][619]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.08.19-15.30.06:926][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/lightdg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset" SILENT=true
+[2018.08.19-15.30.06:954][593]LogSavePackage: Save=18.97ms
+[2018.08.19-15.30.06:954][593]LogSavePackage: Moving '../../../../../BSLegend/Saved/lightdg367DA18E4D9D23FE93EA6A9B8F742E2E.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset'
+[2018.08.19-15.30.06:958][593]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset
+[2018.08.19-15.30.39:988][569]LogStaticMesh: Building static mesh lightdg...
+[2018.08.19-15.30.40:244][569]LogStaticMesh: Built static mesh [0.26s] /Game/Character/object/ModularDungeon/lightdg.lightdg
+[2018.08.19-15.31.32:572][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/lightdg" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset" SILENT=true
+[2018.08.19-15.31.32:597][694]LogSavePackage: Save=18.35ms
+[2018.08.19-15.31.32:597][694]LogSavePackage: Moving '../../../../../BSLegend/Saved/lightdgCECB20294ABF6A846F0AB1A53E3CCF3A.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset'
+[2018.08.19-15.31.32:602][694]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/lightdg.uasset
+[2018.08.19-15.31.40:391][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg4)
+[2018.08.19-15.31.49:427][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg3)
+[2018.08.19-15.31.54:279][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg5)
+[2018.08.19-15.31.59:012][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg6)
+[2018.08.19-15.32.06:341][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg2)
+[2018.08.19-15.32.10:716][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lightdg)
+[2018.08.19-15.32.43:053][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.19-15.32.43:564][877]LogSavePackage: Save=493.89ms
+[2018.08.19-15.32.43:564][877]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_Auto257FC9B9D4C30A49233F65E981BFB2642.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto2.umap'
+[2018.08.19-15.32.43:898][877]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto2.umap
+[2018.08.19-15.32.43:903][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ILE1' took 0.872
+[2018.08.19-15.32.43:903][877]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.872
+[2018.08.19-15.32.43:913][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.08.19-15.32.43:929][877]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.08.19-15.32.43:929][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.08.19-15.32.44:101][877]LogSavePackage: Save=155.90ms
+[2018.08.19-15.32.44:101][877]LogSavePackage: Moving '../../../../../BSLegend/Saved/ThirdPersonCharacter_Auto24950154047F194820D862997A736CFC1.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2018.08.19-15.32.44:104][877]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2018.08.19-15.32.44:104][877]LogFileHelpers: Auto-saving content packages took 0.192
+[2018.08.19-15.32.45:530][962]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.32.45:556][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.32.45:556][962]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:32:45 PM)
+[2018.08.19-15.32.45:556][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.32.45:572][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016194s)
+[2018.08.19-15.32.45:573][962]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.32.45:574][962]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2018.08.19-15.32.45:574][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.017710s)
+[2018.08.19-15.32.45:597][962]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.32.45:647][962]LogInit: FAudioDevice initialized.
+[2018.08.19-15.32.45:678][962]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.32.45:688][962]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.32.45
+[2018.08.19-15.32.45:689][962]LogWorld: Bringing up level for play took: 0.009955
+[2018.08.19-15.32.45:692][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.397
+[2018.08.19-15.43.34:078][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.19-15.43.34:533][692]LogSavePackage: Save=421.61ms
+[2018.08.19-15.43.34:533][692]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1E1D5A2B94AD506AE465FF098A68F20B6.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.19-15.43.34:543][692]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.19-15.43.34:668][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Content/ILE1_BuiltData.uasset" SILENT=true
+[2018.08.19-15.43.35:343][692]LogSavePackage: Save=644.99ms
+[2018.08.19-15.43.35:343][692]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltData0E2EF178473DE6136C68B0A61620B6E6.tmp' to '../../../../../BSLegend/Content/ILE1_BuiltData.uasset'
+[2018.08.19-15.43.35:354][692]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1_BuiltData.uasset
+[2018.08.19-15.45.56:382][136]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (murdungeon26)
+[2018.08.19-15.46.00:703][218]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.19-15.46.18:415][227]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.19-15.46.47:422][907]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.46.47:449][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.46.47:449][907]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:46:47 PM)
+[2018.08.19-15.46.47:449][907]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.46.47:466][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017289s)
+[2018.08.19-15.46.47:467][907]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.46.47:468][907]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2018.08.19-15.46.47:468][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.019097s)
+[2018.08.19-15.46.47:491][907]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.46.47:539][907]LogInit: FAudioDevice initialized.
+[2018.08.19-15.46.47:571][907]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.46.47:581][907]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.46.47
+[2018.08.19-15.46.47:582][907]LogWorld: Bringing up level for play took: 0.009109
+[2018.08.19-15.46.47:585][907]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.504
+[2018.08.19-15.48.05:802][591]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.08.19-15.48.19:277][387]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2018.08.19-15.48.29:729][  5]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.48.29:761][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.48.29:761][  5]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:48:29 PM)
+[2018.08.19-15.48.29:761][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.48.29:778][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017212s)
+[2018.08.19-15.48.29:779][  5]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.48.29:779][  5]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2018.08.19-15.48.29:780][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.018496s)
+[2018.08.19-15.48.29:802][  5]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.48.29:850][  5]LogInit: FAudioDevice initialized.
+[2018.08.19-15.48.29:884][  5]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.48.29:894][  5]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.48.29
+[2018.08.19-15.48.29:895][  5]LogWorld: Bringing up level for play took: 0.009240
+[2018.08.19-15.48.29:898][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.191
+[2018.08.19-15.49.43:066][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.19-15.49.50:464][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon7)
+[2018.08.19-15.50.09:442][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon8)
+[2018.08.19-15.50.19:015][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon9)
+[2018.08.19-15.50.52:673][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon9)
+[2018.08.19-15.50.58:322][813]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.50.58:355][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.50.58:356][813]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:50:58 PM)
+[2018.08.19-15.50.58:356][813]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.50.58:377][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020737s)
+[2018.08.19-15.50.58:378][813]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.50.58:378][813]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2018.08.19-15.50.58:379][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.022487s)
+[2018.08.19-15.50.58:403][813]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.50.58:452][813]LogInit: FAudioDevice initialized.
+[2018.08.19-15.50.58:487][813]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.50.58:497][813]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.50.58
+[2018.08.19-15.50.58:497][813]LogWorld: Bringing up level for play took: 0.009660
+[2018.08.19-15.50.58:500][813]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.412
+[2018.08.19-15.51.37:055][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (porte1dg2)
+[2018.08.19-15.51.48:152][767]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-15.51.48:180][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-15.51.48:180][767]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 5:51:48 PM)
+[2018.08.19-15.51.48:180][767]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-15.51.48:200][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019787s)
+[2018.08.19-15.51.48:201][767]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-15.51.48:201][767]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2018.08.19-15.51.48:202][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.021442s)
+[2018.08.19-15.51.48:224][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-15.51.48:272][767]LogInit: FAudioDevice initialized.
+[2018.08.19-15.51.48:307][767]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-15.51.48:317][767]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-16.51.48
+[2018.08.19-15.51.48:319][767]LogWorld: Bringing up level for play took: 0.010324
+[2018.08.19-15.51.48:322][767]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.233
+[2018.08.19-15.53.41:599][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x6)
+[2018.08.19-15.54.34:139][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/cube_3x3" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset" SILENT=true
+[2018.08.19-15.54.34:172][510]LogSavePackage: Save=18.44ms
+[2018.08.19-15.54.34:172][510]LogSavePackage: Moving '../../../../../BSLegend/Saved/cube_3x30FB07A7245D4BB0CBFCEBFA1142C8218.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset'
+[2018.08.19-15.54.34:176][510]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset
+[2018.08.19-15.55.00:671][ 76]LogMeshUtilities: Finished distance field build in 11.5s - 45x45x45 distance field, 12 triangles, Range [-0.7, 1.0], cube_3x3
+[2018.08.19-15.55.36:938][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x4)
+[2018.08.19-15.55.40:329][345]Cmd: DELETE
+[2018.08.19-15.55.40:329][345]Cmd: ACTOR DELETE
+[2018.08.19-15.55.40:332][345]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-15.55.40:361][345]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.08.19-15.55.41:325][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.19-15.55.41:670][418]Cmd: DELETE
+[2018.08.19-15.55.41:670][418]Cmd: ACTOR DELETE
+[2018.08.19-15.55.41:671][418]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-15.55.41:693][418]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.08.19-15.55.42:740][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x5)
+[2018.08.19-15.55.43:270][508]Cmd: DELETE
+[2018.08.19-15.55.43:270][508]Cmd: ACTOR DELETE
+[2018.08.19-15.55.43:271][508]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-15.55.43:295][508]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.08.19-15.55.47:590][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur2)
+[2018.08.19-15.55.49:290][858]Cmd: EDIT COPY
+[2018.08.19-15.55.49:595][876]Cmd: EDIT PASTE
+[2018.08.19-15.55.54:389][151]Cmd: EDIT COPY
+[2018.08.19-15.55.54:676][168]Cmd: EDIT PASTE
+[2018.08.19-15.55.58:444][383]Cmd: EDIT COPY
+[2018.08.19-15.55.58:682][397]Cmd: EDIT PASTE
+[2018.08.19-15.56.05:989][813]Cmd: EDIT COPY
+[2018.08.19-15.56.06:211][826]Cmd: EDIT PASTE
+[2018.08.19-15.56.31:120][222]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.19-15.56.32:124][278]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.19-15.57.27:270][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x6)
+[2018.08.19-15.57.32:659][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur16)
+[2018.08.19-15.57.37:089][980]Cmd: EDIT COPY
+[2018.08.19-15.57.37:312][993]Cmd: EDIT PASTE
+[2018.08.19-15.57.41:124][207]Cmd: EDIT COPY
+[2018.08.19-15.57.41:336][219]Cmd: EDIT PASTE
+[2018.08.19-15.58.04:380][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.19-15.58.07:810][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur21)
+[2018.08.19-15.58.08:936][768]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (entremur20)
+[2018.08.19-15.58.14:232][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur21)
+[2018.08.19-15.58.15:021][110]Cmd: EDIT COPY
+[2018.08.19-15.58.15:286][125]Cmd: EDIT PASTE
+[2018.08.19-15.58.17:922][272]Cmd: EDIT COPY
+[2018.08.19-15.58.18:145][285]Cmd: EDIT PASTE
+[2018.08.19-15.58.21:097][450]Cmd: EDIT COPY
+[2018.08.19-15.58.21:351][465]Cmd: EDIT PASTE
+[2018.08.19-15.58.23:799][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.19-15.58.40:597][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pont)
+[2018.08.19-15.59.09:940][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur24)
+[2018.08.19-15.59.17:131][590]Cmd: EDIT COPY
+[2018.08.19-15.59.17:473][610]Cmd: EDIT PASTE
+[2018.08.19-15.59.20:124][759]Cmd: EDIT COPY
+[2018.08.19-15.59.20:313][770]Cmd: EDIT PASTE
+[2018.08.19-15.59.28:645][242]Cmd: EDIT COPY
+[2018.08.19-15.59.28:871][255]Cmd: EDIT PASTE
+[2018.08.19-15.59.32:850][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur26)
+[2018.08.19-15.59.39:610][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur27)
+[2018.08.19-15.59.40:512][903]Cmd: EDIT COPY
+[2018.08.19-15.59.40:732][915]Cmd: EDIT PASTE
+[2018.08.19-15.59.46:019][216]Cmd: DELETE
+[2018.08.19-15.59.46:019][216]Cmd: ACTOR DELETE
+[2018.08.19-15.59.46:021][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.19-15.59.46:054][216]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.08.19-15.59.46:888][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur23)
+[2018.08.19-15.59.48:514][353]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (entremur22)
+[2018.08.19-15.59.49:538][409]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (entremur21)
+[2018.08.19-15.59.50:398][455]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (entremur20)
+[2018.08.19-15.59.52:133][553]Cmd: EDIT COPY
+[2018.08.19-15.59.52:357][566]Cmd: EDIT PASTE
+[2018.08.19-16.00.04:254][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur30)
+[2018.08.19-16.00.12:870][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur29)
+[2018.08.19-16.00.21:275][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur28)
+[2018.08.19-16.00.31:448][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur31)
+[2018.08.19-16.00.45:771][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.19-16.00.48:648][714]Cmd: EDIT COPY
+[2018.08.19-16.00.48:859][726]Cmd: EDIT PASTE
+[2018.08.19-16.01.23:033][645]Cmd: EDIT COPY
+[2018.08.19-16.01.23:279][659]Cmd: EDIT PASTE
+[2018.08.19-16.01.35:668][356]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-16.01.35:700][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-16.01.35:700][356]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 6:01:35 PM)
+[2018.08.19-16.01.35:700][356]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-16.01.35:730][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029203s)
+[2018.08.19-16.01.35:731][356]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-16.01.35:732][356]LogPlayLevel: PIE: World Init took: (0.001850s)
+[2018.08.19-16.01.35:732][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.031468s)
+[2018.08.19-16.01.35:765][356]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-16.01.35:822][356]LogInit: FAudioDevice initialized.
+[2018.08.19-16.01.35:855][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-16.01.35:867][356]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-17.01.35
+[2018.08.19-16.01.35:868][356]LogWorld: Bringing up level for play took: 0.011926
+[2018.08.19-16.01.35:871][356]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.217
+[2018.08.19-16.01.58:648][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.19-16.01.59:199][691]LogSavePackage: Save=517.11ms
+[2018.08.19-16.01.59:199][691]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1BCCF8F1E40E4CB70E4698488B0FFD5DA.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.19-16.01.59:204][691]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.19-16.01.59:337][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Content/ILE1_BuiltData.uasset" SILENT=true
+[2018.08.19-16.02.00:280][691]LogSavePackage: Save=854.86ms
+[2018.08.19-16.02.00:280][691]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltData22296D404C0DDF950E0BFDBCBE9355C1.tmp' to '../../../../../BSLegend/Content/ILE1_BuiltData.uasset'
+[2018.08.19-16.02.00:287][691]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1_BuiltData.uasset
+[2018.08.19-16.11.58:723][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ILE1' took 0.055
+[2018.08.19-16.11.58:729][430]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/object/ModularDungeon/cube_3x3] ([1] browsable assets)...
+[2018.08.19-16.11.58:765][430]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character/object/ModularDungeon/cube_3x3.cube_3x3]
+[2018.08.19-16.11.58:765][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/object/ModularDungeon/cube_3x3]
+[2018.08.19-16.11.58:904][430]LogSavePackage: Save=47.10ms
+[2018.08.19-16.11.58:904][430]LogSavePackage: Moving '../../../../../BSLegend/Saved/cube_3x3_Auto3372ADE924BA1F77628F00C97D942D095.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/Character/object/ModularDungeon/cube_3x3_Auto3.uasset'
+[2018.08.19-16.11.58:909][430]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/Character/object/ModularDungeon/cube_3x3_Auto3.uasset
+[2018.08.19-16.11.58:909][430]LogFileHelpers: Auto-saving content packages took 0.185
+[2018.08.19-16.56.24:626][552]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.08.19-16.56.32:327][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.19-16.57.08:646][139]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.19-16.57.08:714][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-16.57.08:715][139]PIE: New page: PIE session: ILE1 (Aug 19, 2018, 6:57:08 PM)
+[2018.08.19-16.57.08:715][139]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.19-16.57.08:773][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057681s)
+[2018.08.19-16.57.08:775][139]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-16.57.08:776][139]LogPlayLevel: PIE: World Init took: (0.002512s)
+[2018.08.19-16.57.08:776][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.061032s)
+[2018.08.19-16.57.08:838][139]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-16.57.08:964][139]LogInit: FAudioDevice initialized.
+[2018.08.19-16.57.09:004][139]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-16.57.09:023][139]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.19-17.57.09
+[2018.08.19-16.57.09:024][139]LogWorld: Bringing up level for play took: 0.018332
+[2018.08.19-16.57.09:030][139]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.942
+[2018.08.19-16.59.09:301][206]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064298 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.08.19-17.00.20:929][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.19-17.00.21:581][479]LogSavePackage: Save=608.89ms
+[2018.08.19-17.00.21:581][479]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1809A531E436D4C90E1A5AAA9B3CBF40D.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.19-17.00.21:583][479]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.19-17.00.21:707][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Content/ILE1_BuiltData.uasset" SILENT=true
+[2018.08.19-17.00.22:532][479]LogSavePackage: Save=785.88ms
+[2018.08.19-17.00.22:532][479]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltDataA228875443AEED83F4D591AF7EEE0CAF.tmp' to '../../../../../BSLegend/Content/ILE1_BuiltData.uasset'
+[2018.08.19-17.00.22:564][479]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1_BuiltData.uasset
+[2018.08.19-17.02.12:396][536]LogStaticMesh: Building static mesh cube_3x3...
+[2018.08.19-17.02.12:401][536]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/ModularDungeon/cube_3x3.cube_3x3
+[2018.08.19-17.02.14:736][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/cube_3x3" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset" SILENT=true
+[2018.08.19-17.02.14:787][536]LogSavePackage: Save=27.91ms
+[2018.08.19-17.02.14:787][536]LogSavePackage: Moving '../../../../../BSLegend/Saved/cube_3x38FEB3D4D4CADE86F3B97F086C3DA6B8D.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset'
+[2018.08.19-17.02.14:794][536]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/cube_3x3.uasset
+[2018.08.19-17.02.14:800][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/ModularDungeon/M_Metalisé" FILE="../../../../../BSLegend/Content/Character/object/ModularDungeon/M_Metalisé.uasset" SILENT=true
+[2018.08.19-17.02.14:844][536]LogSavePackage: Save=16.92ms
+[2018.08.19-17.02.14:845][536]LogSavePackage: Moving '../../../../../BSLegend/Saved/M_Metalisé3CC2A8834BBE92DE39523E87B2B93046.tmp' to '../../../../../BSLegend/Content/Character/object/ModularDungeon/M_Metalisé.uasset'
+[2018.08.19-17.02.14:912][536]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/ModularDungeon/M_Metalisé.uasset
+[2018.08.19-17.02.15:157][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.19-17.02.16:151][536]LogSavePackage: Save=954.25ms
+[2018.08.19-17.02.16:151][536]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1B5615A7948F0B8B189CFF89C743DC235.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.19-17.02.16:159][536]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.19-17.02.16:233][536]LogFileHelpers: Saving map 'ILE1' took 1.315
+[2018.08.19-17.02.16:238][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../../BSLegend/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.08.19-17.02.16:466][536]LogSavePackage: Save=198.42ms
+[2018.08.19-17.02.16:466][536]LogSavePackage: Moving '../../../../../BSLegend/Saved/ThirdPersonCharacter75825C3A47AC7934C8F3F0A2FBF49931.tmp' to '../../../../../BSLegend/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.08.19-17.02.16:480][536]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.08.19-17.02.19:245][536]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.08.19-17.02.19:773][537]Cmd: QUIT_EDITOR
+[2018.08.19-17.02.19:797][537]LogStaticMesh:Warning: Waiting until distance field task is complete so it is safe to destruct UObjects
+[2018.08.19-17.02.26:958][537]LogMeshUtilities: Finished distance field build in 13.7s - 45x45x45 distance field, 12 triangles, Range [-0.7, 1.0], cube_3x3
+[2018.08.19-17.02.26:989][537]LogExit: Preparing to exit.
+[2018.08.19-17.02.27:959][537]LogDirectoryWatcher: A directory notification failed for 'D:/BSLegend/Content/', and we were unable to create a new request.
+[2018.08.19-17.02.28:141][537]LogExit: Editor shut down
+[2018.08.19-17.02.28:184][537]LogExit: Transaction tracking system shut down
+[2018.08.19-17.02.28:487][537]LogObj: Freed 0b from 0 cluster array pools.
+[2018.08.19-17.02.28:488][537]LogExit: Object subsystem successfully closed.
+[2018.08.19-17.02.28:534][537]LogD3D11RHI: Shutdown
+[2018.08.19-17.02.28:534][537]LogD3D11RHI: CleanupD3DDevice
+[2018.08.19-17.02.28:787][537]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.19-17.02.28:811][537]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.08.19-17.02.28:811][537]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.08.19-17.02.28:821][537]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2018.08.19-17.02.28:823][537]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.08.19-17.02.28:834][537]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (526)
+[2018.08.19-17.02.28:834][537]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.08.19-17.02.28:834][537]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.08.19-17.02.28:834][537]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.08.19-17.02.28:834][537]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.08.19-17.02.28:852][537]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.16/FeaturePacks/' was aborted.
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.08.19-17.02.28:861][537]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Content/Collections/' was aborted.
+[2018.08.19-17.02.28:861][537]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Content/Developers/rayan/Collections/' was aborted.
+[2018.08.19-17.02.28:861][537]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Saved/Collections/' was aborted.
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.08.19-17.02.28:861][537]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.08.19-17.02.28:862][537]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.08.19-17.02.28:872][537]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.08.19-17.02.29:153][537]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.08.19-17.02.29:153][537]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.08.19-17.02.29:153][537]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.08.19-17.02.29:153][537]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.08.19-17.02.29:153][537]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.08.19-17.02.29:154][537]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.08.19-17.02.29:155][537]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.08.19-17.02.29:210][537]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.08.19-17.02.29:218][537]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.08.19-17.02.29:219][537]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.08.19-17.02.29:380][537]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.08.19-17.02.29:420][537]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.08.19-17.02.29:421][537]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.08.19-17.02.29:422][537]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.08.19-17.02.29:523][537]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.08.19-17.02.29:624][537]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.08.19-17.02.29:626][537]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.08.19-17.02.29:626][537]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.08.19-17.02.29:626][537]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.08.19-17.02.29:626][537]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.08.19-17.02.29:629][537]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.08.19-17.02.29:630][537]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.08.19-17.02.29:633][537]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.08.19-17.02.29:862][537]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.08.19-17.02.29:862][537]LogDirectoryWatcher: A directory notification for '../../../../../BSLegend/Content/' was aborted.
+[2018.08.19-17.02.29:862][537]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.08.19-17.02.29:862][537]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.08.19-17.02.29:868][537]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.08.19-17.02.29:876][537]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.08.19-17.02.29:911][537]LogDerivedDataCache: Shutdown
+[2018.08.19-17.02.29:911][537]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.08.19-17.02.29:911][537]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.08.19-17.02.29:912][537]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.08.19-17.02.29:913][537]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.08.19-17.02.29:914][537]LogOnline:Display: Unloading online subsystem: NULL
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.08.19-17.02.29:914][537]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.08.19-17.02.29:914][537]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.19-17.02.29:914][537]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCEB1133-4C51-5EE4-645E-8A82764816F4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=fd071ae64931638e58fc42839ddf0325%7C09328e596c484260845be9d78c4e54c5%7C38e2ded0-4503-42ed-bbd5-8de822bc5c08&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.19-17.02.29:939][537]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.08.19-17.02.29:941][537]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.08.19-17.02.29:941][537]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.08.19-17.02.29:941][537]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.08.19-17.02.29:942][537]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.08.19-17.02.29:942][537]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.08.19-17.02.29:942][537]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.08.19-17.02.29:942][537]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.08.19-17.02.29:942][537]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.19-17.02.29:947][537]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.19-17.02.29:950][537]LogExit: Exiting.
+[2018.08.19-17.02.29:973][537]Log file closed, 08/19/18 18:02:29
