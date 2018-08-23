@@ -558,3 +558,1771 @@ LogInit: Object subsystem initialized
 [2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierremontagne.uasset
 [2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/textureProject48H.uasset
 [2018.08.23-17.04.54:280][866]SourceControl: Info Commited [master 1a1cd06] changementozkan.
+[2018.08.23-17.56.40:119][ 24]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.23-17.56.40:223][ 24]LightingResults: New page: Lighting Build
+[2018.08.23-17.56.40:226][ 24]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.08.23-17.56.40:232][ 24]MapCheck: New page: Map Check
+[2018.08.23-17.56.40:232][ 24]LightingResults: New page: Lighting Build
+[2018.08.23-17.56.40:596][ 24]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.23-17.56.40:613][ 24]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.08.23-17.56.40:737][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.23-17.56.40:796][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.23-17.56.40:962][ 24]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.356ms to complete.
+[2018.08.23-17.56.40:963][ 24]LogFileHelpers: Loading map 'Template_Default' took 0.852
+[2018.08.23-17.56.44:359][211]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2018.08.23-17.56.59:477][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-17.56.59:537][211]LogSavePackage: Save=37.97ms
+[2018.08.23-17.56.59:537][211]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon17DA33AA1488CA69DE69C298B0A95FAA9.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-17.56.59:539][211]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-17.56.59:888][211]LogFileHelpers: Saving map 'LevelDungeon1' took 1.434
+[2018.08.23-17.57.00:060][216]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2018.08.23-17.57.01:119][279]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.08.23-17.57.03:053][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.23-17.57.04:729][455]Cmd: DELETE
+[2018.08.23-17.57.04:729][455]Cmd: ACTOR DELETE
+[2018.08.23-17.57.04:864][455]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-17.57.04:895][455]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.08.23-17.57.36:939][297]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.23-17.57.38:836][408]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.23-17.57.55:342][382]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-17.57.55:441][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-17.57.55:441][382]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 7:57:55 PM)
+[2018.08.23-17.57.55:441][382]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-17.57.55:457][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015521s)
+[2018.08.23-17.57.55:458][382]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-17.57.55:459][382]LogPlayLevel: PIE: World Init took: (0.001790s)
+[2018.08.23-17.57.55:459][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.017759s)
+[2018.08.23-17.57.55:479][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-17.57.55:524][382]LogInit: FAudioDevice initialized.
+[2018.08.23-17.57.55:561][382]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-17.57.55:565][382]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-18.57.55
+[2018.08.23-17.57.55:565][382]LogWorld: Bringing up level for play took: 0.001064
+[2018.08.23-17.57.55:568][382]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.76
+[2018.08.23-17.58.01:401][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-17.58.39:332][903]LogActorFactory: Actor Factory created Sole4x4
+[2018.08.23-17.58.41:885][ 52]LogActorFactory: Actor Factory created Sole4x4
+[2018.08.23-17.58.45:334][257]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-17.58.45:406][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-17.58.45:406][257]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 7:58:45 PM)
+[2018.08.23-17.58.45:406][257]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-17.58.45:408][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001794s)
+[2018.08.23-17.58.45:409][257]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-17.58.45:409][257]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2018.08.23-17.58.45:410][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.003627s)
+[2018.08.23-17.58.45:430][257]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-17.58.45:472][257]LogInit: FAudioDevice initialized.
+[2018.08.23-17.58.45:501][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-17.58.45:505][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-18.58.45
+[2018.08.23-17.58.45:505][257]LogWorld: Bringing up level for play took: 0.001205
+[2018.08.23-17.58.45:507][257]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.699
+[2018.08.23-17.58.51:773][622]LogActorFactory: Actor Factory created Sole4x4
+[2018.08.23-17.58.53:840][746]LogActorFactory: Actor Factory created Sole4x4
+[2018.08.23-17.58.56:629][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x4)
+[2018.08.23-17.58.58:413][ 16]Cmd: EDIT COPY
+[2018.08.23-17.58.58:797][ 39]Cmd: EDIT PASTE
+[2018.08.23-17.59.28:936][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x5)
+[2018.08.23-17.59.30:774][940]Cmd: DELETE
+[2018.08.23-17.59.30:774][940]Cmd: ACTOR DELETE
+[2018.08.23-17.59.30:775][940]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-17.59.30:793][940]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.08.23-17.59.32:067][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x4)
+[2018.08.23-17.59.38:561][404]Cmd: EDIT COPY
+[2018.08.23-17.59.38:862][422]Cmd: EDIT PASTE
+[2018.08.23-17.59.49:543][ 58]LogActorFactory: Actor Factory created Escallier
+[2018.08.23-17.59.51:965][203]LogActorFactory: Actor Factory created Escallier
+[2018.08.23-18.00.00:977][741]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.00.01:932][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x5)
+[2018.08.23-18.00.08:259][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Escallier)
+[2018.08.23-18.00.13:351][466]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.00.14:164][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x5)
+[2018.08.23-18.00.14:987][560]Cmd: EDIT COPY
+[2018.08.23-18.00.15:220][574]Cmd: EDIT PASTE
+[2018.08.23-18.00.18:970][797]Cmd: EDIT COPY
+[2018.08.23-18.00.19:305][817]Cmd: EDIT PASTE
+[2018.08.23-18.00.33:307][650]LogActorFactory: Actor Factory created pierre1
+[2018.08.23-18.00.34:296][709]LogActorFactory: Actor Factory created pierre1
+[2018.08.23-18.01.20:835][492]Cmd: EDIT COPY
+[2018.08.23-18.01.21:168][512]Cmd: EDIT PASTE
+[2018.08.23-18.01.30:850][ 90]Cmd: EDIT COPY
+[2018.08.23-18.01.31:118][106]Cmd: EDIT PASTE
+[2018.08.23-18.01.46:623][ 32]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.01.46:646][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.01.46:646][ 32]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:01:46 PM)
+[2018.08.23-18.01.46:646][ 32]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.01.46:649][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003212s)
+[2018.08.23-18.01.46:651][ 32]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.01.46:652][ 32]LogPlayLevel: PIE: World Init took: (0.001996s)
+[2018.08.23-18.01.46:652][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.005480s)
+[2018.08.23-18.01.46:672][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.01.46:716][ 32]LogInit: FAudioDevice initialized.
+[2018.08.23-18.01.46:745][ 32]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.01.46:749][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.01.46
+[2018.08.23-18.01.46:749][ 32]LogWorld: Bringing up level for play took: 0.001464
+[2018.08.23-18.01.46:751][ 32]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.058
+[2018.08.23-18.02.09:455][278]LogRenderer: Reallocating scene render targets to support 816x576 NumSamples 1 (Frame:1).
+[2018.08.23-18.03.48:906][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/Packdepierre/pierre1" FILE="../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset" SILENT=true
+[2018.08.23-18.03.49:290][713]LogSavePackage: Save=370.75ms
+[2018.08.23-18.03.49:290][713]LogSavePackage: Moving '../../../../../BSLegend/Saved/pierre108CE295843D0124DF6CC69A09E679718.tmp' to '../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset'
+[2018.08.23-18.03.49:295][713]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset
+[2018.08.23-18.04.11:127][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/Packdepierre/pierre1" FILE="../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset" SILENT=true
+[2018.08.23-18.04.11:153][989]LogSavePackage: Save=19.95ms
+[2018.08.23-18.04.11:153][989]LogSavePackage: Moving '../../../../../BSLegend/Saved/pierre1575264FD4AFEDF7652DDFEAF3EF64604.tmp' to '../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset'
+[2018.08.23-18.04.11:157][989]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/Packdepierre/pierre1.uasset
+[2018.08.23-18.04.17:918][358]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.04.17:944][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.04.17:944][358]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:04:17 PM)
+[2018.08.23-18.04.17:944][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.04.17:947][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002889s)
+[2018.08.23-18.04.17:948][358]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.04.17:948][358]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2018.08.23-18.04.17:948][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.004306s)
+[2018.08.23-18.04.17:971][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.04.18:022][358]LogInit: FAudioDevice initialized.
+[2018.08.23-18.04.18:051][358]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.04.18:054][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.04.18
+[2018.08.23-18.04.18:055][358]LogWorld: Bringing up level for play took: 0.001449
+[2018.08.23-18.04.18:120][358]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.689
+[2018.08.23-18.04.38:266][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Escallier)
+[2018.08.23-18.04.49:014][197]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.08.23-18.04.52:736][416]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.08.23-18.04.54:440][517]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.08.23-18.04.59:750][835]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.08.23-18.05.01:894][963]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.05.01:922][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.05.01:922][963]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:05:01 PM)
+[2018.08.23-18.05.01:922][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.05.01:925][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002424s)
+[2018.08.23-18.05.01:925][963]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.05.01:925][963]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.08.23-18.05.01:926][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.003537s)
+[2018.08.23-18.05.01:947][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.05.01:997][963]LogInit: FAudioDevice initialized.
+[2018.08.23-18.05.02:029][963]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.05.02:032][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.05.02
+[2018.08.23-18.05.02:033][963]LogWorld: Bringing up level for play took: 0.001407
+[2018.08.23-18.05.02:035][963]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.774
+[2018.08.23-18.05.15:974][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x6)
+[2018.08.23-18.05.19:755][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.05.43:919][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x6)
+[2018.08.23-18.05.45:960][582]Cmd: EDIT COPY
+[2018.08.23-18.05.46:327][604]Cmd: EDIT PASTE
+[2018.08.23-18.06.00:419][444]Cmd: EDIT COPY
+[2018.08.23-18.06.00:836][469]Cmd: EDIT PASTE
+[2018.08.23-18.06.08:859][948]Cmd: EDIT COPY
+[2018.08.23-18.06.09:159][966]Cmd: EDIT PASTE
+[2018.08.23-18.06.15:429][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x10)
+[2018.08.23-18.06.16:697][414]Cmd: EDIT COPY
+[2018.08.23-18.06.17:098][438]Cmd: EDIT PASTE
+[2018.08.23-18.06.20:801][658]Cmd: EDIT COPY
+[2018.08.23-18.06.21:117][677]Cmd: EDIT PASTE
+[2018.08.23-18.06.37:128][633]LogActorFactory: Actor Factory created pierre4
+[2018.08.23-18.06.37:749][670]LogActorFactory: Actor Factory created pierre4
+[2018.08.23-18.06.51:801][509]Cmd: EDIT COPY
+[2018.08.23-18.06.52:068][525]Cmd: EDIT PASTE
+[2018.08.23-18.06.57:544][851]Cmd: EDIT COPY
+[2018.08.23-18.06.57:877][871]Cmd: EDIT PASTE
+[2018.08.23-18.07.07:284][428]Cmd: EDIT COPY
+[2018.08.23-18.07.07:833][461]Cmd: EDIT PASTE
+[2018.08.23-18.07.12:449][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre4)
+[2018.08.23-18.07.18:314][ 82]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.07.19:085][128]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.07.20:947][238]Cmd: TRANSACTION UNDO
+[2018.08.23-18.07.20:947][238]LogEditorTransaction: Undo Create Actors
+[2018.08.23-18.07.26:272][547]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.07.27:193][602]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.07.45:528][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre8)
+[2018.08.23-18.07.46:112][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre7)
+[2018.08.23-18.07.50:407][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre8)
+[2018.08.23-18.07.52:786][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre9)
+[2018.08.23-18.07.59:757][540]Cmd: EDIT COPY
+[2018.08.23-18.08.00:041][557]Cmd: EDIT PASTE
+[2018.08.23-18.08.16:172][518]Cmd: EDIT COPY
+[2018.08.23-18.08.16:473][536]Cmd: EDIT PASTE
+[2018.08.23-18.08.23:242][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre11)
+[2018.08.23-18.08.28:672][262]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.08.29:499][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre12)
+[2018.08.23-18.08.32:449][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.08.38:839][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre4)
+[2018.08.23-18.08.42:353][ 73]Cmd: EDIT COPY
+[2018.08.23-18.08.42:685][ 93]Cmd: EDIT PASTE
+[2018.08.23-18.09.02:948][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.09.03:345][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre12)
+[2018.08.23-18.09.06:451][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre11)
+[2018.08.23-18.09.18:257][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre6)
+[2018.08.23-18.09.26:608][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre13)
+[2018.08.23-18.09.40:976][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre6)
+[2018.08.23-18.09.52:884][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre7)
+[2018.08.23-18.10.11:866][389]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.10.11:890][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.10.11:890][389]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:10:11 PM)
+[2018.08.23-18.10.11:890][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.10.11:895][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004924s)
+[2018.08.23-18.10.11:896][389]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.10.11:897][389]LogPlayLevel: PIE: World Init took: (0.001771s)
+[2018.08.23-18.10.11:897][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.007217s)
+[2018.08.23-18.10.11:917][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.10.11:960][389]LogInit: FAudioDevice initialized.
+[2018.08.23-18.10.11:994][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.10.11:998][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.10.11
+[2018.08.23-18.10.11:999][389]LogWorld: Bringing up level for play took: 0.002160
+[2018.08.23-18.10.12:001][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.807
+[2018.08.23-18.10.28:874][390]LogActorFactory: Actor Factory created porte1dg
+[2018.08.23-18.10.30:529][489]LogActorFactory: Actor Factory created porte1dg
+[2018.08.23-18.10.36:213][825]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-18.10.38:286][949]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-18.10.45:906][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (porte1dg)
+[2018.08.23-18.10.49:272][602]Cmd: MODE GRID=0
+[2018.08.23-18.11.10:757][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Murporte1dg)
+[2018.08.23-18.11.13:020][ 18]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-18.11.13:762][ 61]Cmd: MODE GRID=1
+[2018.08.23-18.11.14:911][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Murporte1dg)
+[2018.08.23-18.11.20:118][437]LogActorFactory: Actor Factory created murdungeon1
+[2018.08.23-18.11.22:431][575]LogActorFactory: Actor Factory created murdungeon1
+[2018.08.23-18.11.32:507][176]Cmd: EDIT COPY
+[2018.08.23-18.11.32:957][203]Cmd: EDIT PASTE
+[2018.08.23-18.11.35:778][370]Cmd: EDIT COPY
+[2018.08.23-18.11.39:289][580]Cmd: TRANSACTION UNDO
+[2018.08.23-18.11.39:290][580]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.11.40:381][642]Cmd: EDIT PASTE
+[2018.08.23-18.11.52:532][364]Cmd: EDIT COPY
+[2018.08.23-18.11.52:866][384]Cmd: EDIT PASTE
+[2018.08.23-18.12.08:757][332]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.23-18.12.10:013][407]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.23-18.12.15:267][719]Cmd: EDIT COPY
+[2018.08.23-18.12.15:584][738]Cmd: EDIT PASTE
+[2018.08.23-18.12.22:419][145]Cmd: EDIT COPY
+[2018.08.23-18.12.22:685][161]Cmd: EDIT PASTE
+[2018.08.23-18.12.29:660][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon6)
+[2018.08.23-18.12.30:473][623]Cmd: EDIT COPY
+[2018.08.23-18.12.30:723][638]Cmd: EDIT PASTE
+[2018.08.23-18.12.33:793][820]Cmd: EDIT COPY
+[2018.08.23-18.12.34:043][835]Cmd: EDIT PASTE
+[2018.08.23-18.12.39:713][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.12.40:994][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.23-18.12.51:678][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (porte1dg)
+[2018.08.23-18.13.23:987][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.23-18.13.26:209][992]Cmd: EDIT COPY
+[2018.08.23-18.13.26:608][ 16]Cmd: EDIT PASTE
+[2018.08.23-18.13.33:521][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon3)
+[2018.08.23-18.13.34:778][500]Cmd: EDIT COPY
+[2018.08.23-18.13.35:327][533]Cmd: EDIT PASTE
+[2018.08.23-18.13.50:818][458]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.13.50:843][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.13.50:843][458]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:13:50 PM)
+[2018.08.23-18.13.50:843][458]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.13.50:847][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003805s)
+[2018.08.23-18.13.50:849][458]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.13.50:849][458]LogPlayLevel: PIE: World Init took: (0.001806s)
+[2018.08.23-18.13.50:850][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.006216s)
+[2018.08.23-18.13.50:870][458]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.13.50:916][458]LogInit: FAudioDevice initialized.
+[2018.08.23-18.13.50:946][458]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.13.50:951][458]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.13.50
+[2018.08.23-18.13.50:951][458]LogWorld: Bringing up level for play took: 0.002468
+[2018.08.23-18.13.50:954][458]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.145
+[2018.08.23-18.14.18:624][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x4)
+[2018.08.23-18.14.37:124][203]Cmd: MODE GRID=0
+[2018.08.23-18.14.51:652][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.23-18.14.55:187][277]Cmd: MODE GRID=1
+[2018.08.23-18.14.56:098][331]Cmd: EDIT COPY
+[2018.08.23-18.14.56:431][351]Cmd: EDIT PASTE
+[2018.08.23-18.15.11:559][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x13)
+[2018.08.23-18.15.12:946][336]Cmd: DELETE
+[2018.08.23-18.15.12:946][336]Cmd: ACTOR DELETE
+[2018.08.23-18.15.12:947][336]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.15.12:965][336]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.08.23-18.15.16:140][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon9)
+[2018.08.23-18.15.18:630][674]Cmd: EDIT COPY
+[2018.08.23-18.15.18:914][691]Cmd: EDIT PASTE
+[2018.08.23-18.15.21:955][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon4)
+[2018.08.23-18.15.22:828][921]Cmd: EDIT COPY
+[2018.08.23-18.15.23:245][946]Cmd: EDIT PASTE
+[2018.08.23-18.15.39:045][891]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.15.39:068][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.15.39:069][891]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:15:39 PM)
+[2018.08.23-18.15.39:069][891]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.15.39:073][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003907s)
+[2018.08.23-18.15.39:074][891]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.15.39:075][891]LogPlayLevel: PIE: World Init took: (0.001892s)
+[2018.08.23-18.15.39:075][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.006178s)
+[2018.08.23-18.15.39:094][891]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.15.39:136][891]LogInit: FAudioDevice initialized.
+[2018.08.23-18.15.39:169][891]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.15.39:174][891]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.15.39
+[2018.08.23-18.15.39:174][891]LogWorld: Bringing up level for play took: 0.002643
+[2018.08.23-18.15.39:176][891]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.367
+[2018.08.23-18.16.01:630][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon1)
+[2018.08.23-18.16.10:084][733]Cmd: MODE GRID=0
+[2018.08.23-18.16.17:546][179]Cmd: MODE GRID=1
+[2018.08.23-18.16.18:661][245]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.16.18:685][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.16.18:686][245]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:16:18 PM)
+[2018.08.23-18.16.18:686][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.16.18:689][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003430s)
+[2018.08.23-18.16.18:690][245]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.16.18:690][245]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2018.08.23-18.16.18:691][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.005005s)
+[2018.08.23-18.16.18:710][245]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.16.18:754][245]LogInit: FAudioDevice initialized.
+[2018.08.23-18.16.18:788][245]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.16.18:792][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.16.18
+[2018.08.23-18.16.18:792][245]LogWorld: Bringing up level for play took: 0.002447
+[2018.08.23-18.16.18:794][245]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.014
+[2018.08.23-18.17.04:989][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-18.17.07:423][  3]LogSavePackage: Save=2407.17ms
+[2018.08.23-18.17.07:423][  3]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon14AF471E640645D9B73B53FADE11BB734.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-18.17.07:429][  3]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-18.18.04:664][431]LogActorFactory: Actor Factory created panneau
+[2018.08.23-18.18.07:018][572]LogActorFactory: Actor Factory created panneau
+[2018.08.23-18.18.20:783][393]LogActorFactory: Actor Factory created pont
+[2018.08.23-18.18.23:002][526]LogActorFactory: Actor Factory created pont
+[2018.08.23-18.18.31:543][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x8)
+[2018.08.23-18.18.37:280][376]Cmd: EDIT COPY
+[2018.08.23-18.18.37:529][391]Cmd: EDIT PASTE
+[2018.08.23-18.18.39:919][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x8)
+[2018.08.23-18.18.40:673][575]Cmd: EDIT COPY
+[2018.08.23-18.18.40:873][587]Cmd: EDIT PASTE
+[2018.08.23-18.18.44:509][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pont)
+[2018.08.23-18.19.02:791][896]Cmd: MODE GRID=0
+[2018.08.23-18.19.56:668][114]LogActorFactory: Actor Factory created pierre2
+[2018.08.23-18.19.57:290][151]LogActorFactory: Actor Factory created pierre2
+[2018.08.23-18.19.57:296][151]LogActorFactory: Actor Factory created pierre2
+[2018.08.23-18.20.09:286][866]Cmd: EDIT COPY
+[2018.08.23-18.20.09:569][883]Cmd: EDIT PASTE
+[2018.08.23-18.20.16:670][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon6)
+[2018.08.23-18.20.17:760][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon10)
+[2018.08.23-18.20.19:736][485]Cmd: DELETE
+[2018.08.23-18.20.19:736][485]Cmd: ACTOR DELETE
+[2018.08.23-18.20.19:737][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.20.19:754][485]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.08.23-18.20.29:864][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x11)
+[2018.08.23-18.20.31:389][181]Cmd: EDIT COPY
+[2018.08.23-18.20.31:639][196]Cmd: EDIT PASTE
+[2018.08.23-18.20.35:425][421]Cmd: TRANSACTION UNDO
+[2018.08.23-18.20.35:425][421]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.20.41:759][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon11)
+[2018.08.23-18.20.45:318][  7]Cmd: TRANSACTION UNDO
+[2018.08.23-18.20.45:318][  7]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.20.46:644][ 86]Cmd: MODE GRID=1
+[2018.08.23-18.20.53:298][484]Cmd: DELETE
+[2018.08.23-18.20.53:298][484]Cmd: ACTOR DELETE
+[2018.08.23-18.20.53:298][484]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.20.53:317][484]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.08.23-18.20.54:125][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon8)
+[2018.08.23-18.20.55:395][607]Cmd: EDIT COPY
+[2018.08.23-18.20.55:711][626]Cmd: EDIT PASTE
+[2018.08.23-18.21.04:771][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon6)
+[2018.08.23-18.21.10:635][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon6)
+[2018.08.23-18.21.20:163][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon8)
+[2018.08.23-18.21.25:814][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon6)
+[2018.08.23-18.21.28:295][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.21.30:660][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon10)
+[2018.08.23-18.21.33:577][872]Cmd: EDIT COPY
+[2018.08.23-18.21.33:927][893]Cmd: EDIT PASTE
+[2018.08.23-18.21.42:049][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon5)
+[2018.08.23-18.21.43:822][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.23-18.21.46:285][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon5)
+[2018.08.23-18.21.51:225][912]Cmd: EDIT COPY
+[2018.08.23-18.21.51:458][926]Cmd: EDIT PASTE
+[2018.08.23-18.21.56:151][205]Cmd: EDIT COPY
+[2018.08.23-18.21.56:400][220]Cmd: EDIT PASTE
+[2018.08.23-18.22.01:524][525]Cmd: EDIT COPY
+[2018.08.23-18.22.01:724][537]Cmd: EDIT PASTE
+[2018.08.23-18.22.27:787][ 93]LogActorFactory: Actor Factory created entremur1
+[2018.08.23-18.22.29:592][201]LogActorFactory: Actor Factory created entremur1
+[2018.08.23-18.22.40:355][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon4)
+[2018.08.23-18.22.41:879][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur1)
+[2018.08.23-18.22.43:911][ 50]Cmd: EDIT COPY
+[2018.08.23-18.22.44:127][ 63]Cmd: EDIT PASTE
+[2018.08.23-18.22.46:167][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon5)
+[2018.08.23-18.22.49:531][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur2)
+[2018.08.23-18.22.51:664][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon6)
+[2018.08.23-18.22.56:659][800]Cmd: DELETE
+[2018.08.23-18.22.56:659][800]Cmd: ACTOR DELETE
+[2018.08.23-18.22.56:659][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.22.56:660][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.22.56:661][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.22.56:679][800]LogEditorActor: Deleted 3 Actors (0.020 secs)
+[2018.08.23-18.22.57:604][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur2)
+[2018.08.23-18.23.01:548][ 80]Cmd: EDIT COPY
+[2018.08.23-18.23.01:814][ 96]Cmd: EDIT PASTE
+[2018.08.23-18.23.05:637][323]Cmd: TRANSACTION UNDO
+[2018.08.23-18.23.05:637][323]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.23.08:246][479]Cmd: TRANSACTION UNDO
+[2018.08.23-18.23.08:246][479]LogEditorTransaction: Undo Paste
+[2018.08.23-18.23.10:103][588]Cmd: TRANSACTION UNDO
+[2018.08.23-18.23.10:103][588]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.23-18.23.11:286][657]Cmd: EDIT COPY
+[2018.08.23-18.23.11:604][676]Cmd: EDIT PASTE
+[2018.08.23-18.23.15:748][922]Cmd: EDIT COPY
+[2018.08.23-18.23.15:965][935]Cmd: EDIT PASTE
+[2018.08.23-18.23.21:001][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon7)
+[2018.08.23-18.23.21:793][280]Cmd: EDIT COPY
+[2018.08.23-18.23.22:077][297]Cmd: EDIT PASTE
+[2018.08.23-18.23.29:489][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur1)
+[2018.08.23-18.23.30:452][794]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (murdungeon5)
+[2018.08.23-18.23.31:925][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur2)
+[2018.08.23-18.23.33:302][960]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (entremur1)
+[2018.08.23-18.23.35:138][ 68]Cmd: EDIT COPY
+[2018.08.23-18.23.35:573][ 94]Cmd: EDIT PASTE
+[2018.08.23-18.23.45:593][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre15)
+[2018.08.23-18.23.55:148][258]Cmd: EDIT COPY
+[2018.08.23-18.23.55:565][283]Cmd: EDIT PASTE
+[2018.08.23-18.24.25:902][ 95]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.24.26:971][159]LogActorFactory: Actor Factory created pierre3
+[2018.08.23-18.24.33:918][573]Cmd: EDIT COPY
+[2018.08.23-18.24.34:302][596]Cmd: EDIT PASTE
+[2018.08.23-18.24.47:200][364]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.24.47:226][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.24.47:226][364]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:24:47 PM)
+[2018.08.23-18.24.47:227][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.24.47:232][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005393s)
+[2018.08.23-18.24.47:233][364]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.24.47:233][364]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2018.08.23-18.24.47:234][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.007169s)
+[2018.08.23-18.24.47:252][364]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.24.47:295][364]LogInit: FAudioDevice initialized.
+[2018.08.23-18.24.47:328][364]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.24.47:334][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.24.47
+[2018.08.23-18.24.47:335][364]LogWorld: Bringing up level for play took: 0.003512
+[2018.08.23-18.24.47:337][364]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.529
+[2018.08.23-18.25.14:312][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre17)
+[2018.08.23-18.25.52:607][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x12)
+[2018.08.23-18.25.56:552][501]Cmd: EDIT COPY
+[2018.08.23-18.25.56:835][518]Cmd: EDIT PASTE
+[2018.08.23-18.26.00:717][748]Cmd: EDIT COPY
+[2018.08.23-18.26.01:000][765]Cmd: EDIT PASTE
+[2018.08.23-18.26.04:001][943]Cmd: EDIT COPY
+[2018.08.23-18.26.04:202][955]Cmd: EDIT PASTE
+[2018.08.23-18.26.07:305][139]Cmd: EDIT COPY
+[2018.08.23-18.26.07:588][156]Cmd: EDIT PASTE
+[2018.08.23-18.26.11:839][409]Cmd: EDIT COPY
+[2018.08.23-18.26.12:373][441]Cmd: EDIT PASTE
+[2018.08.23-18.26.24:169][143]Cmd: EDIT COPY
+[2018.08.23-18.26.24:402][157]Cmd: EDIT PASTE
+[2018.08.23-18.26.29:199][438]Cmd: EDIT COPY
+[2018.08.23-18.26.29:433][452]Cmd: EDIT PASTE
+[2018.08.23-18.26.32:910][658]Cmd: EDIT COPY
+[2018.08.23-18.26.33:176][674]Cmd: EDIT PASTE
+[2018.08.23-18.26.38:099][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x29)
+[2018.08.23-18.26.39:922][ 70]Cmd: EDIT COPY
+[2018.08.23-18.26.40:139][ 83]Cmd: EDIT PASTE
+[2018.08.23-18.26.58:464][176]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.23-18.27.00:504][298]LogActorFactory: Actor Factory created Pillierdungeon1
+[2018.08.23-18.27.02:585][420]Cmd: EDIT COPY
+[2018.08.23-18.27.02:819][434]Cmd: EDIT PASTE
+[2018.08.23-18.27.08:410][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon3)
+[2018.08.23-18.27.12:502][  5]Cmd: EDIT COPY
+[2018.08.23-18.27.12:820][ 24]Cmd: EDIT PASTE
+[2018.08.23-18.27.18:961][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon13)
+[2018.08.23-18.27.20:119][457]Cmd: EDIT COPY
+[2018.08.23-18.27.20:318][469]Cmd: EDIT PASTE
+[2018.08.23-18.27.24:255][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon20)
+[2018.08.23-18.27.31:724][143]Cmd: EDIT COPY
+[2018.08.23-18.27.32:007][160]Cmd: EDIT PASTE
+[2018.08.23-18.27.41:748][741]Cmd: EDIT COPY
+[2018.08.23-18.27.42:065][760]Cmd: EDIT PASTE
+[2018.08.23-18.27.55:169][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur9)
+[2018.08.23-18.27.56:088][595]Cmd: EDIT COPY
+[2018.08.23-18.27.56:339][610]Cmd: EDIT PASTE
+[2018.08.23-18.27.58:776][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon24)
+[2018.08.23-18.27.59:366][787]Cmd: EDIT COPY
+[2018.08.23-18.27.59:583][800]Cmd: EDIT PASTE
+[2018.08.23-18.28.09:551][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon23)
+[2018.08.23-18.28.11:564][511]Cmd: EDIT COPY
+[2018.08.23-18.28.11:797][525]Cmd: EDIT PASTE
+[2018.08.23-18.28.14:479][683]Cmd: EDIT COPY
+[2018.08.23-18.28.14:697][696]Cmd: EDIT PASTE
+[2018.08.23-18.28.20:370][ 34]Cmd: EDIT COPY
+[2018.08.23-18.28.20:587][ 47]Cmd: EDIT PASTE
+[2018.08.23-18.28.25:778][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x37)
+[2018.08.23-18.28.26:703][409]Cmd: EDIT COPY
+[2018.08.23-18.28.26:902][421]Cmd: EDIT PASTE
+[2018.08.23-18.28.29:005][545]Cmd: EDIT COPY
+[2018.08.23-18.28.29:221][558]Cmd: EDIT PASTE
+[2018.08.23-18.28.32:360][744]Cmd: EDIT COPY
+[2018.08.23-18.28.32:542][755]Cmd: EDIT PASTE
+[2018.08.23-18.28.38:508][111]Cmd: EDIT COPY
+[2018.08.23-18.28.38:725][124]Cmd: EDIT PASTE
+[2018.08.23-18.28.42:544][351]Cmd: EDIT COPY
+[2018.08.23-18.28.42:794][366]Cmd: EDIT PASTE
+[2018.08.23-18.28.48:116][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x42)
+[2018.08.23-18.28.48:959][733]Cmd: EDIT COPY
+[2018.08.23-18.28.49:160][745]Cmd: EDIT PASTE
+[2018.08.23-18.28.52:437][939]Cmd: EDIT COPY
+[2018.08.23-18.28.52:721][956]Cmd: EDIT PASTE
+[2018.08.23-18.28.58:727][314]Cmd: EDIT COPY
+[2018.08.23-18.28.58:927][326]Cmd: EDIT PASTE
+[2018.08.23-18.29.01:433][474]Cmd: EDIT COPY
+[2018.08.23-18.29.01:616][485]Cmd: EDIT PASTE
+[2018.08.23-18.29.06:085][751]Cmd: EDIT COPY
+[2018.08.23-18.29.06:352][767]Cmd: EDIT PASTE
+[2018.08.23-18.29.10:156][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x45)
+[2018.08.23-18.29.13:065][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x46)
+[2018.08.23-18.29.15:474][303]Cmd: EDIT COPY
+[2018.08.23-18.29.15:673][315]Cmd: EDIT PASTE
+[2018.08.23-18.29.21:587][663]Cmd: EDIT COPY
+[2018.08.23-18.29.21:853][679]Cmd: EDIT PASTE
+[2018.08.23-18.29.25:395][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x53)
+[2018.08.23-18.29.27:298][  1]Cmd: EDIT COPY
+[2018.08.23-18.29.27:949][ 40]Cmd: EDIT PASTE
+[2018.08.23-18.29.31:957][276]Cmd: EDIT COPY
+[2018.08.23-18.29.32:192][290]Cmd: EDIT PASTE
+[2018.08.23-18.29.37:728][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x52)
+[2018.08.23-18.29.38:482][662]Cmd: EDIT COPY
+[2018.08.23-18.29.38:715][676]Cmd: EDIT PASTE
+[2018.08.23-18.29.42:234][885]Cmd: EDIT COPY
+[2018.08.23-18.29.42:417][896]Cmd: EDIT PASTE
+[2018.08.23-18.29.48:813][277]Cmd: EDIT COPY
+[2018.08.23-18.29.49:015][289]Cmd: EDIT PASTE
+[2018.08.23-18.29.51:716][449]Cmd: EDIT COPY
+[2018.08.23-18.29.51:950][463]Cmd: EDIT PASTE
+[2018.08.23-18.29.54:503][614]Cmd: EDIT COPY
+[2018.08.23-18.29.54:703][626]Cmd: EDIT PASTE
+[2018.08.23-18.30.01:196][ 13]Cmd: EDIT COPY
+[2018.08.23-18.30.02:346][ 82]Cmd: EDIT PASTE
+[2018.08.23-18.30.04:735][223]Cmd: EDIT COPY
+[2018.08.23-18.30.05:003][239]Cmd: EDIT PASTE
+[2018.08.23-18.30.09:263][492]Cmd: EDIT COPY
+[2018.08.23-18.30.09:480][505]Cmd: EDIT PASTE
+[2018.08.23-18.30.18:272][ 30]Cmd: EDIT COPY
+[2018.08.23-18.30.18:521][ 45]Cmd: EDIT PASTE
+[2018.08.23-18.30.24:935][425]Cmd: DELETE
+[2018.08.23-18.30.24:935][425]Cmd: ACTOR DELETE
+[2018.08.23-18.30.24:936][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.30.24:936][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.30.24:955][425]LogEditorActor: Deleted 2 Actors (0.020 secs)
+[2018.08.23-18.30.25:647][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x63)
+[2018.08.23-18.30.27:769][590]Cmd: EDIT COPY
+[2018.08.23-18.30.27:968][602]Cmd: EDIT PASTE
+[2018.08.23-18.30.35:977][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x56)
+[2018.08.23-18.30.36:869][131]Cmd: EDIT COPY
+[2018.08.23-18.30.37:168][149]Cmd: EDIT PASTE
+[2018.08.23-18.30.40:389][340]Cmd: EDIT COPY
+[2018.08.23-18.30.40:706][359]Cmd: EDIT PASTE
+[2018.08.23-18.30.43:375][517]Cmd: EDIT COPY
+[2018.08.23-18.30.43:592][530]Cmd: EDIT PASTE
+[2018.08.23-18.30.46:410][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x67)
+[2018.08.23-18.30.47:145][739]Cmd: EDIT COPY
+[2018.08.23-18.30.47:395][754]Cmd: EDIT PASTE
+[2018.08.23-18.30.59:448][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x45)
+[2018.08.23-18.31.00:291][522]Cmd: EDIT COPY
+[2018.08.23-18.31.00:542][537]Cmd: EDIT PASTE
+[2018.08.23-18.31.05:614][839]Cmd: EDIT COPY
+[2018.08.23-18.31.06:014][863]Cmd: EDIT PASTE
+[2018.08.23-18.31.09:834][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x70)
+[2018.08.23-18.31.10:486][127]Cmd: EDIT COPY
+[2018.08.23-18.31.10:687][139]Cmd: EDIT PASTE
+[2018.08.23-18.31.14:805][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x70)
+[2018.08.23-18.31.15:574][428]Cmd: EDIT COPY
+[2018.08.23-18.31.15:874][446]Cmd: EDIT PASTE
+[2018.08.23-18.31.18:309][590]Cmd: EDIT COPY
+[2018.08.23-18.31.18:560][605]Cmd: EDIT PASTE
+[2018.08.23-18.31.21:677][790]Cmd: EDIT COPY
+[2018.08.23-18.31.21:927][805]Cmd: EDIT PASTE
+[2018.08.23-18.31.27:230][121]Cmd: EDIT COPY
+[2018.08.23-18.31.27:481][136]Cmd: EDIT PASTE
+[2018.08.23-18.31.34:401][544]Cmd: EDIT COPY
+[2018.08.23-18.31.34:668][560]Cmd: EDIT PASTE
+[2018.08.23-18.31.39:040][820]Cmd: EDIT COPY
+[2018.08.23-18.31.39:257][833]Cmd: EDIT PASTE
+[2018.08.23-18.31.41:796][983]Cmd: EDIT COPY
+[2018.08.23-18.31.41:995][995]Cmd: EDIT PASTE
+[2018.08.23-18.31.46:785][280]Cmd: TRANSACTION UNDO
+[2018.08.23-18.31.46:785][280]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.31.50:527][504]Cmd: TRANSACTION UNDO
+[2018.08.23-18.31.50:527][504]LogEditorTransaction: Undo Paste
+[2018.08.23-18.31.51:911][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x47)
+[2018.08.23-18.31.55:849][812]Cmd: EDIT COPY
+[2018.08.23-18.31.56:082][826]Cmd: EDIT PASTE
+[2018.08.23-18.32.01:859][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x85)
+[2018.08.23-18.32.02:983][235]Cmd: EDIT COPY
+[2018.08.23-18.32.03:199][248]Cmd: EDIT PASTE
+[2018.08.23-18.32.05:585][389]Cmd: EDIT COPY
+[2018.08.23-18.32.05:819][403]Cmd: EDIT PASTE
+[2018.08.23-18.32.08:489][561]Cmd: EDIT COPY
+[2018.08.23-18.32.08:704][574]Cmd: EDIT PASTE
+[2018.08.23-18.32.13:276][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x63)
+[2018.08.23-18.32.15:711][983]Cmd: EDIT COPY
+[2018.08.23-18.32.15:945][997]Cmd: EDIT PASTE
+[2018.08.23-18.32.25:982][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x42)
+[2018.08.23-18.32.26:922][650]Cmd: EDIT COPY
+[2018.08.23-18.32.27:156][664]Cmd: EDIT PASTE
+[2018.08.23-18.32.31:446][919]Cmd: EDIT COPY
+[2018.08.23-18.32.31:695][934]Cmd: EDIT PASTE
+[2018.08.23-18.32.34:681][111]Cmd: EDIT COPY
+[2018.08.23-18.32.34:880][123]Cmd: EDIT PASTE
+[2018.08.23-18.32.37:503][278]Cmd: EDIT COPY
+[2018.08.23-18.32.37:686][289]Cmd: EDIT PASTE
+[2018.08.23-18.32.44:006][666]Cmd: EDIT COPY
+[2018.08.23-18.32.44:273][682]Cmd: EDIT PASTE
+[2018.08.23-18.32.47:543][876]Cmd: EDIT COPY
+[2018.08.23-18.32.47:892][897]Cmd: EDIT PASTE
+[2018.08.23-18.32.51:133][ 89]Cmd: EDIT COPY
+[2018.08.23-18.32.51:366][103]Cmd: EDIT PASTE
+[2018.08.23-18.32.54:752][304]Cmd: EDIT COPY
+[2018.08.23-18.32.55:019][320]Cmd: EDIT PASTE
+[2018.08.23-18.33.01:398][698]Cmd: EDIT COPY
+[2018.08.23-18.33.01:632][712]Cmd: EDIT PASTE
+[2018.08.23-18.33.07:346][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon11)
+[2018.08.23-18.33.16:832][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x19)
+[2018.08.23-18.33.17:805][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon18)
+[2018.08.23-18.33.22:282][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.33.23:043][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon11)
+[2018.08.23-18.33.29:612][362]Cmd: DELETE
+[2018.08.23-18.33.29:612][362]Cmd: ACTOR DELETE
+[2018.08.23-18.33.29:613][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.29:614][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.29:615][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.29:615][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.29:633][362]LogEditorActor: Deleted 4 Actors (0.021 secs)
+[2018.08.23-18.33.32:111][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon7)
+[2018.08.23-18.33.35:270][696]Cmd: DELETE
+[2018.08.23-18.33.35:270][696]Cmd: ACTOR DELETE
+[2018.08.23-18.33.35:272][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.35:273][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.33.35:290][696]LogEditorActor: Deleted 2 Actors (0.019 secs)
+[2018.08.23-18.33.40:800][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon3)
+[2018.08.23-18.33.43:432][180]Cmd: EDIT COPY
+[2018.08.23-18.33.43:683][195]Cmd: EDIT PASTE
+[2018.08.23-18.33.50:439][598]Cmd: EDIT COPY
+[2018.08.23-18.33.50:705][614]Cmd: EDIT PASTE
+[2018.08.23-18.33.55:334][889]Cmd: EDIT COPY
+[2018.08.23-18.33.55:533][901]Cmd: EDIT PASTE
+[2018.08.23-18.34.04:632][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon12)
+[2018.08.23-18.34.05:637][502]Cmd: EDIT COPY
+[2018.08.23-18.34.05:821][513]Cmd: EDIT PASTE
+[2018.08.23-18.34.09:886][754]Cmd: EDIT COPY
+[2018.08.23-18.34.10:102][767]Cmd: EDIT PASTE
+[2018.08.23-18.34.12:472][907]Cmd: EDIT COPY
+[2018.08.23-18.34.12:671][919]Cmd: EDIT PASTE
+[2018.08.23-18.34.15:125][ 64]Cmd: EDIT COPY
+[2018.08.23-18.34.15:326][ 76]Cmd: EDIT PASTE
+[2018.08.23-18.34.20:982][412]Cmd: EDIT COPY
+[2018.08.23-18.34.21:182][424]Cmd: EDIT PASTE
+[2018.08.23-18.34.26:576][745]Cmd: EDIT COPY
+[2018.08.23-18.34.26:793][758]Cmd: EDIT PASTE
+[2018.08.23-18.34.37:741][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon19)
+[2018.08.23-18.34.39:801][533]Cmd: EDIT COPY
+[2018.08.23-18.34.40:117][552]Cmd: EDIT PASTE
+[2018.08.23-18.34.48:270][ 37]LogActorFactory: Actor Factory created entremur1
+[2018.08.23-18.34.49:710][123]LogActorFactory: Actor Factory created entremur1
+[2018.08.23-18.34.59:585][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon30)
+[2018.08.23-18.35.01:685][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur14)
+[2018.08.23-18.35.04:554][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon30)
+[2018.08.23-18.35.05:266][ 44]Cmd: EDIT COPY
+[2018.08.23-18.35.05:449][ 55]Cmd: EDIT PASTE
+[2018.08.23-18.35.10:084][326]Cmd: EDIT COPY
+[2018.08.23-18.35.10:333][341]Cmd: EDIT PASTE
+[2018.08.23-18.35.18:262][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon11)
+[2018.08.23-18.35.48:970][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-18.35.49:254][643]LogSavePackage: Save=252.82ms
+[2018.08.23-18.35.49:254][643]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon100ACE5BC4D3EFF16F156108E394EF0E2.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-18.35.49:258][643]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-18.35.54:226][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.35.55:132][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon31)
+[2018.08.23-18.35.57:022][101]Cmd: EDIT COPY
+[2018.08.23-18.35.57:288][117]Cmd: EDIT PASTE
+[2018.08.23-18.36.16:911][289]Cmd: EDIT COPY
+[2018.08.23-18.36.17:161][304]Cmd: EDIT PASTE
+[2018.08.23-18.36.20:551][505]Cmd: EDIT COPY
+[2018.08.23-18.36.20:767][518]Cmd: EDIT PASTE
+[2018.08.23-18.36.27:125][897]Cmd: EDIT COPY
+[2018.08.23-18.36.27:458][917]Cmd: EDIT PASTE
+[2018.08.23-18.36.33:321][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon35)
+[2018.08.23-18.36.34:373][327]Cmd: EDIT COPY
+[2018.08.23-18.36.34:606][341]Cmd: EDIT PASTE
+[2018.08.23-18.36.40:681][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon35)
+[2018.08.23-18.36.42:101][786]Cmd: EDIT COPY
+[2018.08.23-18.36.42:418][805]Cmd: EDIT PASTE
+[2018.08.23-18.36.59:940][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon38)
+[2018.08.23-18.37.00:711][896]Cmd: EDIT COPY
+[2018.08.23-18.37.00:927][909]Cmd: EDIT PASTE
+[2018.08.23-18.37.26:495][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon34)
+[2018.08.23-18.37.28:586][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon16)
+[2018.08.23-18.37.29:744][630]Cmd: EDIT COPY
+[2018.08.23-18.37.29:993][645]Cmd: EDIT PASTE
+[2018.08.23-18.37.42:207][374]Cmd: EDIT COPY
+[2018.08.23-18.37.42:456][389]Cmd: EDIT PASTE
+[2018.08.23-18.37.49:086][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon38)
+[2018.08.23-18.37.51:044][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon23)
+[2018.08.23-18.37.53:361][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon22)
+[2018.08.23-18.37.55:806][179]Cmd: EDIT COPY
+[2018.08.23-18.37.56:072][195]Cmd: EDIT PASTE
+[2018.08.23-18.38.01:594][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon23)
+[2018.08.23-18.38.02:480][575]Cmd: EDIT COPY
+[2018.08.23-18.38.02:747][591]Cmd: EDIT PASTE
+[2018.08.23-18.39.18:786][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.39.19:610][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon15)
+[2018.08.23-18.39.20:584][251]Cmd: EDIT COPY
+[2018.08.23-18.39.20:851][267]Cmd: EDIT PASTE
+[2018.08.23-18.39.26:338][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon29)
+[2018.08.23-18.39.29:129][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur13)
+[2018.08.23-18.39.31:994][925]Cmd: EDIT COPY
+[2018.08.23-18.39.32:245][940]Cmd: EDIT PASTE
+[2018.08.23-18.39.37:369][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur16)
+[2018.08.23-18.39.43:372][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon14)
+[2018.08.23-18.39.44:348][658]Cmd: EDIT COPY
+[2018.08.23-18.39.44:565][671]Cmd: EDIT PASTE
+[2018.08.23-18.39.47:964][872]Cmd: EDIT COPY
+[2018.08.23-18.39.48:164][884]Cmd: EDIT PASTE
+[2018.08.23-18.39.52:945][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon27)
+[2018.08.23-18.39.56:885][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon28)
+[2018.08.23-18.39.57:657][445]Cmd: EDIT COPY
+[2018.08.23-18.39.57:907][460]Cmd: EDIT PASTE
+[2018.08.23-18.40.02:332][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon41)
+[2018.08.23-18.40.04:091][826]Cmd: EDIT COPY
+[2018.08.23-18.40.04:307][839]Cmd: EDIT PASTE
+[2018.08.23-18.40.16:493][567]Cmd: EDIT COPY
+[2018.08.23-18.40.16:844][588]Cmd: EDIT PASTE
+[2018.08.23-18.40.23:772][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon29)
+[2018.08.23-18.40.25:228][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur16)
+[2018.08.23-18.40.26:152][139]Cmd: EDIT COPY
+[2018.08.23-18.40.26:436][156]Cmd: EDIT PASTE
+[2018.08.23-18.40.52:781][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon28)
+[2018.08.23-18.40.59:852][144]Cmd: EDIT COPY
+[2018.08.23-18.41.00:086][158]Cmd: EDIT PASTE
+[2018.08.23-18.41.40:481][576]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.23-18.41.44:620][824]LogActorFactory: Actor Factory created cube_3x3
+[2018.08.23-18.41.45:653][884]Cmd: DELETE
+[2018.08.23-18.41.45:653][884]Cmd: ACTOR DELETE
+[2018.08.23-18.41.45:654][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.41.45:673][884]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.08.23-18.41.49:963][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-18.41.50:279][135]LogSavePackage: Save=283.33ms
+[2018.08.23-18.41.50:279][135]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon1905FD68D4709D42DBA0BD3AFD48EFA8C.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-18.41.50:282][135]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-18.41.55:082][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon46)
+[2018.08.23-18.41.59:026][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon46)
+[2018.08.23-18.42.00:273][720]Cmd: EDIT COPY
+[2018.08.23-18.42.00:523][735]Cmd: EDIT PASTE
+[2018.08.23-18.42.05:304][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur19)
+[2018.08.23-18.42.06:134][ 60]Cmd: EDIT COPY
+[2018.08.23-18.42.06:333][ 72]Cmd: EDIT PASTE
+[2018.08.23-18.42.09:359][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon47)
+[2018.08.23-18.42.12:696][448]Cmd: EDIT COPY
+[2018.08.23-18.42.12:912][461]Cmd: EDIT PASTE
+[2018.08.23-18.42.16:725][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon8)
+[2018.08.23-18.42.17:671][741]Cmd: EDIT COPY
+[2018.08.23-18.42.17:921][756]Cmd: EDIT PASTE
+[2018.08.23-18.42.23:102][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.42.25:117][182]Cmd: EDIT COPY
+[2018.08.23-18.42.27:167][305]Cmd: EDIT COPY
+[2018.08.23-18.42.27:500][325]Cmd: EDIT PASTE
+[2018.08.23-18.42.32:049][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon47)
+[2018.08.23-18.42.35:371][786]Cmd: EDIT COPY
+[2018.08.23-18.42.35:639][802]Cmd: EDIT PASTE
+[2018.08.23-18.42.44:155][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon49)
+[2018.08.23-18.42.44:949][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur21)
+[2018.08.23-18.42.45:879][408]Cmd: EDIT COPY
+[2018.08.23-18.42.46:128][423]Cmd: EDIT PASTE
+[2018.08.23-18.42.48:188][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon50)
+[2018.08.23-18.42.48:935][586]Cmd: EDIT COPY
+[2018.08.23-18.42.49:169][600]Cmd: EDIT PASTE
+[2018.08.23-18.42.53:571][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon31)
+[2018.08.23-18.42.58:497][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.43.07:176][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon49)
+[2018.08.23-18.43.10:910][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon50)
+[2018.08.23-18.43.12:252][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon51)
+[2018.08.23-18.43.18:234][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon28)
+[2018.08.23-18.43.27:502][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon49)
+[2018.08.23-18.43.31:737][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.43.36:430][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon31)
+[2018.08.23-18.43.47:508][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.44.06:400][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon51)
+[2018.08.23-18.44.07:810][268]Cmd: EDIT COPY
+[2018.08.23-18.44.08:094][285]Cmd: EDIT PASTE
+[2018.08.23-18.44.21:692][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur17)
+[2018.08.23-18.44.22:557][146]Cmd: EDIT COPY
+[2018.08.23-18.44.22:857][164]Cmd: EDIT PASTE
+[2018.08.23-18.44.29:342][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon52)
+[2018.08.23-18.44.30:084][591]Cmd: EDIT COPY
+[2018.08.23-18.44.30:300][604]Cmd: EDIT PASTE
+[2018.08.23-18.44.35:422][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.44.48:012][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon30)
+[2018.08.23-18.44.55:829][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon33)
+[2018.08.23-18.44.59:779][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon9)
+[2018.08.23-18.45.02:527][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon11)
+[2018.08.23-18.45.04:680][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon12)
+[2018.08.23-18.45.10:904][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon34)
+[2018.08.23-18.45.20:316][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon10)
+[2018.08.23-18.45.27:484][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon53)
+[2018.08.23-18.45.28:431][ 43]Cmd: EDIT COPY
+[2018.08.23-18.45.28:681][ 58]Cmd: EDIT PASTE
+[2018.08.23-18.45.59:367][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-18.45.59:750][881]LogSavePackage: Save=355.69ms
+[2018.08.23-18.45.59:750][881]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon16747D137411F6DDE52E77F99C6DB8363.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-18.45.59:754][881]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-18.46.37:355][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon9)
+[2018.08.23-18.46.38:782][216]Cmd: EDIT COPY
+[2018.08.23-18.46.39:115][236]Cmd: EDIT PASTE
+[2018.08.23-18.47.00:826][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon34)
+[2018.08.23-18.47.01:983][601]Cmd: EDIT COPY
+[2018.08.23-18.47.02:433][628]Cmd: EDIT PASTE
+[2018.08.23-18.47.08:984][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon16)
+[2018.08.23-18.47.10:026][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon55)
+[2018.08.23-18.47.12:827][239]Cmd: EDIT COPY
+[2018.08.23-18.47.13:093][255]Cmd: EDIT PASTE
+[2018.08.23-18.47.25:935][ 22]Cmd: EDIT COPY
+[2018.08.23-18.47.26:368][ 48]Cmd: EDIT PASTE
+[2018.08.23-18.47.42:555][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon37)
+[2018.08.23-18.47.45:946][212]Cmd: EDIT COPY
+[2018.08.23-18.47.46:195][227]Cmd: EDIT PASTE
+[2018.08.23-18.47.52:529][604]Cmd: EDIT COPY
+[2018.08.23-18.47.52:846][623]Cmd: EDIT PASTE
+[2018.08.23-18.48.04:938][345]Cmd: EDIT COPY
+[2018.08.23-18.48.05:290][366]Cmd: EDIT PASTE
+[2018.08.23-18.48.13:788][872]Cmd: EDIT COPY
+[2018.08.23-18.48.14:071][889]Cmd: EDIT PASTE
+[2018.08.23-18.48.27:688][702]Cmd: EDIT COPY
+[2018.08.23-18.48.27:937][717]Cmd: EDIT PASTE
+[2018.08.23-18.48.40:343][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon33)
+[2018.08.23-18.48.41:669][534]Cmd: EDIT COPY
+[2018.08.23-18.48.41:903][548]Cmd: EDIT PASTE
+[2018.08.23-18.49.11:365][311]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.49.11:390][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.49.11:391][311]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:49:11 PM)
+[2018.08.23-18.49.11:391][311]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.49.11:412][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020918s)
+[2018.08.23-18.49.11:414][311]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.49.11:414][311]LogPlayLevel: PIE: World Init took: (0.002171s)
+[2018.08.23-18.49.11:415][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.023712s)
+[2018.08.23-18.49.11:435][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.49.11:482][311]LogInit: FAudioDevice initialized.
+[2018.08.23-18.49.11:517][311]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.49.11:855][311]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.49.11
+[2018.08.23-18.49.11:855][311]LogWorld: Bringing up level for play took: 0.335883
+[2018.08.23-18.49.11:859][311]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 1.05
+[2018.08.23-18.49.23:382][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x4)
+[2018.08.23-18.49.25:059][ 92]Cmd: EDIT COPY
+[2018.08.23-18.49.26:094][154]Cmd: EDIT PASTE
+[2018.08.23-18.49.29:750][368]Cmd: EDIT COPY
+[2018.08.23-18.49.29:983][382]Cmd: EDIT PASTE
+[2018.08.23-18.49.34:979][679]Cmd: EDIT COPY
+[2018.08.23-18.49.35:213][693]Cmd: EDIT PASTE
+[2018.08.23-18.49.41:733][ 69]Cmd: EDIT COPY
+[2018.08.23-18.49.41:966][ 83]Cmd: EDIT PASTE
+[2018.08.23-18.49.51:616][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x112)
+[2018.08.23-18.49.58:445][ 59]Cmd: EDIT COPY
+[2018.08.23-18.49.58:894][ 86]Cmd: EDIT PASTE
+[2018.08.23-18.50.00:937][206]Cmd: TRANSACTION UNDO
+[2018.08.23-18.50.00:937][206]LogEditorTransaction: Undo Move Actors
+[2018.08.23-18.50.01:248][224]Cmd: TRANSACTION UNDO
+[2018.08.23-18.50.01:248][224]LogEditorTransaction: Undo Paste
+[2018.08.23-18.50.15:359][ 65]Cmd: EDIT COPY
+[2018.08.23-18.50.15:761][ 89]Cmd: EDIT PASTE
+[2018.08.23-18.50.22:162][470]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.50.22:186][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.50.22:187][470]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:50:22 PM)
+[2018.08.23-18.50.22:187][470]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.50.22:203][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016326s)
+[2018.08.23-18.50.22:204][470]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.50.22:205][470]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2018.08.23-18.50.22:205][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.018422s)
+[2018.08.23-18.50.22:225][470]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.50.22:266][470]LogInit: FAudioDevice initialized.
+[2018.08.23-18.50.22:297][470]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.50.22:306][470]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.50.22
+[2018.08.23-18.50.22:307][470]LogWorld: Bringing up level for play took: 0.007381
+[2018.08.23-18.50.22:310][470]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.499
+[2018.08.23-18.50.47:411][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x115)
+[2018.08.23-18.50.50:528][139]Cmd: EDIT COPY
+[2018.08.23-18.50.50:778][154]Cmd: EDIT PASTE
+[2018.08.23-18.50.54:804][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x118)
+[2018.08.23-18.50.56:807][511]Cmd: DELETE
+[2018.08.23-18.50.56:807][511]Cmd: ACTOR DELETE
+[2018.08.23-18.50.56:809][511]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-18.50.56:827][511]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.08.23-18.51.03:829][931]LogActorFactory: Actor Factory created murdungeon1
+[2018.08.23-18.51.04:999][  1]LogActorFactory: Actor Factory created murdungeon1
+[2018.08.23-18.51.11:212][370]Cmd: EDIT COPY
+[2018.08.23-18.51.11:379][380]Cmd: EDIT PASTE
+[2018.08.23-18.51.14:238][549]Cmd: EDIT COPY
+[2018.08.23-18.51.14:471][563]Cmd: EDIT PASTE
+[2018.08.23-18.51.18:084][777]Cmd: EDIT COPY
+[2018.08.23-18.51.18:301][790]Cmd: EDIT PASTE
+[2018.08.23-18.51.23:252][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur10)
+[2018.08.23-18.51.24:129][135]Cmd: EDIT COPY
+[2018.08.23-18.51.24:412][152]Cmd: EDIT PASTE
+[2018.08.23-18.51.27:906][359]Cmd: EDIT COPY
+[2018.08.23-18.51.28:089][370]Cmd: EDIT PASTE
+[2018.08.23-18.51.31:052][545]Cmd: EDIT COPY
+[2018.08.23-18.51.31:319][561]Cmd: EDIT PASTE
+[2018.08.23-18.51.38:304][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon73)
+[2018.08.23-18.51.41:956][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur26)
+[2018.08.23-18.51.43:371][271]Cmd: EDIT COPY
+[2018.08.23-18.51.43:672][289]Cmd: EDIT PASTE
+[2018.08.23-18.51.46:359][447]Cmd: EDIT COPY
+[2018.08.23-18.51.46:626][463]Cmd: EDIT PASTE
+[2018.08.23-18.51.51:767][768]Cmd: EDIT COPY
+[2018.08.23-18.51.52:003][782]Cmd: EDIT PASTE
+[2018.08.23-18.51.54:270][915]Cmd: EDIT COPY
+[2018.08.23-18.51.54:486][928]Cmd: EDIT PASTE
+[2018.08.23-18.52.00:921][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-18.52.01:801][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon26)
+[2018.08.23-18.52.03:954][487]Cmd: EDIT COPY
+[2018.08.23-18.52.04:153][499]Cmd: EDIT PASTE
+[2018.08.23-18.52.35:516][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon71)
+[2018.08.23-18.52.57:795][668]Cmd: EDIT COPY
+[2018.08.23-18.52.58:095][686]Cmd: EDIT PASTE
+[2018.08.23-18.53.13:756][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x119)
+[2018.08.23-18.53.21:323][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.53.21:348][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.53.21:349][ 70]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:53:21 PM)
+[2018.08.23-18.53.21:349][ 70]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.53.21:364][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015535s)
+[2018.08.23-18.53.21:366][ 70]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.53.21:366][ 70]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2018.08.23-18.53.21:366][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.017746s)
+[2018.08.23-18.53.21:386][ 70]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.53.21:430][ 70]LogInit: FAudioDevice initialized.
+[2018.08.23-18.53.21:459][ 70]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.53.21:470][ 70]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.53.21
+[2018.08.23-18.53.21:470][ 70]LogWorld: Bringing up level for play took: 0.008659
+[2018.08.23-18.53.21:473][ 70]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.665
+[2018.08.23-18.53.39:726][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon40)
+[2018.08.23-18.53.40:790][217]Cmd: EDIT COPY
+[2018.08.23-18.53.41:057][233]Cmd: EDIT PASTE
+[2018.08.23-18.53.55:431][ 90]Cmd: TRANSACTION UNDO
+[2018.08.23-18.53.55:431][ 90]LogEditorTransaction: Undo Scale Actors
+[2018.08.23-18.53.59:236][317]Cmd: TRANSACTION UNDO
+[2018.08.23-18.53.59:236][317]LogEditorTransaction: Undo Scale Actors
+[2018.08.23-18.54.01:474][450]Cmd: TRANSACTION UNDO
+[2018.08.23-18.54.01:474][450]LogEditorTransaction: Undo Scale Actors
+[2018.08.23-18.54.18:541][473]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.54.18:565][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.54.18:565][473]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:54:18 PM)
+[2018.08.23-18.54.18:565][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.54.18:584][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019066s)
+[2018.08.23-18.54.18:585][473]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.54.18:586][473]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2018.08.23-18.54.18:586][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.021264s)
+[2018.08.23-18.54.18:606][473]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.54.18:650][473]LogInit: FAudioDevice initialized.
+[2018.08.23-18.54.18:680][473]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.54.18:690][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.54.18
+[2018.08.23-18.54.18:690][473]LogWorld: Bringing up level for play took: 0.008275
+[2018.08.23-18.54.18:693][473]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.116
+[2018.08.23-18.54.38:931][675]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.54.38:954][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.54.38:955][675]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:54:38 PM)
+[2018.08.23-18.54.38:955][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.54.38:970][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015210s)
+[2018.08.23-18.54.38:971][675]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.54.38:972][675]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2018.08.23-18.54.38:972][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.017338s)
+[2018.08.23-18.54.38:990][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.54.39:032][675]LogInit: FAudioDevice initialized.
+[2018.08.23-18.54.39:066][675]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.54.39:075][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.54.39
+[2018.08.23-18.54.39:076][675]LogWorld: Bringing up level for play took: 0.007608
+[2018.08.23-18.54.39:078][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 0.269
+[2018.08.23-18.54.41:491][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierre2)
+[2018.08.23-18.55.11:988][634]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-18.55.12:012][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-18.55.12:012][634]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 8:55:12 PM)
+[2018.08.23-18.55.12:012][634]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-18.55.12:027][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015434s)
+[2018.08.23-18.55.12:028][634]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-18.55.12:029][634]LogPlayLevel: PIE: World Init took: (0.001324s)
+[2018.08.23-18.55.12:029][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.017246s)
+[2018.08.23-18.55.12:049][634]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-18.55.12:089][634]LogInit: FAudioDevice initialized.
+[2018.08.23-18.55.12:121][634]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-18.55.12:130][634]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-19.55.12
+[2018.08.23-18.55.12:131][634]LogWorld: Bringing up level for play took: 0.007598
+[2018.08.23-18.55.12:133][634]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.675
+[2018.08.23-18.58.10:077][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon18)
+[2018.08.23-18.58.12:564][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon32)
+[2018.08.23-18.58.13:990][528]Cmd: EDIT COPY
+[2018.08.23-18.58.14:506][559]Cmd: EDIT PASTE
+[2018.08.23-18.58.20:626][923]Cmd: EDIT COPY
+[2018.08.23-18.58.20:992][945]Cmd: EDIT PASTE
+[2018.08.23-18.58.31:059][544]Cmd: EDIT COPY
+[2018.08.23-18.58.31:308][559]Cmd: EDIT PASTE
+[2018.08.23-18.58.34:114][725]Cmd: EDIT COPY
+[2018.08.23-18.58.34:348][739]Cmd: EDIT PASTE
+[2018.08.23-18.58.37:903][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon32)
+[2018.08.23-18.58.39:212][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon91)
+[2018.08.23-18.58.39:969][ 69]Cmd: EDIT COPY
+[2018.08.23-18.58.40:219][ 84]Cmd: EDIT PASTE
+[2018.08.23-18.58.44:676][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon32)
+[2018.08.23-18.58.50:942][721]Cmd: EDIT COPY
+[2018.08.23-18.58.51:192][736]Cmd: EDIT PASTE
+[2018.08.23-18.58.56:894][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon92)
+[2018.08.23-18.58.58:850][190]Cmd: EDIT COPY
+[2018.08.23-18.58.59:233][213]Cmd: EDIT PASTE
+[2018.08.23-18.59.08:630][774]Cmd: EDIT COPY
+[2018.08.23-18.59.08:997][796]Cmd: EDIT PASTE
+[2018.08.23-18.59.13:056][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon42)
+[2018.08.23-18.59.13:997][ 91]Cmd: EDIT COPY
+[2018.08.23-18.59.14:231][105]Cmd: EDIT PASTE
+[2018.08.23-18.59.18:152][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon42)
+[2018.08.23-18.59.19:055][390]Cmd: EDIT COPY
+[2018.08.23-18.59.19:354][408]Cmd: EDIT PASTE
+[2018.08.23-18.59.31:698][145]Cmd: EDIT COPY
+[2018.08.23-18.59.31:931][159]Cmd: EDIT PASTE
+[2018.08.23-18.59.35:818][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon93)
+[2018.08.23-18.59.36:893][452]Cmd: EDIT COPY
+[2018.08.23-18.59.37:110][465]Cmd: EDIT PASTE
+[2018.08.23-18.59.52:134][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon92)
+[2018.08.23-18.59.53:021][414]Cmd: EDIT COPY
+[2018.08.23-18.59.53:388][436]Cmd: EDIT PASTE
+[2018.08.23-19.00.01:039][892]Cmd: EDIT COPY
+[2018.08.23-19.00.01:339][910]Cmd: EDIT PASTE
+[2018.08.23-19.00.06:564][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon45)
+[2018.08.23-19.00.09:614][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon98)
+[2018.08.23-19.00.10:588][457]Cmd: EDIT COPY
+[2018.08.23-19.00.10:821][471]Cmd: EDIT PASTE
+[2018.08.23-19.00.18:485][928]Cmd: EDIT COPY
+[2018.08.23-19.00.18:702][941]Cmd: EDIT PASTE
+[2018.08.23-19.00.21:190][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon45)
+[2018.08.23-19.00.21:895][128]Cmd: EDIT COPY
+[2018.08.23-19.00.22:130][142]Cmd: EDIT PASTE
+[2018.08.23-19.00.28:483][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon100)
+[2018.08.23-19.00.29:611][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon95)
+[2018.08.23-19.00.31:400][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon100)
+[2018.08.23-19.00.32:273][740]Cmd: EDIT COPY
+[2018.08.23-19.00.32:523][755]Cmd: EDIT PASTE
+[2018.08.23-19.00.35:968][960]Cmd: TRANSACTION UNDO
+[2018.08.23-19.00.35:968][960]LogEditorTransaction: Undo Paste
+[2018.08.23-19.00.37:258][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon98)
+[2018.08.23-19.00.39:332][155]Cmd: EDIT COPY
+[2018.08.23-19.00.39:517][166]Cmd: EDIT PASTE
+[2018.08.23-19.00.42:521][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon101)
+[2018.08.23-19.00.43:291][388]Cmd: EDIT COPY
+[2018.08.23-19.00.43:491][400]Cmd: EDIT PASTE
+[2018.08.23-19.00.49:255][743]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.23-19.00.55:782][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon55)
+[2018.08.23-19.00.59:169][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon34)
+[2018.08.23-19.01.03:672][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x40)
+[2018.08.23-19.01.04:696][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur23)
+[2018.08.23-19.01.05:535][697]Cmd: EDIT COPY
+[2018.08.23-19.01.05:768][711]Cmd: EDIT PASTE
+[2018.08.23-19.01.11:403][ 44]Cmd: EDIT COPY
+[2018.08.23-19.01.11:703][ 62]Cmd: EDIT PASTE
+[2018.08.23-19.01.14:298][215]Cmd: EDIT COPY
+[2018.08.23-19.01.14:531][229]Cmd: EDIT PASTE
+[2018.08.23-19.01.17:288][392]Cmd: EDIT COPY
+[2018.08.23-19.01.17:488][404]Cmd: EDIT PASTE
+[2018.08.23-19.01.24:757][837]Cmd: EDIT COPY
+[2018.08.23-19.01.24:990][851]Cmd: EDIT PASTE
+[2018.08.23-19.01.30:165][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur39)
+[2018.08.23-19.01.35:584][475]Cmd: EDIT COPY
+[2018.08.23-19.01.35:884][493]Cmd: EDIT PASTE
+[2018.08.23-19.01.38:691][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur41)
+[2018.08.23-19.01.39:416][700]Cmd: EDIT COPY
+[2018.08.23-19.01.39:649][714]Cmd: EDIT PASTE
+[2018.08.23-19.01.50:314][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur38)
+[2018.08.23-19.01.51:272][406]Cmd: EDIT COPY
+[2018.08.23-19.01.51:539][422]Cmd: EDIT PASTE
+[2018.08.23-19.01.56:703][727]Cmd: EDIT COPY
+[2018.08.23-19.01.56:937][741]Cmd: EDIT PASTE
+[2018.08.23-19.01.59:929][918]Cmd: EDIT COPY
+[2018.08.23-19.02.00:145][931]Cmd: EDIT PASTE
+[2018.08.23-19.02.02:947][ 97]Cmd: EDIT COPY
+[2018.08.23-19.02.03:131][108]Cmd: EDIT PASTE
+[2018.08.23-19.02.06:069][282]Cmd: EDIT COPY
+[2018.08.23-19.02.06:302][296]Cmd: EDIT PASTE
+[2018.08.23-19.02.11:426][601]Cmd: EDIT COPY
+[2018.08.23-19.02.11:644][614]Cmd: EDIT PASTE
+[2018.08.23-19.02.13:647][732]Cmd: EDIT COPY
+[2018.08.23-19.02.13:831][743]Cmd: EDIT PASTE
+[2018.08.23-19.02.18:386][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur51)
+[2018.08.23-19.02.19:106][ 55]Cmd: EDIT COPY
+[2018.08.23-19.02.19:322][ 68]Cmd: EDIT PASTE
+[2018.08.23-19.02.24:568][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur48)
+[2018.08.23-19.02.25:474][432]Cmd: EDIT COPY
+[2018.08.23-19.02.25:724][447]Cmd: EDIT PASTE
+[2018.08.23-19.02.26:829][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-19.02.28:189][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur54)
+[2018.08.23-19.02.33:048][876]Cmd: EDIT COPY
+[2018.08.23-19.02.33:281][890]Cmd: EDIT PASTE
+[2018.08.23-19.02.36:391][ 74]Cmd: EDIT COPY
+[2018.08.23-19.02.36:674][ 91]Cmd: EDIT PASTE
+[2018.08.23-19.02.44:234][542]Cmd: TRANSACTION UNDO
+[2018.08.23-19.02.44:234][542]LogEditorTransaction: Undo Move Actors
+[2018.08.23-19.02.45:822][637]Cmd: TRANSACTION UNDO
+[2018.08.23-19.02.45:822][637]LogEditorTransaction: Undo Paste
+[2018.08.23-19.02.46:637][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon116)
+[2018.08.23-19.02.47:495][733]Cmd: EDIT COPY
+[2018.08.23-19.02.47:729][747]Cmd: EDIT PASTE
+[2018.08.23-19.02.54:373][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon35)
+[2018.08.23-19.02.55:147][186]Cmd: EDIT COPY
+[2018.08.23-19.02.55:497][207]Cmd: EDIT PASTE
+[2018.08.23-19.03.13:994][313]Cmd: EDIT COPY
+[2018.08.23-19.03.14:294][331]Cmd: EDIT PASTE
+[2018.08.23-19.03.19:549][643]Cmd: EDIT COPY
+[2018.08.23-19.03.19:865][662]Cmd: EDIT PASTE
+[2018.08.23-19.03.25:240][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon25)
+[2018.08.23-19.03.26:480][ 54]Cmd: EDIT COPY
+[2018.08.23-19.03.27:202][ 97]Cmd: EDIT PASTE
+[2018.08.23-19.03.33:712][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon120)
+[2018.08.23-19.03.36:025][621]Cmd: EDIT COPY
+[2018.08.23-19.03.36:259][635]Cmd: EDIT PASTE
+[2018.08.23-19.03.53:443][492]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sole4x78)
+[2018.08.23-19.03.54:702][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon121)
+[2018.08.23-19.03.57:334][712]Cmd: EDIT COPY
+[2018.08.23-19.03.57:534][724]Cmd: EDIT PASTE
+[2018.08.23-19.04.01:989][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon47)
+[2018.08.23-19.04.02:931][ 43]Cmd: EDIT COPY
+[2018.08.23-19.04.03:164][ 57]Cmd: EDIT PASTE
+[2018.08.23-19.04.10:292][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon120)
+[2018.08.23-19.04.12:606][614]Cmd: EDIT COPY
+[2018.08.23-19.04.12:839][628]Cmd: EDIT PASTE
+[2018.08.23-19.04.24:693][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x76)
+[2018.08.23-19.04.25:499][382]Cmd: EDIT COPY
+[2018.08.23-19.04.25:699][394]Cmd: EDIT PASTE
+[2018.08.23-19.04.28:773][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon48)
+[2018.08.23-19.04.29:698][629]Cmd: EDIT COPY
+[2018.08.23-19.04.29:915][642]Cmd: EDIT PASTE
+[2018.08.23-19.04.32:421][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon24)
+[2018.08.23-19.04.33:180][833]Cmd: EDIT COPY
+[2018.08.23-19.04.33:431][848]Cmd: EDIT PASTE
+[2018.08.23-19.04.41:968][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon49)
+[2018.08.23-19.04.48:686][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon120)
+[2018.08.23-19.04.49:861][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon121)
+[2018.08.23-19.04.50:399][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon122)
+[2018.08.23-19.04.51:662][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon123)
+[2018.08.23-19.04.59:264][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon24)
+[2018.08.23-19.05.05:393][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon49)
+[2018.08.23-19.05.09:900][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon125)
+[2018.08.23-19.05.11:223][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon122)
+[2018.08.23-19.05.13:528][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon118)
+[2018.08.23-19.05.14:436][271]Cmd: EDIT COPY
+[2018.08.23-19.05.14:803][293]Cmd: EDIT PASTE
+[2018.08.23-19.05.26:642][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon50)
+[2018.08.23-19.05.29:426][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon126)
+[2018.08.23-19.05.30:486][224]Cmd: EDIT COPY
+[2018.08.23-19.05.30:719][238]Cmd: EDIT PASTE
+[2018.08.23-19.05.37:229][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon49)
+[2018.08.23-19.05.38:071][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon50)
+[2018.08.23-19.05.39:848][776]Cmd: EDIT COPY
+[2018.08.23-19.05.40:064][789]Cmd: EDIT PASTE
+[2018.08.23-19.05.46:087][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon126)
+[2018.08.23-19.05.48:045][263]Cmd: EDIT COPY
+[2018.08.23-19.05.48:328][280]Cmd: EDIT PASTE
+[2018.08.23-19.05.52:589][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon127)
+[2018.08.23-19.05.56:522][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon128)
+[2018.08.23-19.06.05:204][283]Cmd: EDIT COPY
+[2018.08.23-19.06.05:554][304]Cmd: EDIT PASTE
+[2018.08.23-19.06.10:447][595]Cmd: EDIT COPY
+[2018.08.23-19.06.10:698][610]Cmd: EDIT PASTE
+[2018.08.23-19.06.20:753][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-19.06.21:319][200]LogSavePackage: Save=473.12ms
+[2018.08.23-19.06.21:319][200]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon164B00BB14552AF2AEB317DABDC506C64.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-19.06.21:323][200]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-19.06.33:933][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon120)
+[2018.08.23-19.06.42:462][461]Cmd: DELETE
+[2018.08.23-19.06.42:462][461]Cmd: ACTOR DELETE
+[2018.08.23-19.06.42:463][461]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-19.06.42:481][461]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.08.23-19.06.44:645][591]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.06.46:448][699]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.06.58:238][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x69)
+[2018.08.23-19.06.59:477][474]Cmd: EDIT COPY
+[2018.08.23-19.06.59:743][490]Cmd: EDIT PASTE
+[2018.08.23-19.07.14:142][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon60)
+[2018.08.23-19.07.17:919][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur54)
+[2018.08.23-19.07.18:826][626]Cmd: EDIT COPY
+[2018.08.23-19.07.19:043][639]Cmd: EDIT PASTE
+[2018.08.23-19.07.25:260][  7]Cmd: EDIT COPY
+[2018.08.23-19.07.25:492][ 21]Cmd: EDIT PASTE
+[2018.08.23-19.07.29:050][232]Cmd: EDIT COPY
+[2018.08.23-19.07.29:284][246]Cmd: EDIT PASTE
+[2018.08.23-19.07.32:400][431]Cmd: TRANSACTION UNDO
+[2018.08.23-19.07.32:400][431]LogEditorTransaction: Undo Paste
+[2018.08.23-19.07.34:220][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon120)
+[2018.08.23-19.07.35:146][591]Cmd: EDIT COPY
+[2018.08.23-19.07.35:329][602]Cmd: EDIT PASTE
+[2018.08.23-19.07.41:679][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon47)
+[2018.08.23-19.07.45:645][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon119)
+[2018.08.23-19.07.58:748][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cube_3x3)
+[2018.08.23-19.07.59:606][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon60)
+[2018.08.23-19.08.08:339][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon47)
+[2018.08.23-19.08.22:944][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon21)
+[2018.08.23-19.08.28:733][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon57)
+[2018.08.23-19.08.36:830][253]Cmd: EDIT COPY
+[2018.08.23-19.08.37:147][272]Cmd: EDIT PASTE
+[2018.08.23-19.08.42:279][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon107)
+[2018.08.23-19.08.43:355][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur42)
+[2018.08.23-19.08.44:597][711]Cmd: EDIT COPY
+[2018.08.23-19.08.44:948][732]Cmd: EDIT PASTE
+[2018.08.23-19.09.00:077][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon65)
+[2018.08.23-19.09.00:934][683]Cmd: EDIT COPY
+[2018.08.23-19.09.01:485][716]Cmd: EDIT PASTE
+[2018.08.23-19.09.11:942][340]Cmd: EDIT COPY
+[2018.08.23-19.09.12:226][357]Cmd: EDIT PASTE
+[2018.08.23-19.09.15:498][551]Cmd: EDIT COPY
+[2018.08.23-19.09.15:749][566]Cmd: EDIT PASTE
+[2018.08.23-19.09.19:089][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sole4x56)
+[2018.08.23-19.09.20:148][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon35)
+[2018.08.23-19.09.23:067][997]Cmd: EDIT COPY
+[2018.08.23-19.09.23:366][ 15]Cmd: EDIT PASTE
+[2018.08.23-19.09.30:084][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon60)
+[2018.08.23-19.09.31:609][504]Cmd: EDIT COPY
+[2018.08.23-19.09.31:876][520]Cmd: EDIT PASTE
+[2018.08.23-19.09.35:768][751]Cmd: EDIT COPY
+[2018.08.23-19.09.36:002][765]Cmd: EDIT PASTE
+[2018.08.23-19.09.40:058][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon53)
+[2018.08.23-19.09.41:049][ 63]Cmd: EDIT COPY
+[2018.08.23-19.09.41:299][ 78]Cmd: EDIT PASTE
+[2018.08.23-19.09.44:471][266]Cmd: EDIT COPY
+[2018.08.23-19.09.44:705][280]Cmd: EDIT PASTE
+[2018.08.23-19.09.54:214][847]Cmd: EDIT COPY
+[2018.08.23-19.09.54:464][862]Cmd: EDIT PASTE
+[2018.08.23-19.10.01:383][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon136)
+[2018.08.23-19.10.06:744][593]Cmd: EDIT COPY
+[2018.08.23-19.10.07:028][610]Cmd: EDIT PASTE
+[2018.08.23-19.10.19:908][378]Cmd: EDIT COPY
+[2018.08.23-19.10.20:158][393]Cmd: EDIT PASTE
+[2018.08.23-19.10.31:031][ 42]Cmd: EDIT COPY
+[2018.08.23-19.10.31:333][ 60]Cmd: EDIT PASTE
+[2018.08.23-19.10.45:708][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Murporte1dg2)
+[2018.08.23-19.10.46:746][978]Cmd: EDIT COPY
+[2018.08.23-19.10.46:997][993]Cmd: EDIT PASTE
+[2018.08.23-19.10.55:124][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur56)
+[2018.08.23-19.10.57:032][590]Cmd: DELETE
+[2018.08.23-19.10.57:033][590]Cmd: ACTOR DELETE
+[2018.08.23-19.10.57:035][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-19.10.57:053][590]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.08.23-19.10.58:529][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon35)
+[2018.08.23-19.10.59:437][731]Cmd: EDIT COPY
+[2018.08.23-19.10.59:687][746]Cmd: EDIT PASTE
+[2018.08.23-19.11.13:015][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon66)
+[2018.08.23-19.11.13:830][587]Cmd: EDIT COPY
+[2018.08.23-19.11.14:029][599]Cmd: EDIT PASTE
+[2018.08.23-19.11.24:891][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur15)
+[2018.08.23-19.11.26:166][321]Cmd: EDIT COPY
+[2018.08.23-19.11.26:432][337]Cmd: EDIT PASTE
+[2018.08.23-19.11.42:077][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon141)
+[2018.08.23-19.11.44:926][434]Cmd: EDIT COPY
+[2018.08.23-19.11.45:159][448]Cmd: EDIT PASTE
+[2018.08.23-19.11.48:048][619]Cmd: EDIT COPY
+[2018.08.23-19.11.48:266][632]Cmd: EDIT PASTE
+[2018.08.23-19.11.54:534][  5]Cmd: EDIT COPY
+[2018.08.23-19.11.54:768][ 19]Cmd: EDIT PASTE
+[2018.08.23-19.11.57:825][200]Cmd: EDIT COPY
+[2018.08.23-19.11.58:057][214]Cmd: EDIT PASTE
+[2018.08.23-19.12.05:179][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon39)
+[2018.08.23-19.12.10:382][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur61)
+[2018.08.23-19.12.11:640][ 20]Cmd: DELETE
+[2018.08.23-19.12.11:640][ 20]Cmd: ACTOR DELETE
+[2018.08.23-19.12.11:642][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-19.12.11:660][ 20]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.08.23-19.12.14:821][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon39)
+[2018.08.23-19.12.15:621][255]Cmd: EDIT COPY
+[2018.08.23-19.12.15:838][268]Cmd: EDIT PASTE
+[2018.08.23-19.12.22:823][683]Cmd: EDIT COPY
+[2018.08.23-19.12.23:057][697]Cmd: EDIT PASTE
+[2018.08.23-19.12.25:564][845]Cmd: EDIT COPY
+[2018.08.23-19.12.25:764][857]Cmd: EDIT PASTE
+[2018.08.23-19.12.28:137][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon145)
+[2018.08.23-19.12.29:695][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon144)
+[2018.08.23-19.12.30:501][134]Cmd: EDIT COPY
+[2018.08.23-19.12.30:668][144]Cmd: EDIT PASTE
+[2018.08.23-19.12.42:881][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon58)
+[2018.08.23-19.12.43:753][923]Cmd: EDIT COPY
+[2018.08.23-19.12.44:036][940]Cmd: EDIT PASTE
+[2018.08.23-19.12.54:035][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon60)
+[2018.08.23-19.12.55:089][597]Cmd: EDIT COPY
+[2018.08.23-19.12.55:323][611]Cmd: EDIT PASTE
+[2018.08.23-19.13.00:164][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon146)
+[2018.08.23-19.13.01:389][970]Cmd: EDIT COPY
+[2018.08.23-19.13.01:639][985]Cmd: EDIT PASTE
+[2018.08.23-19.13.06:612][281]Cmd: TRANSACTION UNDO
+[2018.08.23-19.13.06:612][281]LogEditorTransaction: Undo Rotate Actors
+[2018.08.23-19.13.12:223][616]Cmd: EDIT COPY
+[2018.08.23-19.13.12:975][661]Cmd: EDIT PASTE
+[2018.08.23-19.13.16:651][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur62)
+[2018.08.23-19.13.19:166][ 23]Cmd: EDIT COPY
+[2018.08.23-19.13.19:400][ 37]Cmd: EDIT PASTE
+[2018.08.23-19.13.38:790][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon62)
+[2018.08.23-19.13.58:631][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur59)
+[2018.08.23-19.14.03:537][666]Cmd: EDIT COPY
+[2018.08.23-19.14.03:770][680]Cmd: EDIT PASTE
+[2018.08.23-19.14.10:387][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-19.14.10:921][ 67]LogSavePackage: Save=501.37ms
+[2018.08.23-19.14.10:921][ 67]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon12C7AF0EF4A69B71F7224409A7DF6EC4F.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-19.14.10:926][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-19.14.21:395][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur46)
+[2018.08.23-19.14.24:900][895]Cmd: EDIT COPY
+[2018.08.23-19.14.25:133][909]Cmd: EDIT PASTE
+[2018.08.23-19.14.30:676][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur65)
+[2018.08.23-19.14.32:886][366]Cmd: EDIT COPY
+[2018.08.23-19.14.33:069][377]Cmd: EDIT PASTE
+[2018.08.23-19.14.48:380][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon123)
+[2018.08.23-19.14.54:348][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon118)
+[2018.08.23-19.15.00:596][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon123)
+[2018.08.23-19.15.34:303][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon57)
+[2018.08.23-19.15.42:065][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur58)
+[2018.08.23-19.15.43:642][569]Cmd: EDIT COPY
+[2018.08.23-19.15.43:975][589]Cmd: EDIT PASTE
+[2018.08.23-19.15.46:967][766]Cmd: EDIT COPY
+[2018.08.23-19.15.47:202][780]Cmd: EDIT PASTE
+[2018.08.23-19.15.52:114][ 72]Cmd: EDIT COPY
+[2018.08.23-19.15.52:365][ 87]Cmd: EDIT PASTE
+[2018.08.23-19.15.58:834][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon155)
+[2018.08.23-19.16.03:849][768]Cmd: EDIT COPY
+[2018.08.23-19.16.04:150][786]Cmd: EDIT PASTE
+[2018.08.23-19.16.08:641][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon33)
+[2018.08.23-19.16.09:635][110]Cmd: EDIT COPY
+[2018.08.23-19.16.09:868][124]Cmd: EDIT PASTE
+[2018.08.23-19.16.13:363][331]Cmd: EDIT COPY
+[2018.08.23-19.16.13:597][345]Cmd: EDIT PASTE
+[2018.08.23-19.16.33:545][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon56)
+[2018.08.23-19.16.34:605][599]Cmd: EDIT COPY
+[2018.08.23-19.16.34:856][614]Cmd: EDIT PASTE
+[2018.08.23-19.16.39:403][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon63)
+[2018.08.23-19.16.40:196][929]Cmd: EDIT COPY
+[2018.08.23-19.16.40:446][944]Cmd: EDIT PASTE
+[2018.08.23-19.16.48:566][428]Cmd: EDIT COPY
+[2018.08.23-19.16.48:799][442]Cmd: EDIT PASTE
+[2018.08.23-19.16.52:261][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon157)
+[2018.08.23-19.16.54:687][790]Cmd: EDIT COPY
+[2018.08.23-19.16.54:936][805]Cmd: EDIT PASTE
+[2018.08.23-19.17.01:466][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur73)
+[2018.08.23-19.17.04:410][368]Cmd: EDIT COPY
+[2018.08.23-19.17.04:609][380]Cmd: EDIT PASTE
+[2018.08.23-19.17.11:880][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon158)
+[2018.08.23-19.17.12:639][856]Cmd: EDIT COPY
+[2018.08.23-19.17.12:872][870]Cmd: EDIT PASTE
+[2018.08.23-19.17.16:446][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon66)
+[2018.08.23-19.17.32:203][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillierdungeon65)
+[2018.08.23-19.17.33:075][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon158)
+[2018.08.23-19.17.35:703][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon159)
+[2018.08.23-19.17.39:836][450]Cmd: EDIT COPY
+[2018.08.23-19.17.40:169][470]Cmd: EDIT PASTE
+[2018.08.23-19.17.45:905][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon157)
+[2018.08.23-19.17.46:759][860]Cmd: EDIT COPY
+[2018.08.23-19.17.47:010][875]Cmd: EDIT PASTE
+[2018.08.23-19.18.05:184][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur74)
+[2018.08.23-19.18.05:858][999]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (murdungeon159)
+[2018.08.23-19.18.06:579][ 40]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (murdungeon158)
+[2018.08.23-19.18.22:222][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon161)
+[2018.08.23-19.18.24:311][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon162)
+[2018.08.23-19.18.27:099][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon160)
+[2018.08.23-19.18.27:836][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (entremur75)
+[2018.08.23-19.18.28:794][359]Cmd: EDIT COPY
+[2018.08.23-19.18.29:043][374]Cmd: EDIT PASTE
+[2018.08.23-19.18.41:959][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (murdungeon162)
+[2018.08.23-19.18.42:750][190]Cmd: EDIT COPY
+[2018.08.23-19.18.43:000][205]Cmd: EDIT PASTE
+[2018.08.23-19.18.51:229][695]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.18.52:051][744]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.00:898][271]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.02:909][391]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.13:051][996]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.13:842][ 43]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.18:488][319]Cmd: EDIT COPY
+[2018.08.23-19.19.18:804][338]Cmd: EDIT PASTE
+[2018.08.23-19.19.50:281][217]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.19.51:172][270]LogActorFactory: Actor Factory created Murporte1dg
+[2018.08.23-19.20.15:199][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-19.20.15:769][698]LogSavePackage: Save=534.22ms
+[2018.08.23-19.20.15:769][698]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon1BEB7D86B426D8DB043FF169E2FAC3A11.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-19.20.15:773][698]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-19.27.56:381][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-19.27.56:952][ 79]LogSavePackage: Save=534.84ms
+[2018.08.23-19.27.56:952][ 79]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon163BF724D45782AD3A2AF2EB6C2BF66D2.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-19.27.56:954][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-19.27.58:451][165]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-19.27.58:478][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-19.27.58:478][165]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 9:27:58 PM)
+[2018.08.23-19.27.58:478][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-19.27.58:510][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031455s)
+[2018.08.23-19.27.58:511][165]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-19.27.58:512][165]LogPlayLevel: PIE: World Init took: (0.001644s)
+[2018.08.23-19.27.58:512][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.033698s)
+[2018.08.23-19.27.58:531][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-19.27.58:575][165]LogInit: FAudioDevice initialized.
+[2018.08.23-19.27.58:609][165]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-19.27.58:624][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-20.27.58
+[2018.08.23-19.27.58:625][165]LogWorld: Bringing up level for play took: 0.013573
+[2018.08.23-19.27.58:629][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.18
+[2018.08.23-19.28.24:792][705]MapCheck: New page: Map Check
+[2018.08.23-19.28.25:047][705]Cmd: MAP REBUILD ALLVISIBLE
+[2018.08.23-19.28.25:050][705]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.08.23-19.28.27:507][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.08.23-19.28.27:676][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.08.23-19.28.27:684][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basics, compiling. 
+[2018.08.23-19.28.27:693][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_mursol, compiling. 
+[2018.08.23-19.28.27:701][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basics, compiling. 
+[2018.08.23-19.28.27:708][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PanneauBois, compiling. 
+[2018.08.23-19.28.27:717][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bois, compiling. 
+[2018.08.23-19.28.27:725][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Corde, compiling. 
+[2018.08.23-19.28.30:136][705]TextureStreamingBuild:Display: Compiling optional shaders took 2.762 seconds.
+[2018.08.23-19.28.30:137][705]LogLevel:Display: Export Material TexCoord Scales took 0.001 seconds.
+[2018.08.23-19.28.30:297][705]TextureStreamingBuild:Display: Build Texture Streaming took 0.072 seconds.
+[2018.08.23-19.28.30:360][705]LightingResults: New page: Lighting Build - Aug 23, 2018, 9:28:30 PM
+[2018.08.23-19.28.30:752][705]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.08.23-19.28.31:094][705]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.08.23-19.28.31:220][705]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.08.23-19.28.32:261][705]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.08.23-19.28.32:261][705]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16808
+[2018.08.23-19.28.35:557][705]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.08.23-19.28.35:592][705]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.08.23-19.28.35:592][705]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.08.23-19.28.35:592][705]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.08.23-19.28.35:592][705]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.08.23-19.28.35:592][705]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.08.23-19.28.36:003][705]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.08.23-19.28.36:004][705]MapCheck: New page: LevelDungeon1 - Aug 23, 2018, 9:28:36 PM
+[2018.08.23-19.28.36:293][705]MapCheck:Warning: Warning Sole4x15 Sole4x15 is in the same location as Sole4x11 
+[2018.08.23-19.28.36:293][705]MapCheck:Warning: Warning Sole4x11 Sole4x11 is in the same location as Sole4x15 
+[2018.08.23-19.28.36:308][705]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.08.23-19.28.47:754][705]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 11,749.205ms to complete.
+[2018.08.23-19.28.47:777][705]LogEditorBuildUtils: Build time 0:22
+[2018.08.23-19.28.48:150][706]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basics, compiling. 
+[2018.08.23-19.28.48:226][706]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basics, compiling. 
+[2018.08.23-19.28.48:304][707]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PanneauBois, compiling. 
+[2018.08.23-19.28.48:313][707]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PanneauBois, compiling. 
+[2018.08.23-19.29.22:964][521]Job is a success!
+[2018.08.23-19.29.23:552][522]LogMaterial:Warning: Material /Game/Character/object/Packdepierre/M_Basics.M_Basics needed to have new flag set bUsedWithStaticLighting !
+[2018.08.23-19.29.23:557][522]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-19.29.23:599][522]LogMaterial:Warning: Material /Game/Character/Mat/PanneauBois.PanneauBois needed to have new flag set bUsedWithStaticLighting !
+[2018.08.23-19.29.23:629][522]LogMaterial: Missing cached shader map for material PanneauBois, compiling. 
+[2018.08.23-19.29.27:427][522]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.08.23-19.29.27:427][522]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.08.23-19.29.27:427][522]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.08.23-19.29.27:427][522]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.08.23-19.29.27:427][522]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2018.08.23-19.29.27:428][522]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2018.08.23-19.29.27:428][522]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2018.08.23-19.29.27:428][522]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2018.08.23-19.29.27:628][522]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2018.08.23-19.29.27:750][522]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.08.23-19.29.27:802][522]Lightmass on MSI: 36.6 sec total, 220 ms importing, 89 ms setup, 4.20 sec photons, 32.1 sec processing, 0 ms extra exporting [456/456 mappings]. Threads: 2:08 min total, 1:20 min processing.
+[2018.08.23-19.29.27:863][522]LogStaticLightingSystem: Illumination: 57.4 sec (3.71 sec encoding lightmaps, 320 ms encoding shadowmaps)
+[2018.08.23-19.29.27:863][522]LogStaticLightingSystem: Lightmap texture memory:  4.5 MB (4.5 MB streaming, 0.0 MB non-streaming), 8 textures
+[2018.08.23-19.29.27:863][522]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.08.23-19.29.28:539][522]DumpUnbuiltLightIteractions
+[2018.08.23-19.29.28:539][522]Lights with unbuilt interactions: 0
+[2018.08.23-19.29.28:539][522]
+[2018.08.23-19.29.28:539][522]Primitives with unbuilt interactions: 0
+[2018.08.23-19.29.28:549][523]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.08.23-19.29.28:549][523]MapCheck: New page: LevelDungeon1 - Aug 23, 2018, 9:29:28 PM
+[2018.08.23-19.29.28:553][523]MapCheck:Warning: Warning Sole4x15 Sole4x15 is in the same location as Sole4x11 
+[2018.08.23-19.29.28:553][523]MapCheck:Warning: Warning Sole4x11 Sole4x11 is in the same location as Sole4x15 
+[2018.08.23-19.29.28:688][523]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 139.15ms to complete.
+[2018.08.23-19.29.36:484][968]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-19.29.36:510][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-19.29.36:510][968]PIE: New page: PIE session: LevelDungeon1 (Aug 23, 2018, 9:29:36 PM)
+[2018.08.23-19.29.36:511][968]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelDungeon1
+[2018.08.23-19.29.36:539][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028429s)
+[2018.08.23-19.29.36:540][968]LogAIModule: Creating AISystem for world LevelDungeon1
+[2018.08.23-19.29.36:540][968]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2018.08.23-19.29.36:541][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelDungeon1.LevelDungeon1 to /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 (0.029788s)
+[2018.08.23-19.29.36:563][968]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-19.29.36:618][968]LogInit: FAudioDevice initialized.
+[2018.08.23-19.29.36:654][968]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-19.29.36:669][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelDungeon1.LevelDungeon1 up for play (max tick rate 60) at 2018.08.23-20.29.36
+[2018.08.23-19.29.36:670][968]LogWorld: Bringing up level for play took: 0.013894
+[2018.08.23-19.29.36:673][968]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelDungeon1 -0.135
+[2018.08.23-19.30.16:974][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-19.30.17:519][370]LogSavePackage: Save=523.94ms
+[2018.08.23-19.30.17:519][370]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon1525C9D9748DAF35F1349C6A6DA1CFFF5.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1.umap'
+[2018.08.23-19.30.17:523][370]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1.umap
+[2018.08.23-19.30.17:646][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelDungeon1_BuiltData" FILE="../../../../../BSLegend/Content/Maps/LevelDungeon1_BuiltData.uasset" SILENT=true
+[2018.08.23-19.30.18:097][370]LogSavePackage: Save=449.09ms
+[2018.08.23-19.30.18:097][370]LogSavePackage: Moving '../../../../../BSLegend/Saved/LevelDungeon1_BuiltData2341B09E4119DF781FE5B4B7EAD16436.tmp' to '../../../../../BSLegend/Content/Maps/LevelDungeon1_BuiltData.uasset'
+[2018.08.23-19.30.18:100][370]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Maps/LevelDungeon1_BuiltData.uasset
+[2018.08.23-19.30.22:263][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mat/PanneauBois" FILE="../../../../../BSLegend/Content/Character/Mat/PanneauBois.uasset" SILENT=true
+[2018.08.23-19.30.22:299][451]LogSavePackage: Save=25.76ms
+[2018.08.23-19.30.22:299][451]LogSavePackage: Moving '../../../../../BSLegend/Saved/PanneauBois2CAD5E114DA4E4888FD49995B9AB6C05.tmp' to '../../../../../BSLegend/Content/Character/Mat/PanneauBois.uasset'
+[2018.08.23-19.30.22:324][451]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/Mat/PanneauBois.uasset
+[2018.08.23-19.30.22:329][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/Packdepierre/M_Basics" FILE="../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset" SILENT=true
+[2018.08.23-19.30.22:348][451]LogSavePackage: Save=8.89ms
+[2018.08.23-19.30.22:348][451]LogSavePackage: Moving '../../../../../BSLegend/Saved/M_Basics0C561D6247D61DC3A94900BC27AE7D03.tmp' to '../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset'
+[2018.08.23-19.30.22:359][451]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset
+[2018.08.23-19.30.22:928][451]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.08.23-19.30.23:483][452]Cmd: QUIT_EDITOR
+[2018.08.23-19.30.24:791][452]LogExit: Preparing to exit.
+[2018.08.23-19.30.26:181][452]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Content/' was aborted.
+[2018.08.23-19.30.26:521][452]LogExit: Editor shut down
+[2018.08.23-19.30.26:555][452]LogExit: Transaction tracking system shut down
+[2018.08.23-19.30.29:363][452]LogObj: Freed 0b from 0 cluster array pools.
+[2018.08.23-19.30.29:364][452]LogExit: Object subsystem successfully closed.
+[2018.08.23-19.30.29:654][452]LogD3D11RHI: Shutdown
+[2018.08.23-19.30.29:654][452]LogD3D11RHI: CleanupD3DDevice
+[2018.08.23-19.30.30:006][452]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.23-19.30.31:425][452]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.08.23-19.30.31:425][452]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (536)
+[2018.08.23-19.30.31:425][452]LogModuleManager: Shutting down and abandoning module NewLevelDialog (534)
+[2018.08.23-19.30.31:425][452]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.08.23-19.30.31:425][452]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.08.23-19.30.31:449][452]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.08.23-19.30.31:466][452]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.08.23-19.30.31:466][452]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.08.23-19.30.31:477][452]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.08.23-19.30.31:492][452]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.08.23-19.30.31:492][452]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.08.23-19.30.31:513][452]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.16/FeaturePacks/' was aborted.
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.08.23-19.30.31:521][452]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Content/Collections/' was aborted.
+[2018.08.23-19.30.31:521][452]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Content/Developers/rayan/Collections/' was aborted.
+[2018.08.23-19.30.31:521][452]LogDirectoryWatcher: A directory notification for 'D:/BSLegend/Saved/Collections/' was aborted.
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.08.23-19.30.31:521][452]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.08.23-19.30.31:605][452]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.08.23-19.30.31:635][452]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.08.23-19.30.31:651][452]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.08.23-19.30.31:651][452]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.08.23-19.30.31:666][452]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.08.23-19.30.31:677][452]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.08.23-19.30.31:742][452]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.08.23-19.30.31:750][452]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.08.23-19.30.31:807][452]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.08.23-19.30.31:807][452]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.08.23-19.30.31:807][452]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.08.23-19.30.31:807][452]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.08.23-19.30.31:807][452]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.08.23-19.30.31:830][452]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.08.23-19.30.31:847][452]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.08.23-19.30.31:887][452]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.08.23-19.30.31:912][452]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.08.23-19.30.31:912][452]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.08.23-19.30.31:931][452]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.08.23-19.30.31:931][452]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.08.23-19.30.31:931][452]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.08.23-19.30.31:954][452]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.08.23-19.30.31:954][452]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.08.23-19.30.31:954][452]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.08.23-19.30.31:967][452]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.08.23-19.30.31:973][452]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.08.23-19.30.31:988][452]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.08.23-19.30.32:001][452]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.08.23-19.30.32:012][452]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.08.23-19.30.32:035][452]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.08.23-19.30.32:058][452]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.08.23-19.30.32:058][452]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.08.23-19.30.32:069][452]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.08.23-19.30.32:077][452]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.08.23-19.30.32:077][452]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.08.23-19.30.32:086][452]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.08.23-19.30.32:086][452]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.08.23-19.30.32:087][452]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.08.23-19.30.32:092][452]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.08.23-19.30.32:101][452]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.08.23-19.30.32:117][452]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.08.23-19.30.32:140][452]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.08.23-19.30.32:163][452]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.08.23-19.30.32:177][452]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.08.23-19.30.32:187][452]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.08.23-19.30.32:240][452]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.08.23-19.30.32:285][452]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.08.23-19.30.32:299][452]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.08.23-19.30.32:338][452]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.08.23-19.30.32:338][452]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.08.23-19.30.32:349][452]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.08.23-19.30.32:349][452]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.08.23-19.30.32:381][452]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.08.23-19.30.32:381][452]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.08.23-19.30.32:381][452]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.08.23-19.30.32:407][452]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.08.23-19.30.32:426][452]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.08.23-19.30.32:436][452]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.08.23-19.30.32:447][452]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.08.23-19.30.32:506][452]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.08.23-19.30.32:527][452]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.08.23-19.30.32:539][452]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.08.23-19.30.32:539][452]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.08.23-19.30.32:539][452]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.08.23-19.30.32:550][452]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.08.23-19.30.32:550][452]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.08.23-19.30.32:579][452]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.08.23-19.30.32:589][452]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.08.23-19.30.32:603][452]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.08.23-19.30.32:682][452]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.08.23-19.30.32:689][452]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.08.23-19.30.32:689][452]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.08.23-19.30.32:689][452]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.08.23-19.30.32:701][452]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.08.23-19.30.32:717][452]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.08.23-19.30.32:717][452]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.08.23-19.30.32:717][452]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.08.23-19.30.32:717][452]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.08.23-19.30.32:717][452]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.08.23-19.30.32:738][452]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.08.23-19.30.32:738][452]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.08.23-19.30.32:738][452]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.08.23-19.30.32:803][452]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.08.23-19.30.32:803][452]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.08.23-19.30.32:813][452]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.08.23-19.30.32:831][452]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.08.23-19.30.32:853][452]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.08.23-19.30.32:865][452]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.08.23-19.30.32:875][452]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.08.23-19.30.32:875][452]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.08.23-19.30.32:885][452]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.08.23-19.30.32:908][452]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.08.23-19.30.32:925][452]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.08.23-19.30.32:925][452]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.08.23-19.30.32:925][452]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.08.23-19.30.32:925][452]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.08.23-19.30.32:925][452]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.08.23-19.30.32:937][452]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.08.23-19.30.32:947][452]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.08.23-19.30.32:962][452]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.08.23-19.30.33:003][452]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.08.23-19.30.33:009][452]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.08.23-19.30.33:027][452]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.08.23-19.30.33:040][452]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.08.23-19.30.33:040][452]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.08.23-19.30.33:040][452]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.08.23-19.30.33:040][452]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.08.23-19.30.33:040][452]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.08.23-19.30.33:152][452]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.08.23-19.30.33:253][452]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.08.23-19.30.33:271][452]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.08.23-19.30.33:286][452]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.08.23-19.30.33:286][452]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.08.23-19.30.33:335][452]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.08.23-19.30.33:350][452]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.08.23-19.30.33:352][452]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.08.23-19.30.33:352][452]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.08.23-19.30.33:363][452]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.08.23-19.30.33:363][452]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.08.23-19.30.33:397][452]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.08.23-19.30.33:397][452]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.08.23-19.30.33:417][452]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.08.23-19.30.33:417][452]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.08.23-19.30.33:417][452]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.08.23-19.30.33:431][452]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.08.23-19.30.33:446][452]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.08.23-19.30.33:446][452]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.08.23-19.30.33:501][452]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.08.23-19.30.33:507][452]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.08.23-19.30.33:524][452]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.08.23-19.30.33:549][452]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.08.23-19.30.33:611][452]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.08.23-19.30.33:644][452]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.08.23-19.30.33:710][452]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.08.23-19.30.33:710][452]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.08.23-19.30.33:722][452]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.08.23-19.30.33:749][452]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.08.23-19.30.33:749][452]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.08.23-19.30.33:817][452]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.08.23-19.30.33:829][452]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.08.23-19.30.33:829][452]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.08.23-19.30.33:829][452]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.08.23-19.30.33:829][452]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.08.23-19.30.33:829][452]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.08.23-19.30.34:085][452]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.08.23-19.30.34:085][452]LogDirectoryWatcher: A directory notification for '../../../../../BSLegend/Content/' was aborted.
+[2018.08.23-19.30.34:085][452]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.08.23-19.30.34:085][452]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.08.23-19.30.34:094][452]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.08.23-19.30.34:105][452]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.08.23-19.30.34:105][452]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.08.23-19.30.34:105][452]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.08.23-19.30.34:105][452]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.08.23-19.30.34:125][452]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.08.23-19.30.34:159][452]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.08.23-19.30.34:159][452]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.08.23-19.30.34:159][452]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.08.23-19.30.34:223][452]LogDerivedDataCache: Shutdown
+[2018.08.23-19.30.34:223][452]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.08.23-19.30.34:223][452]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.08.23-19.30.34:243][452]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.08.23-19.30.34:249][452]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.08.23-19.30.34:276][452]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.08.23-19.30.34:291][452]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.08.23-19.30.34:296][452]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.08.23-19.30.34:296][452]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.08.23-19.30.34:296][452]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.08.23-19.30.34:296][452]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.08.23-19.30.34:330][452]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.08.23-19.30.34:335][452]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.08.23-19.30.34:335][452]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.08.23-19.30.34:335][452]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.08.23-19.30.34:342][452]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.08.23-19.30.34:342][452]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.08.23-19.30.34:352][452]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.08.23-19.30.34:352][452]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.08.23-19.30.34:352][452]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.08.23-19.30.34:366][452]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.08.23-19.30.34:375][452]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.08.23-19.30.34:375][452]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.08.23-19.30.34:375][452]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.08.23-19.30.34:376][452]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.08.23-19.30.34:376][452]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.08.23-19.30.34:376][452]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.08.23-19.30.34:376][452]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.08.23-19.30.34:382][452]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.08.23-19.30.34:392][452]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.08.23-19.30.34:392][452]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.08.23-19.30.34:397][452]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.08.23-19.30.34:397][452]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.08.23-19.30.34:402][452]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.08.23-19.30.34:412][452]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.08.23-19.30.34:412][452]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.08.23-19.30.34:433][452]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.08.23-19.30.34:433][452]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.08.23-19.30.34:433][452]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.08.23-19.30.34:433][452]LogOnline:Display: Unloading online subsystem: NULL
+[2018.08.23-19.30.34:473][452]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.08.23-19.30.34:515][452]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.08.23-19.30.34:515][452]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.23-19.30.34:530][452]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17B3D301-40A3-F342-575C-0CB53C3A20D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=fd071ae64931638e58fc42839ddf0325%7C09328e596c484260845be9d78c4e54c5%7C38e2ded0-4503-42ed-bbd5-8de822bc5c08&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.23-19.30.34:535][452]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.08.23-19.30.34:558][452]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.08.23-19.30.34:596][452]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.08.23-19.30.34:607][452]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.08.23-19.30.34:641][452]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.08.23-19.30.34:652][452]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.08.23-19.30.34:652][452]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.08.23-19.30.34:652][452]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.08.23-19.30.34:652][452]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.08.23-19.30.34:680][452]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.08.23-19.30.34:698][452]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.08.23-19.30.34:698][452]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.08.23-19.30.34:707][452]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.08.23-19.30.34:707][452]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.08.23-19.30.34:707][452]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.08.23-19.30.34:707][452]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.08.23-19.30.34:719][452]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.23-19.30.34:723][452]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.23-19.30.34:723][452]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.23-19.30.34:752][452]LogExit: Exiting.
+[2018.08.23-19.30.34:772][452]Log file closed, 08/23/18 20:30:34
