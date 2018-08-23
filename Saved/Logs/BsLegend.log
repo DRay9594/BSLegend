@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Log file open, 08/23/18 22:19:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -97,6 +98,17 @@ LogStreaming: Display: Took  0.068s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
+=======
+﻿Log file open, 08/23/18 17:02:03
+LogInit:Display: Running engine for game: BsLegend
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(334625632) SRandInit(334625632).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.120340
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+>>>>>>> eee00ad57122b29754d1088bb2910fd4a1369f01
 LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
 LogInit:  - other features:
 LogInit:      CURL_VERSION_SSL
@@ -110,6 +122,7 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+<<<<<<< HEAD
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
@@ -133,10 +146,24 @@ LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
 LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
 LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
 LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+=======
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+>>>>>>> eee00ad57122b29754d1088bb2910fd4a1369f01
 LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
 LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
 LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
 LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+<<<<<<< HEAD
 LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
@@ -785,3 +812,528 @@ LogInit: Object subsystem initialized
 [2018.08.23-20.27.18:487][892]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.08.23-20.27.18:493][892]LogExit: Exiting.
 [2018.08.23-20.27.18:501][892]Log file closed, 08/23/18 22:27:18
+=======
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.23-16.02.03:617][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.23-16.02.03:617][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.23-16.02.03:632][  0]LogInit: Computer: MSI
+[2018.08.23-16.02.03:632][  0]LogInit: User: rayan
+[2018.08.23-16.02.03:632][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.23-16.02.03:632][  0]LogInit: High frequency timer resolution =2.249997 MHz
+[2018.08.23-16.02.03:632][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.23-16.02.03:632][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.23-16.02.03:632][  0]LogMemory: Process Physical Memory: 273.32 MB used, 273.32 MB peak
+[2018.08.23-16.02.03:632][  0]LogMemory: Process Virtual Memory: 266.77 MB used, 266.77 MB peak
+[2018.08.23-16.02.03:632][  0]LogMemory: Physical Memory: 5695.02 MB used,  2408.27 MB free, 8103.29 MB total
+[2018.08.23-16.02.03:632][  0]LogMemory: Virtual Memory: 4779.51 MB used,  2408.27 MB free, 134217728.00 MB total
+[2018.08.23-16.02.03:713][  0]LogInit: Using OS detected language (fr-FR).
+[2018.08.23-16.02.03:713][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.08.23-16.02.03:718][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.08.23-16.02.03:718][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.08.23-16.02.04:918][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.23-16.02.04:973][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.08.23-16.02.04:973][  0]LogD3D11RHI:       2019/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.23-16.02.04:983][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.08.23-16.02.04:983][  0]LogD3D11RHI:       128/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.23-16.02.04:985][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.23-16.02.04:985][  0]LogD3D11RHI:       0/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.23-16.02.04:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.23-16.02.05:001][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.23-16.02.05:001][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.08.23-16.02.05:001][  0]LogWindows: EnumDisplayDevices:
+[2018.08.23-16.02.05:001][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.08.23-16.02.05:001][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.23-16.02.05:002][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.23-16.02.05:002][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.23-16.02.05:002][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.08.23-16.02.05:002][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.23-16.02.05:002][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.23-16.02.05:002][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.08.23-16.02.05:033][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.23-16.02.05:045][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.23-16.02.05:046][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (../../../../../BSLegend/Intermediate/Shaders/WorkingDirectory/16808/).
+[2018.08.23-16.02.05:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rayan/AppData/Local/Temp/UnrealShaderWorkingDir/F6D99E964E7FA0B70A6D989A504CB06A/'.
+[2018.08.23-16.02.05:046][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.08.23-16.02.06:135][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.23-16.02.06:187][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.08.23-16.02.06:238][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.23-16.02.06:288][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.08.23-16.02.06:341][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.08.23-16.02.06:391][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.23-16.02.06:443][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.23-16.02.06:494][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.23-16.02.06:539][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.08.23-16.02.06:589][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.08.23-16.02.06:638][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.23-16.02.06:689][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.23-16.02.06:738][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.23-16.02.06:792][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.23-16.02.06:845][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.23-16.02.06:947][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.23-16.02.06:947][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.23-16.02.06:986][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.08.23-16.02.07:080][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.08.23-16.02.07:108][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.08.23-16.02.07:156][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.23-16.02.07:210][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.23-16.02.07:259][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.23-16.02.07:310][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.08.23-16.02.07:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.08.23-16.02.07:793][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../BSLegend/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../BSLegend/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.23-16.02.07:895][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.23-16.02.07:913][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.23-16.02.07:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rayan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.23-16.02.07:937][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.23-16.02.07:937][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.23-16.02.07:938][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.23-16.02.07:938][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.23-16.02.08:301][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.23-16.02.08:387][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.08.23-16.02.08:563][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.23-16.02.08:608][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.23-16.02.08:661][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.23-16.02.08:661][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.08.23-16.02.08:661][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.08.23-16.02.09:295][  0]LogNetVersion: BsLegend , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2486784164)
+[2018.08.23-16.02.09:360][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.08.23-16.02.09:448][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.065541 seconds
+[2018.08.23-16.02.09:455][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.08.23-16.02.09:455][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.08.23-16.02.09:455][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.23-16.02.09:525][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.23-16.02.12:280][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.23-16.02.12:323][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.23-16.02.12:902][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.23-16.02.13:349][  0]SourceControl: Info Source control is disabled
+[2018.08.23-16.02.14:964][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.23-16.02.15:623][  0]LogEngine: Initializing Engine...
+[2018.08.23-16.02.15:624][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.23-16.02.15:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.23-16.02.15:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.23-16.02.15:992][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.23-16.02.16:006][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-16.02.16:053][  0]LogInit: FAudioDevice initialized.
+[2018.08.23-16.02.16:107][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/rayan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.23-16.02.16:122][  0]LogInit: Texture streaming: Enabled
+[2018.08.23-16.02.16:213][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.23-16.02.16:444][  0]LogInit: Transaction tracking system initialized
+[2018.08.23-16.02.16:782][  0]BlueprintLog: New page: Editor Load
+[2018.08.23-16.02.17:798][  0]LocalizationService: Info Localization service is disabled
+[2018.08.23-16.02.18:505][  0]LogConsoleResponse:Display: 
+[2018.08.23-16.02.18:667][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.23-16.02.18:667][  0]LogCook:Display: Mobile HDR setting 1
+[2018.08.23-16.02.18:832][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/' took 0.01s
+[2018.08.23-16.02.20:006][  0]Cmd: MAP LOAD FILE="../../../../../BSLegend/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.23-16.02.20:007][  0]LightingResults: New page: Lighting Build
+[2018.08.23-16.02.20:049][  0]MapCheck: New page: Map Check
+[2018.08.23-16.02.20:049][  0]LightingResults: New page: Lighting Build
+[2018.08.23-16.02.20:259][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.23-16.02.20:269][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.23-16.02.20:287][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.23-16.02.20:367][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.725ms to complete.
+[2018.08.23-16.02.20:367][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.361
+[2018.08.23-16.02.20:522][  0]LogCollectionManager: Loaded 0 collections in 0.001861 seconds
+[2018.08.23-16.02.20:608][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Saved/Collections/' took 0.01s
+[2018.08.23-16.02.20:608][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/Developers/rayan/Collections/' took 0.01s
+[2018.08.23-16.02.20:608][  0]LogFileCache: Scanning file cache for directory 'D:/BSLegend/Content/Collections/' took 0.01s
+[2018.08.23-16.02.20:608][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.08.23-16.02.20:618][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2329 classes and 491 folders.
+[2018.08.23-16.02.20:685][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.08.23-16.02.20:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.08.23-16.02.20:796][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.08.23-16.02.20:883][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.08.23-16.02.20:889][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.08.23-16.02.20:964][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.08.23-16.02.20:964][  0]LogLoad: (Engine Initialization) Total time: 19.45 seconds
+[2018.08.23-16.02.20:964][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2018.08.23-16.02.20:964][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.08.23-16.02.20:965][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.08.23-16.02.20:983][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.08.23-16.02.20:984][  0]LogOcInput: OculusInput pre-init called
+[2018.08.23-16.02.20:984][  0]LogHMD: Starting GearVRController plugin
+[2018.08.23-16.02.21:005][  0]SourceControl: Info On branch master
+[2018.08.23-16.02.21:005][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
+[2018.08.23-16.02.21:005][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2018.08.23-16.02.21:005][  0]SourceControl: Info Changes to be committed:
+[2018.08.23-16.02.21:005][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/M_Basics.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/pierre1.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/pierre2.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/pierre3.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/pierre4.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info 	new file:   Content/Character/object/Packdepierre/textureProject48H.uasset
+[2018.08.23-16.02.21:005][  0]SourceControl: Info Changes not staged for commit:
+[2018.08.23-16.02.21:005][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.08.23-16.02.21:006][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Content/Character/BP/panneau_BP.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   "Content/Character/object/ModularDungeon/M_Metalis\303\251.uasset"
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/Character/BP/panneau_BP_Auto1.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/Character/object/ModularDungeon/cube_3x3_Auto3.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ILE1_Auto1.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ILE1_Auto2.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ILE1_BuiltData_Auto1.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ILE1_BuiltData_Auto2.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Run_2018-08-01-14-02-07.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Run_2018-08-01-14-07-27.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Run_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Walk_2018-07-30-12-46-59.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Walk_2018-07-30-16-26-00.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Walk_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Walk_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_Walk_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_001_2018-07-30-12-45-06.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_001_2018-07-30-16-26-00.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_001_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_001_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_001_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_002_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_002_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_002_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_2018-07-30-12-45-06.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_2018-07-30-16-26-00.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idle_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idleforgerons_2018-07-30-12-45-06.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idleforgerons_2018-07-30-16-26-00.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idleforgerons_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idleforgerons_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_idleforgerons_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_sit1_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_sit1_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_sit1_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_talk_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_talk_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Animation_ARmatureGame_talk_2018-08-01-14-14-32.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/BPAnim_Basic_2018-08-01-14-12-41.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/BPAnim_Basic_2018-08-01-17-52-01.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-29-23-46-30.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-29-23-55-42.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-00-15-28.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-12-54-57.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-16-26-06.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-16-39-10.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-16-47-15.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-07-30-17-14-06.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-08-01-17-52-01.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-08-01-18-08-42.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_2018-08-02-11-57-14.umap
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-29-23-46-31.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-29-23-55-42.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-30-00-15-28.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-30-16-42-33.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-30-16-47-45.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-07-30-17-14-06.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-08-01-18-08-42.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ILE1_BuiltData_2018-08-02-11-57-15.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    "Saved/Backup/M-Metalis\303\251_2018-07-29-23-55-46.uasset"
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Maison1_2018-07-29-23-46-31.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Maison1_2018-07-29-23-53-48.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Perso_Bs_2018-08-01-13-37-31.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/Perso_Bs_2018-08-01-14-06-34.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonCharacter_2018-08-01-13-11-08.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonCharacter_2018-08-01-13-38-50.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonCharacter_2018-08-01-14-00-04.uasset
+[2018.08.23-16.02.21:006][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonCharacter_2018-08-01-17-52-02.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonExampleMap_2018-08-01-13-11-07.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonExampleMap_2018-08-01-14-00-04.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonExampleMap_2018-08-01-14-15-46.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/ThirdPersonExampleMap_BuiltData_2018-08-01-14-15-46.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/bois_2018-07-30-16-39-10.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Backup/bois_tabouret_2018-07-30-16-42-32.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-46CDDCBA4675CE20F63823A624635E6E/CrashReportClient.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7D93E68542FCB951BDE60AB996945739/CrashReportClient.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8F6CECF04C24EF50053ED6A5859476D7/CrashReportClient.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-FA519AEA4620EF6E03FC67AA51580D0E/CrashReportClient.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	deleted:    Saved/Logs/projet48H-backup-2018.08.18-12.09.51.log
+[2018.08.23-16.02.21:007][  0]SourceControl: Info Untracked files:
+[2018.08.23-16.02.21:007][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Autosaves/Game/Character/object/Maison/Maison1_Auto2.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	"Saved/Autosaves/Game/Character/object/ModularDungeon/M_Metalis\303\251_Auto1.uasset"
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Escallier_2018-08-19-15-49-00.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-16-03-50.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-16-15-24.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-16-32-43.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-16-43-34.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-17-01-58.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-19-18-00-20.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-23-11-54-23.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_2018-08-23-12-13-29.umap
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-19-16-03-51.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-19-16-15-25.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-19-16-43-34.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-19-17-01-59.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-19-18-00-21.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-23-11-54-24.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ILE1_BuiltData_2018-08-23-12-13-30.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	"Saved/Backup/M_Metalis\303\251_2018-08-19-16-15-25.uasset"
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	"Saved/Backup/M_Metalis\303\251_2018-08-19-18-02-14.uasset"
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Maison1_2018-08-23-11-50-08.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Maison1_2018-08-23-12-00-48.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Murporte1dg_2018-08-19-16-23-13.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Murporte1dg_2018-08-23-11-42-33.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/Sole4x4_2018-08-19-15-48-19.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2018-08-19-16-32-43.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/ThirdPersonCharacter_2018-08-19-18-02-16.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/cube_3x3_2018-08-19-16-54-34.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/cube_3x3_2018-08-19-17-11-58.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/cube_3x3_2018-08-19-18-02-14.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/lightdg_2018-08-19-16-27-49.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/murdungeon1_2018-08-23-11-41-56.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/panneau_BP_2018-08-23-11-35-23.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Backup/panneau_BP_2018-08-23-12-36-04.uasset
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-4ABAC5AC48D24E30995BAEA6C067E400/
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-89CD7740415F4087259589B7B407836A/
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D877A51341CD0FD997A73FA7BE04172A/
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Logs/BsLegend-backup-2018.08.23-11.24.18.log
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Logs/BsLegend-backup-2018.08.23-16.56.13.log
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Logs/BsLegend-backup-2018.08.23-17.02.03.log
+[2018.08.23-16.02.21:007][  0]SourceControl: Info 	Saved/Logs/BsLegend.log
+[2018.08.23-16.02.21:007][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.08.23-16.02.21:009][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.23-16.02.21:011][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.23-16.02.21:017][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.23-16.02.21:118][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.23-16.02.21:153][  1]LogAssetRegistry: Asset discovery search completed in 11.8159 seconds
+[2018.08.23-16.02.21:157][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.23-16.02.21:157][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.08.23-16.02.21:184][  2]LogRenderer: Reallocating scene render targets to support 816x508 NumSamples 1 (Frame:1).
+[2018.08.23-16.02.31:060][583]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.23-16.02.31:493][583]LogAIModule: Creating AISystem for world ILE1
+[2018.08.23-16.02.31:516][583]Cmd: MAP LOAD FILE="../../../../../BSLegend/Content/ILE1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.23-16.02.31:516][583]LightingResults: New page: Lighting Build
+[2018.08.23-16.02.31:516][583]LoadErrors: New page: Loading map: ILE1.umap
+[2018.08.23-16.02.31:517][583]MapCheck: New page: Map Check
+[2018.08.23-16.02.31:517][583]LightingResults: New page: Lighting Build
+[2018.08.23-16.02.31:593][583]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.23-16.02.31:634][583]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.23-16.02.31:718][583]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.193ms to complete.
+[2018.08.23-16.02.31:719][583]LogFileHelpers: Loading map 'ILE1' took 0.204
+[2018.08.23-16.02.53:952][188]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-16.02.53:999][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-16.02.53:999][188]PIE: New page: PIE session: ILE1 (Aug 23, 2018, 6:02:53 PM)
+[2018.08.23-16.02.53:999][188]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.23-16.02.54:008][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008692s)
+[2018.08.23-16.02.54:010][188]LogAIModule: Creating AISystem for world ILE1
+[2018.08.23-16.02.54:010][188]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2018.08.23-16.02.54:010][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.010820s)
+[2018.08.23-16.02.54:023][188]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-16.02.54:065][188]LogInit: FAudioDevice initialized.
+[2018.08.23-16.02.54:371][188]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-16.02.54:379][188]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.23-17.02.54
+[2018.08.23-16.02.54:380][188]LogWorld: Bringing up level for play took: 0.005136
+[2018.08.23-16.02.54:425][188]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.08.23-16.02.54:427][188]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.381
+[2018.08.23-16.14.37:193][850]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\rayan\gamekit\project48h\fbx\packdepierre\pierremontagne.fbx)
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: Model, ItemCount : 1
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: Material, ItemCount : 1
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.08.23-16.14.37:205][850]LogFbx: ItemName: Video, ItemCount : 1
+[2018.08.23-16.14.37:211][850]LogFbx: Loading FBX Scene from D:\rayan\gamekit\project48h\fbx\packdepierre\pierremontagne.fbx
+[2018.08.23-16.14.37:219][850]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.23-16.14.40:675][850]LogFbx: Loading FBX Scene from D:\rayan\gamekit\project48h\fbx\packdepierre\pierremontagne.fbx
+[2018.08.23-16.14.40:682][850]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.23-16.14.40:695][850]LogStaticMesh: Building static mesh pierremontagne...
+[2018.08.23-16.14.40:741][850]LogStaticMesh: Built static mesh [0.05s] /Game/Character/object/Packdepierre/pierremontagne.pierremontagne
+[2018.08.23-16.14.40:753][850]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.08.23-16.14.47:407][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne5)
+[2018.08.23-16.14.49:551][368]Cmd: DELETE
+[2018.08.23-16.14.49:551][368]Cmd: ACTOR DELETE
+[2018.08.23-16.14.49:555][368]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.49:631][368]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2018.08.23-16.14.50:038][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne10)
+[2018.08.23-16.14.50:111][393]Cmd: DELETE
+[2018.08.23-16.14.50:111][393]Cmd: ACTOR DELETE
+[2018.08.23-16.14.50:112][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.50:124][393]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.08.23-16.14.50:999][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne8)
+[2018.08.23-16.14.51:099][450]Cmd: DELETE
+[2018.08.23-16.14.51:099][450]Cmd: ACTOR DELETE
+[2018.08.23-16.14.51:100][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.51:111][450]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.08.23-16.14.51:601][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne7)
+[2018.08.23-16.14.51:783][489]Cmd: DELETE
+[2018.08.23-16.14.51:783][489]Cmd: ACTOR DELETE
+[2018.08.23-16.14.51:783][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.51:793][489]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.08.23-16.14.52:541][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne4)
+[2018.08.23-16.14.53:828][609]Cmd: DELETE
+[2018.08.23-16.14.53:828][609]Cmd: ACTOR DELETE
+[2018.08.23-16.14.53:829][609]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.53:840][609]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.08.23-16.14.54:498][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (montagne6)
+[2018.08.23-16.14.54:683][658]Cmd: DELETE
+[2018.08.23-16.14.54:683][658]Cmd: ACTOR DELETE
+[2018.08.23-16.14.54:684][658]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.23-16.14.54:693][658]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.08.23-16.15.02:355][112]LogActorFactory: Actor Factory created pierremontagne
+[2018.08.23-16.15.03:828][200]LogActorFactory: Actor Factory created pierremontagne
+[2018.08.23-16.15.16:948][977]Cmd: EDIT COPY
+[2018.08.23-16.15.17:366][  2]Cmd: EDIT PASTE
+[2018.08.23-16.15.32:552][910]Cmd: EDIT COPY
+[2018.08.23-16.15.32:853][928]Cmd: EDIT PASTE
+[2018.08.23-16.15.44:027][595]Cmd: EDIT COPY
+[2018.08.23-16.15.44:261][609]Cmd: EDIT PASTE
+[2018.08.23-16.16.04:213][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne)
+[2018.08.23-16.16.22:110][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne2)
+[2018.08.23-16.16.38:794][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/Packdepierre/pierremontagne" FILE="../../../../../BSLegend/Content/Character/object/Packdepierre/pierremontagne.uasset" SILENT=true
+[2018.08.23-16.16.38:814][773]LogSavePackage: Save=17.34ms
+[2018.08.23-16.16.38:814][773]LogSavePackage: Moving '../../../../../BSLegend/Saved/pierremontagne8578056A463A583461F1508EC4EA5D70.tmp' to '../../../../../BSLegend/Content/Character/object/Packdepierre/pierremontagne.uasset'
+[2018.08.23-16.16.38:818][773]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/Packdepierre/pierremontagne.uasset
+[2018.08.23-16.16.39:180][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-16.16.39:345][773]LogSavePackage: Save=143.85ms
+[2018.08.23-16.16.39:345][773]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1BE8BBA0241293695981E9698EF548ABE.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.23-16.16.39:349][773]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.23-16.16.39:382][773]LogFileHelpers: Saving map 'ILE1' took 0.292
+[2018.08.23-16.16.47:723][272]SourceControl: Info fatal: D:/Program Files (x86)/UE_4.16/Engine/Content/: 'D:/Program Files (x86)/UE_4.16/Engine/Content/' is outside repository
+[2018.08.23-16.16.56:689][444]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-16.16.56:710][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-16.16.56:710][444]PIE: New page: PIE session: ILE1 (Aug 23, 2018, 6:16:56 PM)
+[2018.08.23-16.16.56:710][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.23-16.16.56:719][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008767s)
+[2018.08.23-16.16.56:720][444]LogAIModule: Creating AISystem for world ILE1
+[2018.08.23-16.16.56:721][444]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2018.08.23-16.16.56:721][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.010850s)
+[2018.08.23-16.16.56:734][444]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-16.16.56:777][444]LogInit: FAudioDevice initialized.
+[2018.08.23-16.16.56:813][444]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-16.16.56:820][444]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.23-17.16.56
+[2018.08.23-16.16.56:821][444]LogWorld: Bringing up level for play took: 0.004806
+[2018.08.23-16.16.56:823][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 0.014
+[2018.08.23-16.17.04:273][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne2)
+[2018.08.23-16.17.16:796][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne2)
+[2018.08.23-16.17.29:320][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne)
+[2018.08.23-16.17.42:429][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne3)
+[2018.08.23-16.17.54:014][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne4)
+[2018.08.23-16.18.11:666][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pierremontagne)
+[2018.08.23-16.18.24:656][685]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-16.18.24:677][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-16.18.24:677][685]PIE: New page: PIE session: ILE1 (Aug 23, 2018, 6:18:24 PM)
+[2018.08.23-16.18.24:677][685]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ILE1
+[2018.08.23-16.18.24:685][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007969s)
+[2018.08.23-16.18.24:686][685]LogAIModule: Creating AISystem for world ILE1
+[2018.08.23-16.18.24:686][685]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2018.08.23-16.18.24:687][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ILE1.ILE1 to /Game/UEDPIE_0_ILE1.ILE1 (0.009704s)
+[2018.08.23-16.18.24:700][685]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-16.18.24:740][685]LogInit: FAudioDevice initialized.
+[2018.08.23-16.18.24:773][685]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-16.18.24:779][685]LogWorld: Bringing World /Game/UEDPIE_0_ILE1.ILE1 up for play (max tick rate 60) at 2018.08.23-17.18.24
+[2018.08.23-16.18.24:780][685]LogWorld: Bringing up level for play took: 0.005029
+[2018.08.23-16.18.24:782][685]PIE: Info Play in editor start time for /Game/UEDPIE_0_ILE1 -0.027
+[2018.08.23-16.28.19:950][139]LogSlate: Took 0.000608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.23-16.28.20:023][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.23-16.28.20:212][139]LogSavePackage: Save=169.79ms
+[2018.08.23-16.28.20:212][139]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_Auto1A2127EC84CF92A29E3F72B91F66BF52E.tmp' to '../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap'
+[2018.08.23-16.28.22:349][139]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Saved/Autosaves/Game/ILE1_Auto1.umap
+[2018.08.23-16.28.22:358][139]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.23-16.28.22:360][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ILE1' took 2.364
+[2018.08.23-16.28.22:360][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.364
+[2018.08.23-16.41.00:124][650]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.00:386][650]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.00:453][650]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.00:522][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.23-16.41.00:551][650]LogSlate: Took 0.018715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.23-16.41.04:903][880]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.08.23-16.41.04:903][880]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.08.23-16.41.04:903][880]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.08.23-16.41.04:903][880]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.23-16.41.09:396][147]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.09:415][147]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.12:390][319]MaterialEditorStats: Info Base pass shader: 75 instructions
+[2018.08.23-16.41.12:390][319]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.08.23-16.41.12:390][319]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.08.23-16.41.12:390][319]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.23-16.41.12:727][339]LogMaterialEditor: Applying material M_Basics
+[2018.08.23-16.41.13:376][339]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.13:434][339]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.13:468][339]LogMaterial: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.23-16.41.13:507][339]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basics, compiling. 
+[2018.08.23-16.41.14:604][339]TextureStreamingBuild:Display: Compiling optional shaders took 1.103 seconds.
+[2018.08.23-16.41.15:189][370]LogMaterialEditor: Saving and Compiling material M_Basics
+[2018.08.23-16.41.16:584][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/object/Packdepierre/M_Basics" FILE="../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset" SILENT=true
+[2018.08.23-16.41.16:629][370]LogSavePackage: Save=30.42ms
+[2018.08.23-16.41.16:629][370]LogSavePackage: Moving '../../../../../BSLegend/Saved/M_Basics40BCAB254E47FA59472F468FCEF38D82.tmp' to '../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset'
+[2018.08.23-16.41.16:632][370]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/Character/object/Packdepierre/M_Basics.uasset
+[2018.08.23-16.41.16:639][370]MaterialEditorStats: Info Base pass shader: 75 instructions
+[2018.08.23-16.41.16:639][370]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.08.23-16.41.16:639][370]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.08.23-16.41.16:639][370]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.23-16.47.29:094][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1" FILE="../../../../../BSLegend/Content/ILE1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.23-16.47.29:266][877]LogSavePackage: Save=147.33ms
+[2018.08.23-16.47.29:266][877]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE128EC16C34828357157E887BCA002E26A.tmp' to '../../../../../BSLegend/Content/ILE1.umap'
+[2018.08.23-16.47.29:273][877]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1.umap
+[2018.08.23-16.47.29:390][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ILE1_BuiltData" FILE="../../../../../BSLegend/Content/ILE1_BuiltData.uasset" SILENT=true
+[2018.08.23-16.47.30:378][877]LogSavePackage: Save=880.77ms
+[2018.08.23-16.47.30:386][877]LogSavePackage: Moving '../../../../../BSLegend/Saved/ILE1_BuiltDataE8D5F4D94C79C865AF520EACC5D270B2.tmp' to '../../../../../BSLegend/Content/ILE1_BuiltData.uasset'
+[2018.08.23-16.47.30:390][877]LogSavePackage:Display: Finished SavePackage ../../../../../BSLegend/Content/ILE1_BuiltData.uasset
+[2018.08.23-16.47.43:465][649]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.23-16.47.43:504][649]Cmd: MAP LOAD FILE="../../../../../BSLegend/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.23-16.47.43:504][649]LightingResults: New page: Lighting Build
+[2018.08.23-16.47.43:504][649]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.08.23-16.47.43:507][649]MapCheck: New page: Map Check
+[2018.08.23-16.47.43:507][649]LightingResults: New page: Lighting Build
+[2018.08.23-16.47.43:622][649]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.23-16.47.43:669][649]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.23-16.47.43:762][649]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.429ms to complete.
+[2018.08.23-16.47.43:763][649]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.262
+[2018.08.23-16.51.36:671][327]LogTemp: Repeting last play command: Selected Viewport
+[2018.08.23-16.51.36:692][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.23-16.51.36:692][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.23-16.51.36:692][327]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 23, 2018, 6:51:36 PM)
+[2018.08.23-16.51.36:692][327]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.23-16.51.36:766][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074366s)
+[2018.08.23-16.51.36:767][327]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.23-16.51.36:767][327]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2018.08.23-16.51.36:768][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.076032s)
+[2018.08.23-16.51.36:783][327]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.23-16.51.36:828][327]LogInit: FAudioDevice initialized.
+[2018.08.23-16.51.36:863][327]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.23-16.51.36:867][327]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.23-17.51.36
+[2018.08.23-16.51.36:879][327]LogWorld: Bringing up level for play took: 0.013348
+[2018.08.23-16.51.36:892][327]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.083
+[2018.08.23-16.51.36:892][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.23-16.52.00:546][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.23-16.52.00:589][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.23-16.52.02:660][861]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.23-16.54.24:820][224]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2018.08.23-17.04.40:848][866]SourceControl: Info fatal: D:/Program Files (x86)/UE_4.16/Engine/Content/: 'D:/Program Files (x86)/UE_4.16/Engine/Content/' is outside repository
+[2018.08.23-17.04.54:088][866]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.08.23-17.04.54:274][866]SourceControl: Info [master 1a1cd06] changementozkan
+[2018.08.23-17.04.54:274][866]SourceControl: Info  10 files changed, 0 insertions(+), 0 deletions(-)
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/M_Basics.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierre1.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierre2.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierre3.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierre4.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/pierremontagne.uasset
+[2018.08.23-17.04.54:274][866]SourceControl: Info  create mode 100644 Content/Character/object/Packdepierre/textureProject48H.uasset
+[2018.08.23-17.04.54:280][866]SourceControl: Info Commited [master 1a1cd06] changementozkan.
+>>>>>>> eee00ad57122b29754d1088bb2910fd4a1369f01
