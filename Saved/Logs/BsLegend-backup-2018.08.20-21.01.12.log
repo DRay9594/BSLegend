@@ -1,0 +1,1403 @@
+﻿Log file open, 08/19/18 20:30:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BsLegend
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.228847
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.174s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/Unreal_Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.19-18.30.10:242][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-18.30.10:242][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.19-18.30.10:251][  0]LogHAL: Display: Platform has ~ 8 GB [8516587520 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.19-18.30.10:251][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.19-18.30.10:251][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.19-18.30.10:251][  0]LogInit: Computer: DESKTOP-87QP7AL
+[2018.08.19-18.30.10:251][  0]LogInit: User: User
+[2018.08.19-18.30.10:251][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.08.19-18.30.10:251][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.08.19-18.30.10:251][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.19-18.30.10:251][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.19-18.30.10:251][  0]LogMemory: Process Physical Memory: 100.01 MB used, 100.01 MB peak
+[2018.08.19-18.30.10:251][  0]LogMemory: Process Virtual Memory: 85.01 MB used, 85.01 MB peak
+[2018.08.19-18.30.10:251][  0]LogMemory: Physical Memory: 4197.01 MB used,  3925.04 MB free, 8122.05 MB total
+[2018.08.19-18.30.10:251][  0]LogMemory: Virtual Memory: 4634.69 MB used,  3925.04 MB free, 134217728.00 MB total
+[2018.08.19-18.30.10:265][  0]LogInit: Using OS detected language (fr-FR).
+[2018.08.19-18.30.10:265][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.08.19-18.30.10:266][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2018.08.19-18.30.10:267][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2018.08.19-18.30.10:267][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.19-18.30.10:286][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.19-18.30.10:286][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.19-18.30.10:416][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-18.30.10:416][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.19-18.30.10:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.08.19-18.30.10:459][  0]LogD3D11RHI:       6052/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.19-18.30.10:460][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.19-18.30.10:460][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.19-18.30.10:460][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.19-18.30.10:465][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.19-18.30.10:465][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.19-18.30.10:465][  0]LogWindows: EnumDisplayDevices:
+[2018.08.19-18.30.10:465][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.08.19-18.30.10:466][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.19-18.30.10:466][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.19-18.30.10:466][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.19-18.30.10:466][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.19-18.30.10:466][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.08.19-18.30.10:466][  0]LogD3D11RHI:   Driver Version: 397.64 (internal:24.21.13.9764, unified:397.64)
+[2018.08.19-18.30.10:466][  0]LogD3D11RHI:      Driver Date: 5-7-2018
+[2018.08.19-18.30.10:466][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.08.19-18.30.10:494][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.19-18.30.10:516][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.19-18.30.10:564][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../BlackScroll/BSLegend 4.20/Intermediate/Shaders/WorkingDirectory/3284/).
+[2018.08.19-18.30.10:565][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/621375D84E3703D4F7DE00B4C87E6796/'.
+[2018.08.19-18.30.10:779][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.19-18.30.10:789][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.19-18.30.10:799][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.19-18.30.10:809][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.19-18.30.10:820][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.19-18.30.10:830][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.19-18.30.10:840][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.19-18.30.10:850][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.19-18.30.10:854][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:917][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-18.30.10:918][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.19-18.30.10:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.19-18.30.10:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.19-18.30.10:991][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-18.30.10:991][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-18.30.11:000][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.19-18.30.11:009][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.19-18.30.11:018][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.19-18.30.11:028][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.19-18.30.11:035][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.19-18.30.11:035][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.19-18.30.11:070][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.19-18.30.11:070][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.19-18.30.11:070][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.19-18.30.11:599][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.19-18.30.11:658][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.19-18.30.11:659][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.19-18.30.11:659][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../BlackScroll/BSLegend 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.19-18.30.11:659][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.19-18.30.11:659][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../BlackScroll/BSLegend 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.19-18.30.11:659][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.19-18.30.11:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.19-18.30.11:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.19-18.30.11:681][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.19-18.30.11:681][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.19-18.30.11:695][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.19-18.30.11:696][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.19-18.30.11:696][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-18.30.11:758][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.08.19-18.30.11:985][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-18.30.12:083][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.19-18.30.12:085][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.19-18.30.12:085][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.19-18.30.12:085][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.19-18.30.12:085][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.19-18.30.12:098][  0]LogNetVersion: BsLegend 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4205588354)
+[2018.08.19-18.30.12:836][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.201983 seconds
+[2018.08.19-18.30.12:840][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.19-18.30.12:840][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.08.19-18.30.12:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.19-18.30.13:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.19-18.30.13:497][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.19-18.30.13:616][  0]SourceControl: Source control is disabled
+[2018.08.19-18.30.13:616][  0]SourceControl: Source control is disabled
+[2018.08.19-18.30.13:617][  0]SourceControl: Source control is disabled
+[2018.08.19-18.30.13:618][  0]SourceControl: Source control is disabled
+[2018.08.19-18.30.13:869][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.19-18.30.13:909][  0]LogOcInput: OculusInput pre-init called
+[2018.08.19-18.30.13:955][  0]LogEngine: Initializing Engine...
+[2018.08.19-18.30.13:955][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-18.30.13:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.19-18.30.13:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.19-18.30.13:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.19-18.30.13:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.19-18.30.14:124][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.19-18.30.14:132][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.19-18.30.14:184][  0]LogInit: XAudio2 using 'PLG2488H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.19-18.30.14:204][  0]LogInit: FAudioDevice initialized.
+[2018.08.19-18.30.14:204][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.19-18.30.14:276][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.19-18.30.14:279][  0]LogInit: Texture streaming: Enabled
+[2018.08.19-18.30.14:289][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.19-18.30.14:324][  0]LogInit: Transaction tracking system initialized
+[2018.08.19-18.30.14:335][  0]BlueprintLog: New page: Editor Load
+[2018.08.19-18.30.14:392][  0]LocalizationService: Localization service is disabled
+[2018.08.19-18.30.14:704][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.19-18.30.14:704][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.19-18.30.14:717][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal_Engine/BlackScroll/BSLegend 4.20/Content/' took 0.01s
+[2018.08.19-18.30.14:717][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.19-18.30.14:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.19-18.30.14:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.19-18.30.14:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.19-18.30.14:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.19-18.30.14:827][  0]SourceControl: Source control is disabled
+[2018.08.19-18.30.15:401][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal_Engine/UE_4.20/FeaturePacks/StarterContent.upack)
+[2018.08.19-18.30.16:502][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.08.19-18.30.16:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.08.19-18.30.16:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.08.19-18.30.16:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.08.19-18.30.16:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.08.19-18.30.16:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.08.19-18.30.16:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.08.19-18.30.16:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.08.19-18.30.16:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.08.19-18.30.16:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.08.19-18.30.17:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.08.19-18.30.17:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.08.19-18.30.17:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.08.19-18.30.17:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.08.19-18.30.17:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.08.19-18.30.17:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.08.19-18.30.17:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.08.19-18.30.17:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.08.19-18.30.17:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Fire01.uasset"
+[2018.08.19-18.30.17:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.08.19-18.30.17:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.08.19-18.30.17:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.08.19-18.30.17:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Light01.uasset"
+[2018.08.19-18.30.17:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.08.19-18.30.18:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Light02.uasset"
+[2018.08.19-18.30.18:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.08.19-18.30.18:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.08.19-18.30.18:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.08.19-18.30.18:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.08.19-18.30.18:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.08.19-18.30.18:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.08.19-18.30.18:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.08.19-18.30.18:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.08.19-18.30.18:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.08.19-18.30.19:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Steam01.uasset"
+[2018.08.19-18.30.19:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.08.19-18.30.19:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.08.19-18.30.19:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.08.19-18.30.19:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.08.19-18.30.19:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.08.19-18.30.19:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.08.19-18.30.19:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.08.19-18.30.19:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.08.19-18.30.19:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.08.19-18.30.20:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.08.19-18.30.20:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.08.19-18.30.20:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.08.19-18.30.20:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.08.19-18.30.20:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.08.19-18.30.20:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.08.19-18.30.20:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.08.19-18.30.20:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.08.19-18.30.34:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.08.19-18.30.34:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.08.19-18.30.34:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.08.19-18.30.34:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.08.19-18.30.34:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.08.19-18.30.34:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/StarterMap.umap"
+[2018.08.19-18.30.41:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.08.19-18.30.41:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.08.19-18.30.41:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.08.19-18.30.41:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.08.19-18.30.41:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.08.19-18.30.41:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.08.19-18.30.41:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.08.19-18.30.41:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.08.19-18.30.41:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.08.19-18.30.41:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.08.19-18.30.41:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.08.19-18.30.41:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.08.19-18.30.41:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.08.19-18.30.41:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.08.19-18.30.42:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.08.19-18.30.42:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.08.19-18.30.42:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.08.19-18.30.42:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.08.19-18.30.42:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.08.19-18.30.42:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.08.19-18.30.42:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.08.19-18.30.42:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.08.19-18.30.42:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.08.19-18.30.42:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.08.19-18.30.42:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.08.19-18.30.42:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.08.19-18.30.42:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.08.19-18.30.42:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.08.19-18.30.42:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.08.19-18.30.42:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.08.19-18.30.42:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.08.19-18.30.42:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.08.19-18.30.42:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.08.19-18.30.42:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.08.19-18.30.42:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.08.19-18.30.42:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.08.19-18.30.42:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.08.19-18.30.42:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.08.19-18.30.42:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.08.19-18.30.42:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.08.19-18.30.42:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.08.19-18.30.43:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.08.19-18.30.43:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.08.19-18.30.43:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.08.19-18.30.43:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.08.19-18.30.43:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.08.19-18.30.43:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.08.19-18.30.43:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.08.19-18.30.43:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.08.19-18.30.43:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.08.19-18.30.43:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.08.19-18.30.43:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.08.19-18.30.43:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.08.19-18.30.43:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.08.19-18.30.43:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.08.19-18.30.43:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.08.19-18.30.43:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.08.19-18.30.43:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.08.19-18.30.44:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.08.19-18.30.44:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.08.19-18.30.44:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.08.19-18.30.44:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.08.19-18.30.44:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.08.19-18.30.44:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.08.19-18.30.44:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.08.19-18.30.44:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Door.uasset"
+[2018.08.19-18.30.44:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.08.19-18.30.44:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.08.19-18.30.44:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.08.19-18.30.44:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.08.19-18.30.44:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.08.19-18.30.44:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.08.19-18.30.44:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.08.19-18.30.44:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.08.19-18.30.44:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.08.19-18.30.44:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.08.19-18.30.44:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.08.19-18.30.44:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.08.19-18.30.44:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.08.19-18.30.44:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.08.19-18.30.45:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.08.19-18.30.45:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.08.19-18.30.45:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.08.19-18.30.45:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.08.19-18.30.45:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.08.19-18.30.45:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.08.19-18.30.45:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.08.19-18.30.45:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.08.19-18.30.45:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.08.19-18.30.45:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.08.19-18.30.45:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.08.19-18.30.45:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.08.19-18.30.45:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.08.19-18.30.45:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.08.19-18.30.45:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.08.19-18.30.45:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.08.19-18.30.45:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.08.19-18.30.45:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.08.19-18.30.46:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.08.19-18.30.46:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.08.19-18.30.46:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.08.19-18.30.46:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.08.19-18.30.46:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.08.19-18.30.46:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.08.19-18.30.46:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.08.19-18.30.46:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.08.19-18.30.46:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.08.19-18.30.46:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.08.19-18.30.46:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.08.19-18.30.47:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.08.19-18.30.47:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.08.19-18.30.47:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.08.19-18.30.47:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.08.19-18.30.48:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.08.19-18.30.48:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.08.19-18.30.48:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.08.19-18.30.49:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.08.19-18.30.49:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.08.19-18.30.49:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.08.19-18.30.50:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.08.19-18.30.50:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.08.19-18.30.50:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.08.19-18.30.50:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.08.19-18.30.50:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.08.19-18.30.51:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.08.19-18.30.51:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.08.19-18.30.51:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.08.19-18.30.51:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.08.19-18.30.51:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.08.19-18.30.51:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.08.19-18.30.51:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.08.19-18.30.51:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.08.19-18.30.52:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.08.19-18.30.52:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.08.19-18.30.52:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.08.19-18.30.53:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.08.19-18.30.53:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.08.19-18.30.53:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.08.19-18.30.53:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.08.19-18.30.53:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.08.19-18.30.54:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.08.19-18.30.54:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.08.19-18.30.54:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.08.19-18.30.55:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.08.19-18.30.55:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.08.19-18.30.55:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.08.19-18.30.55:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.08.19-18.30.55:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.08.19-18.30.56:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.08.19-18.30.56:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.08.19-18.30.56:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.08.19-18.30.56:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.08.19-18.30.56:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.08.19-18.30.56:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.08.19-18.30.56:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.08.19-18.30.56:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.08.19-18.30.56:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.08.19-18.30.56:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.08.19-18.30.57:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.08.19-18.30.57:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.08.19-18.30.58:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.08.19-18.30.58:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.08.19-18.30.59:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.08.19-18.30.59:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.08.19-18.30.59:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.08.19-18.31.00:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.08.19-18.31.00:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.08.19-18.31.00:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.08.19-18.31.01:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.08.19-18.31.01:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.08.19-18.31.01:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.08.19-18.31.02:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.08.19-18.31.02:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.08.19-18.31.02:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.08.19-18.31.03:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.08.19-18.31.03:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.08.19-18.31.03:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.08.19-18.31.04:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.08.19-18.31.04:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.08.19-18.31.04:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.08.19-18.31.04:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.08.19-18.31.05:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.08.19-18.31.05:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.08.19-18.31.05:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.08.19-18.31.06:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.08.19-18.31.06:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.08.19-18.31.07:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.08.19-18.31.07:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.08.19-18.31.08:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.08.19-18.31.08:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.08.19-18.31.08:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.08.19-18.31.08:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.08.19-18.31.08:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.08.19-18.31.08:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.08.19-18.31.08:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.08.19-18.31.09:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.08.19-18.31.09:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.08.19-18.31.09:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.08.19-18.31.09:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.08.19-18.31.09:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.08.19-18.31.09:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.08.19-18.31.09:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.08.19-18.31.09:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.08.19-18.31.09:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.08.19-18.31.10:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.08.19-18.31.10:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.08.19-18.31.10:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.08.19-18.31.10:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.08.19-18.31.10:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.08.19-18.31.11:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.08.19-18.31.11:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.08.19-18.31.11:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.08.19-18.31.11:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.08.19-18.31.11:897][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.08.19-18.31.11:952][  0]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.08.19-18.31.12:874][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.08.19-18.31.13:267][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2018.08.19-18.31.13:909][  0]LogSavePackage: Moving '../../../../BlackScroll/BSLegend 4.20/Saved/Floor_400x40082C10FF342C0D5C6F7CCCCA1252679C4.tmp' to '../../../../BlackScroll/BSLegend 4.20/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.08.19-18.31.13:923][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.08.19-18.31.13:926][  0]Cmd: MAP LOAD FILE="../../../../BlackScroll/BSLegend 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-18.31.13:926][  0]LightingResults: New page: Lighting Build
+[2018.08.19-18.31.13:928][  0]MapCheck: New page: Map Check
+[2018.08.19-18.31.13:928][  0]LightingResults: New page: Lighting Build
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.08.19-18.31.14:908][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.08.19-18.31.15:396][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.08.19-18.31.15:396][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.08.19-18.31.15:396][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2018.08.19-18.31.15:396][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.19-18.31.15:455][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-18.31.15:483][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-18.31.15:520][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36,239ms to complete.
+[2018.08.19-18.31.15:520][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.594
+[2018.08.19-18.31.17:114][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.31.17:130][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.31.17:136][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.31.17:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.31.17:170][  0]LogCollectionManager: Loaded 0 collections in 0.000601 seconds
+[2018.08.19-18.31.17:366][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal_Engine/BlackScroll/BSLegend 4.20/Saved/Collections/' took 0.01s
+[2018.08.19-18.31.17:366][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal_Engine/BlackScroll/BSLegend 4.20/Content/Developers/User/Collections/' took 0.01s
+[2018.08.19-18.31.17:366][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal_Engine/BlackScroll/BSLegend 4.20/Content/Collections/' took 0.01s
+[2018.08.19-18.31.17:366][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.19-18.31.17:374][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2572 classes and 603 folders.
+[2018.08.19-18.31.17:532][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.19-18.31.22:233][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.08.19-18.31.22:318][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.19-18.31.23:027][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.19-18.31.23:039][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.19-18.31.23:328][  0]LogSlate: Took 0.052415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.19-18.31.24:157][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.08.19-18.31.25:189][  0]LogSlate: Took 0.000552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.19-18.31.25:343][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-18.31.25:470][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.08.19-18.31.25:507][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.19-18.31.25:507][  0]LogLoad: (Engine Initialization) Total time: 78.81 seconds
+[2018.08.19-18.31.25:507][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.19-18.31.25:775][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.19-18.31.25:939][  2]LogAssetRegistry: Asset discovery search completed in 74.2030 seconds
+[2018.08.19-18.31.25:940][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.19-18.31.25:940][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.08.19-18.40.29:436][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.19-18.40.32:440][800]LogSlate: Window 'Tutorials' being destroyed
+[2018.08.19-18.40.32:471][800]LogSlate: Window 'Tutorials' being destroyed
+[2018.08.19-18.40.40:646][747]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.19-18.40.40:652][747]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.08.19-18.40.40:675][747]Cmd: MAP LOAD FILE="../../../../BlackScroll/BSLegend 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-18.40.40:675][747]LightingResults: New page: Lighting Build
+[2018.08.19-18.40.40:675][747]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.08.19-18.40.40:695][747]MapCheck: New page: Map Check
+[2018.08.19-18.40.40:695][747]LightingResults: New page: Lighting Build
+[2018.08.19-18.40.40:746][747]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.19-18.40.40:774][747]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-18.40.40:802][747]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-18.40.40:846][747]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43,615ms to complete.
+[2018.08.19-18.40.40:847][747]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.172
+[2018.08.19-18.40.44:681][199]LogAssetEditorManager: Opening Asset editor for MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2018.08.19-18.40.46:446][369]LogSlate: Window 'ThirdPersonExampleMap_BuiltData - Generic Asset Editor' being destroyed
+[2018.08.19-18.40.46:450][369]LogSlate: Window 'ThirdPersonExampleMap_BuiltData - Generic Asset Editor' being destroyed
+[2018.08.19-18.40.52:237][532]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.19-18.40.52:250][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.19-18.40.52:252][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.19-18.40.52:399][532]PIE: New page: PIE session: ThirdPersonExampleMap (19 août 2018 22:40:52)
+[2018.08.19-18.40.52:399][532]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.19-18.40.52:484][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084608s)
+[2018.08.19-18.40.52:485][532]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.19-18.40.52:497][532]LogPlayLevel: PIE: World Init took: (0.012250s)
+[2018.08.19-18.40.52:497][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097550s)
+[2018.08.19-18.40.52:537][532]LogInit: XAudio2 using 'PLG2488H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.19-18.40.52:545][532]LogInit: FAudioDevice initialized.
+[2018.08.19-18.40.53:201][532]LogTexture: Display: Building textures: InterfaceBlackscrollsVieV (BGRA8, 432X38)
+[2018.08.19-18.40.53:201][532]LogTexture: Display: Building textures: VieF (BGRA8, 432X38)
+[2018.08.19-18.40.53:201][532]LogTexture: Display: Building textures: StaminaF (BGRA8, 432X22)
+[2018.08.19-18.40.53:201][532]LogTexture: Display: Building textures: staminaV (BGRA8, 432X22)
+[2018.08.19-18.40.53:201][532]LogTexture: Display: Building textures: sacdorinterface (AutoDXT, 100X88)
+[2018.08.19-18.40.53:201][532]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idle_002.Animation_ARmatureGame_idle_002
+[2018.08.19-18.40.53:201][532]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idle_002.Animation_ARmatureGame_idle_002) using current/default (AnimCompress_BitwiseCompressOnly_11) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.40.53:219][532]LogSkeletalMesh: Building Skeletal Mesh persolanbda...
+[2018.08.19-18.40.53:231][532]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Character/persolanbda.persolanbda
+[2018.08.19-18.40.53:234][532]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.08.19-18.40.53:356][532]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2018.08.19-18.40.53:380][532]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.19-18.40.53:380][532]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.19-18.40.53:380][532]LogMaterial: Display: Missing cached shader map for material Material_005, compiling. 
+[2018.08.19-18.40.53:403][532]LogMaterial: Display: Missing cached shader map for material Material_007, compiling. 
+[2018.08.19-18.40.53:425][532]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_Walk.Animation_ARmatureGame_Walk
+[2018.08.19-18.40.53:425][532]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_Walk.Animation_ARmatureGame_Walk) using current/default (AnimCompress_BitwiseCompressOnly_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.40.53:426][532]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_Run.Animation_ARmatureGame_Run
+[2018.08.19-18.40.53:426][532]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_Run.Animation_ARmatureGame_Run) using current/default (AnimCompress_BitwiseCompressOnly_14) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.40.53:427][532]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_jump2.Animation_ARmatureGame_jump2
+[2018.08.19-18.40.53:427][532]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_jump2.Animation_ARmatureGame_jump2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.40.53:429][532]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.19-18.40.53:738][532]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.08.19-20.40.53
+[2018.08.19-18.40.53:760][532]LogWorld: Bringing up level for play took: 0.023504
+[2018.08.19-18.40.53:965][532]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.08.19-18.40.54:234][532]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2,729
+[2018.08.19-18.40.54:234][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.19-18.40.56:199][744]LogShaderCompilers: Display: Shaders left to compile 220
+[2018.08.19-18.40.56:998][840]LogShaderCompilers: Display: Shaders left to compile 210
+[2018.08.19-18.40.57:729][926]LogShaderCompilers: Display: Shaders left to compile 200
+[2018.08.19-18.40.59:119][ 93]LogShaderCompilers: Display: Shaders left to compile 190
+[2018.08.19-18.40.59:168][ 99]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.08.19-18.41.00:360][242]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.08.19-18.41.01:100][328]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.08.19-18.41.02:457][487]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.08.19-18.41.02:532][496]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.08.19-18.41.03:948][666]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.08.19-18.41.04:482][730]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.08.19-18.41.05:674][873]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.08.19-18.41.05:878][897]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.08.19-18.41.07:292][ 67]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.08.19-18.41.07:732][120]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.08.19-18.41.09:166][292]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.08.19-18.41.09:358][315]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.19-18.41.10:526][455]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.19-18.41.11:087][522]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.19-18.41.12:500][692]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.19-18.41.12:566][700]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.19-18.41.13:987][869]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.19-18.41.26:675][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.19-18.41.26:676][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.41.26:841][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.19-18.41.26:841][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.19-18.41.26:862][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-18.41.26:927][643]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.08.19-18.41.30:249][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: Textur1 (AutoDXT, 1024X1024)
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: textureProject48H (AutoDXT, 512X512)
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: lava1 (AutoDXT, 512X512)
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: lava1N (BC5, 512X512)
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: textureProject48H (AutoDXT, 512X512)
+[2018.08.19-18.41.39:514][ 92]LogTexture: Display: Building textures: herbe1 (AutoDXT, 512X512)
+[2018.08.19-18.41.39:517][ 92]LogMaterial: Display: Missing cached shader map for material Material_004, compiling. 
+[2018.08.19-18.41.39:589][ 92]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.08.19-18.41.39:589][ 92]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2018.08.19-18.41.39:589][ 92]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.08.19-18.41.39:589][ 92]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.08.19-18.41.39:589][ 92]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.08.19-18.41.39:589][ 92]LogStaticMesh: Building static mesh pierre1...
+[2018.08.19-18.41.39:603][ 92]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.08.19-18.41.39:603][ 92]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.08.19-18.41.39:603][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/pierre1.pierre1
+[2018.08.19-18.41.39:605][ 92]LogStaticMesh: Building static mesh montagne2...
+[2018.08.19-18.41.39:607][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/montagne2.montagne2
+[2018.08.19-18.41.39:609][ 92]LogStaticMesh: Building static mesh montagne1...
+[2018.08.19-18.41.39:611][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/montagne1.montagne1
+[2018.08.19-18.41.39:614][ 92]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.08.19-18.41.39:641][ 92]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2018.08.19-18.41.39:641][ 92]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.08.19-18.41.39:641][ 92]LogMaterial: Display: Missing cached shader map for material M_ile1, compiling. 
+[2018.08.19-18.41.39:695][ 92]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2018.08.19-18.41.39:695][ 92]LogStaticMesh: Building static mesh Ile1...
+[2018.08.19-18.41.39:699][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/Ile1.Ile1
+[2018.08.19-18.41.39:724][ 92]LogStaticMesh: Building static mesh bac-deauforgeron...
+[2018.08.19-18.41.39:726][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/bac-deauforgeron.bac-deauforgeron
+[2018.08.19-18.41.39:733][ 92]LogMaterial: Display: Missing cached shader map for material Material_007, compiling. 
+[2018.08.19-18.41.39:795][ 92]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.08.19-18.41.39:795][ 92]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2018.08.19-18.41.39:818][ 92]LogMaterial: Display: Missing cached shader map for material Material_004, compiling. 
+[2018.08.19-18.41.39:842][ 92]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2018.08.19-18.41.39:867][ 92]LogStaticMesh: Building static mesh porte-armes__1_...
+[2018.08.19-18.41.39:879][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/porte-armes__1_.porte-armes__1_
+[2018.08.19-18.41.39:883][ 92]LogMaterial: Display: Missing cached shader map for material Corde, compiling. 
+[2018.08.19-18.41.39:912][ 92]LogStaticMesh: Building static mesh pont...
+[2018.08.19-18.41.39:956][ 92]LogStaticMesh: Built static mesh [0.04s] /Game/Character/object/pont.pont
+[2018.08.19-18.41.39:981][ 92]LogStaticMesh: Building static mesh Sole4x4...
+[2018.08.19-18.41.40:002][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Character/object/ModularDungeon/Sole4x4.Sole4x4
+[2018.08.19-18.41.40:005][ 92]LogStaticMesh: Building static mesh porte1dg...
+[2018.08.19-18.41.40:175][ 92]LogStaticMesh: Built static mesh [0.17s] /Game/Character/object/ModularDungeon/porte1dg.porte1dg
+[2018.08.19-18.41.40:182][ 92]LogStaticMesh: Building static mesh Murporte1dg...
+[2018.08.19-18.41.40:275][ 92]LogStaticMesh: Built static mesh [0.09s] /Game/Character/object/ModularDungeon/Murporte1dg.Murporte1dg
+[2018.08.19-18.41.40:279][ 92]LogMaterial: Display: Missing cached shader map for material M_mursol, compiling. 
+[2018.08.19-18.41.40:293][ 92]LogStaticMesh: Building static mesh murdungeon1...
+[2018.08.19-18.41.40:308][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Character/object/ModularDungeon/murdungeon1.murdungeon1
+[2018.08.19-18.41.40:310][ 92]LogStaticMesh: Building static mesh lava...
+[2018.08.19-18.41.40:312][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/lava.lava
+[2018.08.19-18.41.40:314][ 92]LogMaterial: Display: Missing cached shader map for material fourpierre1, compiling. 
+[2018.08.19-18.41.40:327][ 92]LogMaterial: Display: Missing cached shader map for material foupierre2, compiling. 
+[2018.08.19-18.41.40:361][ 92]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.08.19-18.41.40:361][ 92]LogStaticMesh: Building static mesh fourLOD0...
+[2018.08.19-18.41.40:376][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/fourLOD0.fourLOD0
+[2018.08.19-18.41.40:383][ 92]LogMaterial: Display: Missing cached shader map for material metal_bac_d_eau, compiling. 
+[2018.08.19-18.41.40:393][ 92]LogStaticMesh: Building static mesh BoisBack...
+[2018.08.19-18.41.40:397][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/BoisBack.BoisBack
+[2018.08.19-18.41.40:399][ 92]LogMaterial: Display: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.19-18.41.40:414][ 92]LogStaticMesh: Building static mesh bois2fenetre...
+[2018.08.19-18.41.40:419][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/bois2fenetre.bois2fenetre
+[2018.08.19-18.41.40:422][ 92]LogMaterial: Display: Missing cached shader map for material Metal1, compiling. 
+[2018.08.19-18.41.40:450][ 92]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2018.08.19-18.41.40:450][ 92]LogMaterial: Display: Missing cached shader map for material Material_005, compiling. 
+[2018.08.19-18.41.40:496][ 92]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.08.19-18.41.40:496][ 92]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2018.08.19-18.41.40:496][ 92]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.08.19-18.41.40:552][ 92]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2018.08.19-18.41.40:552][ 92]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 128X64)
+[2018.08.19-18.41.40:552][ 92]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2018.08.19-18.41.40:576][ 92]LogStaticMesh: Building static mesh Escallier...
+[2018.08.19-18.41.40:617][ 92]LogStaticMesh: Built static mesh [0.04s] /Game/Character/object/ModularDungeon/Escallier.Escallier
+[2018.08.19-18.41.40:623][ 92]LogStaticMesh: Building static mesh entremur1...
+[2018.08.19-18.41.40:661][ 92]LogStaticMesh: Built static mesh [0.04s] /Game/Character/object/ModularDungeon/entremur1.entremur1
+[2018.08.19-18.41.40:668][ 92]LogMaterial: Display: Missing cached shader map for material M_Basics, compiling. 
+[2018.08.19-18.41.40:683][ 92]LogStaticMesh: Building static mesh épé-5__1_...
+[2018.08.19-18.41.40:690][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/épé-5__1_.épé-5__1_
+[2018.08.19-18.41.40:692][ 92]LogMaterial: Display: Missing cached shader map for material bois_tabouret, compiling. 
+[2018.08.19-18.41.40:709][ 92]LogStaticMesh: Building static mesh tabouret...
+[2018.08.19-18.41.40:732][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Character/object/tabouret.tabouret
+[2018.08.19-18.41.40:736][ 92]LogMaterial: Display: Missing cached shader map for material standeM2, compiling. 
+[2018.08.19-18.41.40:755][ 92]LogMaterial: Display: Missing cached shader map for material standeM1, compiling. 
+[2018.08.19-18.41.40:772][ 92]LogMaterial: Display: Missing cached shader map for material standBois, compiling. 
+[2018.08.19-18.41.40:782][ 92]LogStaticMesh: Building static mesh Sland...
+[2018.08.19-18.41.40:785][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Sland.Sland
+[2018.08.19-18.41.40:786][ 92]LogMaterial: Display: Missing cached shader map for material metal_seau, compiling. 
+[2018.08.19-18.41.40:796][ 92]LogStaticMesh: Building static mesh murBack...
+[2018.08.19-18.41.40:796][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/murBack.murBack
+[2018.08.19-18.41.40:797][ 92]LogStaticMesh: Building static mesh Mur2fenetre...
+[2018.08.19-18.41.40:798][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/Mur2fenetre.Mur2fenetre
+[2018.08.19-18.41.40:815][ 92]LogStaticMesh: Building static mesh Maison1...
+[2018.08.19-18.41.40:871][ 92]LogStaticMesh: Built static mesh [0.06s] /Game/Character/object/Maison/Maison1.Maison1
+[2018.08.19-18.41.40:882][ 92]LogMaterial: Display: Missing cached shader map for material M-Metalisé, compiling. 
+[2018.08.19-18.41.40:897][ 92]LogStaticMesh: Building static mesh Lumiere...
+[2018.08.19-18.41.40:903][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/Maison/Lumiere.Lumiere
+[2018.08.19-18.41.40:905][ 92]LogMaterial: Display: Missing cached shader map for material M_Emi, compiling. 
+[2018.08.19-18.41.40:920][ 92]LogStaticMesh: Building static mesh FenetreMaison...
+[2018.08.19-18.41.40:926][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/Maison/FenetreMaison.FenetreMaison
+[2018.08.19-18.41.40:927][ 92]LogStaticMesh: Building static mesh boisPorte...
+[2018.08.19-18.41.40:945][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Character/object/Maison/boisPorte.boisPorte
+[2018.08.19-18.41.40:947][ 92]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.08.19-18.41.40:976][ 92]LogSkeletalMesh: Building Skeletal Mesh Forgeman...
+[2018.08.19-18.41.40:984][ 92]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Character/Forgeman.Forgeman
+[2018.08.19-18.41.40:987][ 92]LogMaterial: Display: Missing cached shader map for material M_ile2, compiling. 
+[2018.08.19-18.41.41:002][ 92]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2018.08.19-18.41.41:028][ 92]LogMaterial: Display: Missing cached shader map for material Material_004, compiling. 
+[2018.08.19-18.41.41:069][ 92]LogMaterial: Display: Missing cached shader map for material M_Herbe, compiling. 
+[2018.08.19-18.41.41:135][ 92]LogStaticMesh: Building static mesh grass...
+[2018.08.19-18.41.41:136][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/grass.grass
+[2018.08.19-18.41.41:138][ 92]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2018.08.19-18.41.41:177][ 92]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.08.19-18.41.41:203][ 92]LogStaticMesh: Building static mesh arbre1lp...
+[2018.08.19-18.41.41:219][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh/arbre1lp.arbre1lp
+[2018.08.19-18.41.41:221][ 92]LogMaterial: Display: Missing cached shader map for material combi, compiling. 
+[2018.08.19-18.41.41:243][ 92]LogSkeletalMesh: Building Skeletal Mesh warrior1...
+[2018.08.19-18.41.41:248][ 92]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Character/warrior1.warrior1
+[2018.08.19-18.41.41:249][ 92]LogSkeletalMesh: Building Skeletal Mesh skinnyman...
+[2018.08.19-18.41.41:250][ 92]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Character/skinnyman.skinnyman
+[2018.08.19-18.41.41:252][ 92]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.08.19-18.41.41:275][ 92]LogSkeletalMesh: Building Skeletal Mesh persofeminin...
+[2018.08.19-18.41.41:283][ 92]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Character/persofeminin.persofeminin
+[2018.08.19-18.41.41:286][ 92]LogMaterial: Display: Missing cached shader map for material metal_epe, compiling. 
+[2018.08.19-18.41.41:301][ 92]LogMaterial: Display: Missing cached shader map for material lame_epe, compiling. 
+[2018.08.19-18.41.41:315][ 92]LogMaterial: Display: Missing cached shader map for material bois_epe, compiling. 
+[2018.08.19-18.41.41:329][ 92]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_talk.Animation_ARmatureGame_talk
+[2018.08.19-18.41.41:329][ 92]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_talk.Animation_ARmatureGame_talk) using current/default (AnimCompress_BitwiseCompressOnly_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.41.41:329][ 92]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idle_001.Animation_ARmatureGame_idle_001
+[2018.08.19-18.41.41:330][ 92]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idle_001.Animation_ARmatureGame_idle_001) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.41.41:330][ 92]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idleforgerons.Animation_ARmatureGame_idleforgerons
+[2018.08.19-18.41.41:330][ 92]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_idleforgerons.Animation_ARmatureGame_idleforgerons) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.41.41:336][ 92]LogStaticMesh: Building static mesh panneau...
+[2018.08.19-18.41.41:343][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/panneau.panneau
+[2018.08.19-18.41.41:344][ 92]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animation/Animation_ARmatureGame_sit1.Animation_ARmatureGame_sit1
+[2018.08.19-18.41.41:344][ 92]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animation/Animation_ARmatureGame_sit1.Animation_ARmatureGame_sit1) using current/default (AnimCompress_BitwiseCompressOnly_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.08.19-18.41.41:345][ 92]LogStaticMesh: Building static mesh cube_3x3...
+[2018.08.19-18.41.41:358][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/ModularDungeon/cube_3x3.cube_3x3
+[2018.08.19-18.41.41:359][ 92]LogStaticMesh: Building static mesh TourPorteMaison...
+[2018.08.19-18.41.41:362][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/TourPorteMaison.TourPorteMaison
+[2018.08.19-18.41.41:364][ 92]LogStaticMesh: Building static mesh ToitMaison...
+[2018.08.19-18.41.41:376][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/Maison/ToitMaison.ToitMaison
+[2018.08.19-18.41.41:379][ 92]LogMaterial: Display: Missing cached shader map for material M_Metalisé, compiling. 
+[2018.08.19-18.41.41:406][ 92]LogStaticMesh: Building static mesh PorteMaison...
+[2018.08.19-18.41.41:411][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/PorteMaison.PorteMaison
+[2018.08.19-18.41.41:413][ 92]LogStaticMesh: Building static mesh PillerMaison...
+[2018.08.19-18.41.41:421][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/Maison/PillerMaison.PillerMaison
+[2018.08.19-18.41.41:422][ 92]LogStaticMesh: Building static mesh murfront...
+[2018.08.19-18.41.41:423][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Character/object/Maison/murfront.murfront
+[2018.08.19-18.41.41:432][ 92]LogStaticMesh: Building static mesh seau...
+[2018.08.19-18.41.41:450][ 92]LogStaticMesh: Built static mesh [0.02s] /Game/Character/object/seau.seau
+[2018.08.19-18.41.41:454][ 92]LogMaterial: Display: Missing cached shader map for material SacTissu, compiling. 
+[2018.08.19-18.41.41:471][ 92]LogMaterial: Display: Missing cached shader map for material SacOR, compiling. 
+[2018.08.19-18.41.41:487][ 92]LogStaticMesh: Building static mesh Sac1...
+[2018.08.19-18.41.41:493][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Character/object/Sac1.Sac1
+[2018.08.19-18.41.41:497][ 92]LogMaterial: Display: Missing cached shader map for material bois_porte_armes, compiling. 
+[2018.08.19-18.41.41:513][ 92]LogMaterial: Display: Missing cached shader map for material M_Lava, compiling. 
+[2018.08.19-18.41.41:529][ 92]LogMaterial: Display: Missing cached shader map for material bois, compiling. 
+[2018.08.19-18.41.41:559][ 92]LogMaterial: Display: Missing cached shader map for material PanneauBois, compiling. 
+[2018.08.19-18.41.41:589][ 92]LogAIModule: Creating AISystem for world ILE1
+[2018.08.19-18.41.41:609][ 92]LogAssetEditorManager: Opening Asset editor for World /Game/ILE1.ILE1
+[2018.08.19-18.41.41:633][ 92]Cmd: MAP LOAD FILE="../../../../BlackScroll/BSLegend 4.20/Content/ILE1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-18.41.41:633][ 92]LightingResults: New page: Lighting Build
+[2018.08.19-18.41.41:634][ 92]LoadErrors: New page: Loading map: ILE1.umap
+[2018.08.19-18.41.41:635][ 92]MapCheck: New page: Map Check
+[2018.08.19-18.41.41:635][ 92]LightingResults: New page: Lighting Build
+[2018.08.19-18.41.41:670][ 92]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-18.41.41:702][ 92]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-18.41.41:763][ 92]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61,153ms to complete.
+[2018.08.19-18.41.41:763][ 92]LogFileHelpers: Loading map 'ILE1' took 0.130
+[2018.08.19-18.41.42:696][168]LogShaderCompilers: Display: Shaders left to compile 2068
+[2018.08.19-18.41.43:730][289]LogShaderCompilers: Display: Shaders left to compile 2058
+[2018.08.19-18.41.44:840][422]LogShaderCompilers: Display: Shaders left to compile 2048
+[2018.08.19-18.41.45:242][470]LogShaderCompilers: Display: Shaders left to compile 2038
+[2018.08.19-18.41.47:136][696]LogShaderCompilers: Display: Shaders left to compile 2028
+[2018.08.19-18.41.47:475][736]LogShaderCompilers: Display: Shaders left to compile 2018
+[2018.08.19-18.41.48:699][883]LogShaderCompilers: Display: Shaders left to compile 2008
+[2018.08.19-18.41.49:624][994]LogShaderCompilers: Display: Shaders left to compile 1998
+[2018.08.19-18.41.50:342][ 80]LogShaderCompilers: Display: Shaders left to compile 1988
+[2018.08.19-18.41.51:566][225]LogShaderCompilers: Display: Shaders left to compile 1978
+[2018.08.19-18.41.51:704][242]LogShaderCompilers: Display: Shaders left to compile 1968
+[2018.08.19-18.41.53:705][482]LogShaderCompilers: Display: Shaders left to compile 1958
+[2018.08.19-18.41.53:881][503]LogShaderCompilers: Display: Shaders left to compile 1948
+[2018.08.19-18.41.55:432][638]LogShaderCompilers: Display: Shaders left to compile 1938
+[2018.08.19-18.41.55:913][682]LogShaderCompilers: Display: Shaders left to compile 1928
+[2018.08.19-18.41.57:057][786]LogShaderCompilers: Display: Shaders left to compile 1918
+[2018.08.19-18.41.57:627][839]LogShaderCompilers: Display: Shaders left to compile 1908
+[2018.08.19-18.41.58:353][906]LogShaderCompilers: Display: Shaders left to compile 1898
+[2018.08.19-18.41.59:644][ 26]LogShaderCompilers: Display: Shaders left to compile 1888
+[2018.08.19-18.42.00:421][ 98]LogShaderCompilers: Display: Shaders left to compile 1878
+[2018.08.19-18.42.01:210][193]LogShaderCompilers: Display: Shaders left to compile 1868
+[2018.08.19-18.42.02:527][351]LogShaderCompilers: Display: Shaders left to compile 1858
+[2018.08.19-18.42.02:786][382]LogShaderCompilers: Display: Shaders left to compile 1848
+[2018.08.19-18.42.04:421][578]LogShaderCompilers: Display: Shaders left to compile 1838
+[2018.08.19-18.42.04:669][608]LogShaderCompilers: Display: Shaders left to compile 1828
+[2018.08.19-18.42.06:064][775]LogShaderCompilers: Display: Shaders left to compile 1818
+[2018.08.19-18.42.06:382][813]LogShaderCompilers: Display: Shaders left to compile 1808
+[2018.08.19-18.42.07:966][  3]LogShaderCompilers: Display: Shaders left to compile 1798
+[2018.08.19-18.42.08:275][ 36]LogShaderCompilers: Display: Shaders left to compile 1788
+[2018.08.19-18.42.09:998][237]LogShaderCompilers: Display: Shaders left to compile 1778
+[2018.08.19-18.42.10:364][281]LogShaderCompilers: Display: Shaders left to compile 1768
+[2018.08.19-18.42.11:722][444]LogShaderCompilers: Display: Shaders left to compile 1758
+[2018.08.19-18.42.11:942][470]LogShaderCompilers: Display: Shaders left to compile 1748
+[2018.08.19-18.42.13:489][656]LogShaderCompilers: Display: Shaders left to compile 1738
+[2018.08.19-18.42.13:799][693]LogShaderCompilers: Display: Shaders left to compile 1728
+[2018.08.19-18.42.15:391][884]LogShaderCompilers: Display: Shaders left to compile 1718
+[2018.08.19-18.42.15:624][912]LogShaderCompilers: Display: Shaders left to compile 1708
+[2018.08.19-18.42.17:015][ 79]LogShaderCompilers: Display: Shaders left to compile 1698
+[2018.08.19-18.42.17:358][120]LogShaderCompilers: Display: Shaders left to compile 1688
+[2018.08.19-18.42.18:950][311]LogShaderCompilers: Display: Shaders left to compile 1678
+[2018.08.19-18.42.19:151][335]LogShaderCompilers: Display: Shaders left to compile 1668
+[2018.08.19-18.42.20:835][537]LogShaderCompilers: Display: Shaders left to compile 1658
+[2018.08.19-18.42.21:125][572]LogShaderCompilers: Display: Shaders left to compile 1648
+[2018.08.19-18.42.22:485][735]LogShaderCompilers: Display: Shaders left to compile 1638
+[2018.08.19-18.42.22:805][773]LogShaderCompilers: Display: Shaders left to compile 1628
+[2018.08.19-18.42.24:667][996]LogShaderCompilers: Display: Shaders left to compile 1618
+[2018.08.19-18.42.24:883][ 22]LogShaderCompilers: Display: Shaders left to compile 1608
+[2018.08.19-18.42.25:993][155]LogShaderCompilers: Display: Shaders left to compile 1598
+[2018.08.19-18.42.27:188][298]LogShaderCompilers: Display: Shaders left to compile 1588
+[2018.08.19-18.42.28:188][418]LogShaderCompilers: Display: Shaders left to compile 1578
+[2018.08.19-18.42.28:270][427]LogShaderCompilers: Display: Shaders left to compile 1568
+[2018.08.19-18.42.30:356][637]LogShaderCompilers: Display: Shaders left to compile 1558
+[2018.08.19-18.42.30:595][649]LogShaderCompilers: Display: Shaders left to compile 1548
+[2018.08.19-18.42.31:976][752]LogShaderCompilers: Display: Shaders left to compile 1538
+[2018.08.19-18.42.33:211][844]LogShaderCompilers: Display: Shaders left to compile 1528
+[2018.08.19-18.42.34:334][950]LogShaderCompilers: Display: Shaders left to compile 1518
+[2018.08.19-18.42.34:388][955]LogShaderCompilers: Display: Shaders left to compile 1508
+[2018.08.19-18.42.35:773][ 85]LogShaderCompilers: Display: Shaders left to compile 1498
+[2018.08.19-18.42.36:203][126]LogShaderCompilers: Display: Shaders left to compile 1488
+[2018.08.19-18.42.37:361][234]LogShaderCompilers: Display: Shaders left to compile 1478
+[2018.08.19-18.42.38:257][318]LogShaderCompilers: Display: Shaders left to compile 1468
+[2018.08.19-18.42.38:883][377]LogShaderCompilers: Display: Shaders left to compile 1458
+[2018.08.19-18.42.39:736][458]LogShaderCompilers: Display: Shaders left to compile 1448
+[2018.08.19-18.42.40:808][559]LogShaderCompilers: Display: Shaders left to compile 1438
+[2018.08.19-18.42.41:423][618]LogShaderCompilers: Display: Shaders left to compile 1428
+[2018.08.19-18.42.42:584][728]LogShaderCompilers: Display: Shaders left to compile 1418
+[2018.08.19-18.42.42:962][764]LogShaderCompilers: Display: Shaders left to compile 1408
+[2018.08.19-18.42.44:265][889]LogShaderCompilers: Display: Shaders left to compile 1398
+[2018.08.19-18.42.44:463][908]LogShaderCompilers: Display: Shaders left to compile 1388
+[2018.08.19-18.42.45:774][ 31]LogShaderCompilers: Display: Shaders left to compile 1378
+[2018.08.19-18.42.46:164][ 67]LogShaderCompilers: Display: Shaders left to compile 1368
+[2018.08.19-18.42.47:819][211]LogShaderCompilers: Display: Shaders left to compile 1358
+[2018.08.19-18.42.47:955][224]LogShaderCompilers: Display: Shaders left to compile 1348
+[2018.08.19-18.42.49:481][356]LogShaderCompilers: Display: Shaders left to compile 1338
+[2018.08.19-18.42.49:882][394]LogShaderCompilers: Display: Shaders left to compile 1328
+[2018.08.19-18.42.50:992][498]LogShaderCompilers: Display: Shaders left to compile 1318
+[2018.08.19-18.42.51:517][548]LogShaderCompilers: Display: Shaders left to compile 1308
+[2018.08.19-18.42.52:786][668]LogShaderCompilers: Display: Shaders left to compile 1298
+[2018.08.19-18.42.53:114][699]LogShaderCompilers: Display: Shaders left to compile 1288
+[2018.08.19-18.42.54:431][823]LogShaderCompilers: Display: Shaders left to compile 1278
+[2018.08.19-18.42.54:670][845]LogShaderCompilers: Display: Shaders left to compile 1268
+[2018.08.19-18.42.55:949][966]LogShaderCompilers: Display: Shaders left to compile 1258
+[2018.08.19-18.42.56:300][  0]LogShaderCompilers: Display: Shaders left to compile 1248
+[2018.08.19-18.42.57:779][137]LogShaderCompilers: Display: Shaders left to compile 1238
+[2018.08.19-18.42.57:904][149]LogShaderCompilers: Display: Shaders left to compile 1228
+[2018.08.19-18.42.59:392][284]LogShaderCompilers: Display: Shaders left to compile 1218
+[2018.08.19-18.42.59:774][319]LogShaderCompilers: Display: Shaders left to compile 1208
+[2018.08.19-18.43.01:287][448]LogShaderCompilers: Display: Shaders left to compile 1198
+[2018.08.19-18.43.02:554][512]LogShaderCompilers: Display: Shaders left to compile 1188
+[2018.08.19-18.43.03:344][575]LogShaderCompilers: Display: Shaders left to compile 1178
+[2018.08.19-18.43.04:284][658]LogShaderCompilers: Display: Shaders left to compile 1168
+[2018.08.19-18.43.05:418][758]LogShaderCompilers: Display: Shaders left to compile 1158
+[2018.08.19-18.43.06:026][812]LogShaderCompilers: Display: Shaders left to compile 1148
+[2018.08.19-18.43.06:459][852]LogShaderCompilers: Display: Shaders left to compile 1138
+[2018.08.19-18.43.08:205][  8]LogShaderCompilers: Display: Shaders left to compile 1128
+[2018.08.19-18.43.08:675][ 51]LogShaderCompilers: Display: Shaders left to compile 1118
+[2018.08.19-18.43.09:661][139]LogShaderCompilers: Display: Shaders left to compile 1108
+[2018.08.19-18.43.10:143][183]LogShaderCompilers: Display: Shaders left to compile 1098
+[2018.08.19-18.43.11:822][330]LogShaderCompilers: Display: Shaders left to compile 1088
+[2018.08.19-18.43.12:074][353]LogShaderCompilers: Display: Shaders left to compile 1078
+[2018.08.19-18.43.13:245][455]LogShaderCompilers: Display: Shaders left to compile 1068
+[2018.08.19-18.43.14:175][540]LogShaderCompilers: Display: Shaders left to compile 1058
+[2018.08.19-18.43.14:341][554]LogShaderCompilers: Display: Shaders left to compile 1048
+[2018.08.19-18.43.15:818][679]LogShaderCompilers: Display: Shaders left to compile 1038
+[2018.08.19-18.43.16:574][744]LogShaderCompilers: Display: Shaders left to compile 1028
+[2018.08.19-18.43.18:058][871]LogShaderCompilers: Display: Shaders left to compile 1018
+[2018.08.19-18.43.19:248][960]LogShaderCompilers: Display: Shaders left to compile 1008
+[2018.08.19-18.43.19:968][ 20]LogShaderCompilers: Display: Shaders left to compile 998
+[2018.08.19-18.43.21:247][131]LogShaderCompilers: Display: Shaders left to compile 988
+[2018.08.19-18.43.22:425][232]LogShaderCompilers: Display: Shaders left to compile 978
+[2018.08.19-18.43.22:827][268]LogShaderCompilers: Display: Shaders left to compile 968
+[2018.08.19-18.43.24:437][393]LogShaderCompilers: Display: Shaders left to compile 958
+[2018.08.19-18.43.25:033][443]LogShaderCompilers: Display: Shaders left to compile 948
+[2018.08.19-18.43.26:836][581]LogShaderCompilers: Display: Shaders left to compile 938
+[2018.08.19-18.43.27:128][607]LogShaderCompilers: Display: Shaders left to compile 928
+[2018.08.19-18.43.28:980][753]LogShaderCompilers: Display: Shaders left to compile 918
+[2018.08.19-18.43.29:311][781]LogShaderCompilers: Display: Shaders left to compile 908
+[2018.08.19-18.43.31:010][914]LogShaderCompilers: Display: Shaders left to compile 898
+[2018.08.19-18.43.31:878][989]LogShaderCompilers: Display: Shaders left to compile 888
+[2018.08.19-18.43.32:768][ 66]LogShaderCompilers: Display: Shaders left to compile 878
+[2018.08.19-18.43.33:635][141]LogShaderCompilers: Display: Shaders left to compile 868
+[2018.08.19-18.43.34:604][231]LogShaderCompilers: Display: Shaders left to compile 858
+[2018.08.19-18.43.35:474][303]LogShaderCompilers: Display: Shaders left to compile 848
+[2018.08.19-18.43.36:610][401]LogShaderCompilers: Display: Shaders left to compile 838
+[2018.08.19-18.43.37:460][475]LogShaderCompilers: Display: Shaders left to compile 828
+[2018.08.19-18.43.38:246][548]LogShaderCompilers: Display: Shaders left to compile 818
+[2018.08.19-18.43.39:118][624]LogShaderCompilers: Display: Shaders left to compile 808
+[2018.08.19-18.43.40:123][718]LogShaderCompilers: Display: Shaders left to compile 798
+[2018.08.19-18.43.40:914][787]LogShaderCompilers: Display: Shaders left to compile 788
+[2018.08.19-18.43.41:976][885]LogShaderCompilers: Display: Shaders left to compile 778
+[2018.08.19-18.43.42:719][953]LogShaderCompilers: Display: Shaders left to compile 768
+[2018.08.19-18.43.43:483][ 23]LogShaderCompilers: Display: Shaders left to compile 758
+[2018.08.19-18.43.43:817][ 55]LogShaderCompilers: Display: Shaders left to compile 748
+[2018.08.19-18.43.44:681][137]LogShaderCompilers: Display: Shaders left to compile 738
+[2018.08.19-18.43.44:957][163]LogShaderCompilers: Display: Shaders left to compile 728
+[2018.08.19-18.43.46:942][348]LogShaderCompilers: Display: Shaders left to compile 718
+[2018.08.19-18.43.47:098][363]LogShaderCompilers: Display: Shaders left to compile 708
+[2018.08.19-18.43.48:343][481]LogShaderCompilers: Display: Shaders left to compile 698
+[2018.08.19-18.43.48:404][487]LogShaderCompilers: Display: Shaders left to compile 688
+[2018.08.19-18.43.49:726][610]LogShaderCompilers: Display: Shaders left to compile 678
+[2018.08.19-18.43.50:023][638]LogShaderCompilers: Display: Shaders left to compile 668
+[2018.08.19-18.43.52:097][832]LogShaderCompilers: Display: Shaders left to compile 658
+[2018.08.19-18.43.52:334][855]LogShaderCompilers: Display: Shaders left to compile 648
+[2018.08.19-18.43.53:120][928]LogShaderCompilers: Display: Shaders left to compile 638
+[2018.08.19-18.43.54:382][ 45]LogShaderCompilers: Display: Shaders left to compile 628
+[2018.08.19-18.43.55:236][121]LogShaderCompilers: Display: Shaders left to compile 618
+[2018.08.19-18.43.55:744][167]LogShaderCompilers: Display: Shaders left to compile 608
+[2018.08.19-18.43.57:481][329]LogShaderCompilers: Display: Shaders left to compile 598
+[2018.08.19-18.43.58:013][379]LogShaderCompilers: Display: Shaders left to compile 588
+[2018.08.19-18.43.58:945][464]LogShaderCompilers: Display: Shaders left to compile 578
+[2018.08.19-18.44.00:063][570]LogShaderCompilers: Display: Shaders left to compile 568
+[2018.08.19-18.44.00:329][595]LogShaderCompilers: Display: Shaders left to compile 558
+[2018.08.19-18.44.01:462][701]LogShaderCompilers: Display: Shaders left to compile 548
+[2018.08.19-18.44.01:982][749]LogShaderCompilers: Display: Shaders left to compile 538
+[2018.08.19-18.44.03:457][887]LogShaderCompilers: Display: Shaders left to compile 528
+[2018.08.19-18.44.03:886][928]LogShaderCompilers: Display: Shaders left to compile 518
+[2018.08.19-18.44.04:788][ 12]LogShaderCompilers: Display: Shaders left to compile 508
+[2018.08.19-18.44.06:250][145]LogShaderCompilers: Display: Shaders left to compile 498
+[2018.08.19-18.44.07:135][224]LogShaderCompilers: Display: Shaders left to compile 488
+[2018.08.19-18.44.07:375][246]LogShaderCompilers: Display: Shaders left to compile 478
+[2018.08.19-18.44.09:010][380]LogShaderCompilers: Display: Shaders left to compile 468
+[2018.08.19-18.44.09:485][421]LogShaderCompilers: Display: Shaders left to compile 458
+[2018.08.19-18.44.10:982][554]LogShaderCompilers: Display: Shaders left to compile 448
+[2018.08.19-18.44.11:290][583]LogShaderCompilers: Display: Shaders left to compile 438
+[2018.08.19-18.44.12:539][687]LogShaderCompilers: Display: Shaders left to compile 428
+[2018.08.19-18.44.13:435][753]LogShaderCompilers: Display: Shaders left to compile 418
+[2018.08.19-18.44.15:006][884]LogShaderCompilers: Display: Shaders left to compile 408
+[2018.08.19-18.44.15:049][888]LogShaderCompilers: Display: Shaders left to compile 398
+[2018.08.19-18.44.16:553][ 24]LogShaderCompilers: Display: Shaders left to compile 388
+[2018.08.19-18.44.17:194][ 84]LogShaderCompilers: Display: Shaders left to compile 378
+[2018.08.19-18.44.18:188][178]LogShaderCompilers: Display: Shaders left to compile 368
+[2018.08.19-18.44.18:547][211]LogShaderCompilers: Display: Shaders left to compile 358
+[2018.08.19-18.44.20:189][364]LogShaderCompilers: Display: Shaders left to compile 348
+[2018.08.19-18.44.20:665][406]LogShaderCompilers: Display: Shaders left to compile 338
+[2018.08.19-18.44.21:388][468]LogShaderCompilers: Display: Shaders left to compile 328
+[2018.08.19-18.44.23:091][603]LogShaderCompilers: Display: Shaders left to compile 318
+[2018.08.19-18.44.24:237][690]LogShaderCompilers: Display: Shaders left to compile 308
+[2018.08.19-18.44.24:941][739]LogShaderCompilers: Display: Shaders left to compile 298
+[2018.08.19-18.44.26:891][889]LogShaderCompilers: Display: Shaders left to compile 288
+[2018.08.19-18.44.27:894][963]LogShaderCompilers: Display: Shaders left to compile 278
+[2018.08.19-18.44.28:787][ 34]LogShaderCompilers: Display: Shaders left to compile 268
+[2018.08.19-18.44.30:401][155]LogShaderCompilers: Display: Shaders left to compile 258
+[2018.08.19-18.44.31:740][261]LogShaderCompilers: Display: Shaders left to compile 248
+[2018.08.19-18.44.32:382][309]LogShaderCompilers: Display: Shaders left to compile 238
+[2018.08.19-18.44.34:170][455]LogShaderCompilers: Display: Shaders left to compile 228
+[2018.08.19-18.44.34:495][479]LogShaderCompilers: Display: Shaders left to compile 218
+[2018.08.19-18.44.36:117][606]LogShaderCompilers: Display: Shaders left to compile 208
+[2018.08.19-18.44.37:007][680]LogShaderCompilers: Display: Shaders left to compile 198
+[2018.08.19-18.44.38:287][786]LogShaderCompilers: Display: Shaders left to compile 188
+[2018.08.19-18.44.39:463][882]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.08.19-18.44.39:842][915]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.08.19-18.44.41:594][ 60]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.08.19-18.44.42:451][130]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.08.19-18.44.43:435][208]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.08.19-18.44.44:406][292]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.08.19-18.44.45:927][421]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.08.19-18.44.46:252][449]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.08.19-18.44.47:816][583]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.08.19-18.44.48:655][652]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.08.19-18.44.49:922][759]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.08.19-18.44.50:287][790]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.08.19-18.44.52:139][952]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.08.19-18.44.52:161][954]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.08.19-18.44.54:209][123]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.08.19-18.44.54:343][134]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.19-18.44.56:220][291]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.19-18.44.56:311][299]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.19-18.50.18:222][406]LogSlate: Window 'BsLegend - Unreal Editor' being destroyed
+[2018.08.19-18.50.18:555][407]Cmd: QUIT_EDITOR
+[2018.08.19-18.50.19:539][407]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.19-18.50.19:549][407]LogExit: Preparing to exit.
+[2018.08.19-18.50.20:133][407]LogExit: Editor shut down
+[2018.08.19-18.50.20:133][407]LogExit: Transaction tracking system shut down
+[2018.08.19-18.50.20:527][407]LogExit: Object subsystem successfully closed.
+[2018.08.19-18.50.20:542][407]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.08.19-18.50.20:546][407]LogD3D11RHI: Shutdown
+[2018.08.19-18.50.20:546][407]LogD3D11RHI: CleanupD3DDevice
+[2018.08.19-18.50.20:567][407]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.19-18.50.20:612][407]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2018.08.19-18.50.20:612][407]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2018.08.19-18.50.20:623][407]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.08.19-18.50.20:623][407]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.08.19-18.50.20:623][407]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.08.19-18.50.20:642][407]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.08.19-18.50.20:642][407]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.08.19-18.50.20:642][407]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MeshBuilder (598)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.08.19-18.50.20:643][407]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.08.19-18.50.20:644][407]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.08.19-18.50.21:076][407]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.08.19-18.50.21:077][407]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.08.19-18.50.21:077][407]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.08.19-18.50.21:077][407]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.08.19-18.50.21:077][407]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.08.19-18.50.21:132][407]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.08.19-18.50.21:133][407]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.08.19-18.50.21:340][407]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.08.19-18.50.21:343][407]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.08.19-18.50.21:344][407]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.08.19-18.50.21:444][407]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.08.19-18.50.21:545][407]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.08.19-18.50.21:546][407]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.08.19-18.50.21:547][407]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.08.19-18.50.21:548][407]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.08.19-18.50.21:554][407]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.08.19-18.50.21:555][407]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.08.19-18.50.21:555][407]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.08.19-18.50.21:556][407]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.08.19-18.50.21:593][407]LogDerivedDataCache: Shutdown
+[2018.08.19-18.50.21:593][407]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.08.19-18.50.21:594][407]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.08.19-18.50.21:596][407]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.08.19-18.50.21:596][407]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.08.19-18.50.21:597][407]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.08.19-18.50.21:597][407]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.08.19-18.50.21:602][407]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.08.19-18.50.21:603][407]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.08.19-18.50.21:636][407]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.08.19-18.50.21:636][407]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.19-18.50.21:636][407]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8A59C110-44E5-481E-580B-DB942F25A843%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=3523cfde4f8429550e7a6bb000057976%7C60bc16b8428b4714991169c66f3727a0%7C498d4cf0-31c2-49f9-ba51-3f6fcc52c40a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.19-18.50.21:638][407]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.08.19-18.50.21:639][407]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.08.19-18.50.21:639][407]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.08.19-18.50.21:640][407]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.19-18.50.21:641][407]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.19-18.50.21:655][407]LogExit: Exiting.
+[2018.08.19-18.50.21:692][407]Log file closed, 08/19/18 20:50:21
